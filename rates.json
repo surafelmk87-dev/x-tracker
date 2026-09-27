@@ -1,11 +1,22 @@
 {
-  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "generatedAt": "2026-09-27T18:13:43.819Z",
+  "currencies": [
+    "USD",
+    "EUR",
+    "GBP",
+    "MXN",
+    "AUD",
+    "CNY",
+    "JPY",
+    "NZD",
+    "ZAR",
+    "CHF",
+    "ETB"
+  ],
   "providers": {
     "gcs": {
       "name": "Global Currency Services",
       "type": "gcs",
-      "fetchedAt": "2026-09-27T00:00:00.000Z",
-      "source": "https://www.global-currency.com/rates",
       "margins": {
         "USD": {
           "weBuyMargin": 0.015,
@@ -48,60 +59,81 @@
           "weSellMargin": 0.036
         }
       },
-      "rates": {
-        "USD": {
-          "buy": 1.43718,
-          "sell": 1.39333
-        }
-      }
+      "rates": {},
+      "fetchedAt": "2026-09-27T18:13:46.883Z",
+      "source": "https://www.global-currency.com/rates"
     },
     "td": {
       "name": "TD Bank",
+      "error": "TD: only parsed 0 currencies"
+    },
+    "scotia": {
+      "name": "Scotiabank",
       "type": "direct",
-      "fetchedAt": "2026-09-27T13:00:00.000Z",
-      "source": "https://ix0.apps.td.com/en/fxcal/",
+      "rateType": "non-cash",
       "rates": {
         "USD": {
-          "buy": 1.4603,
-          "sell": 1.3645
-        },
-        "EUR": {
-          "buy": 1.6769,
-          "sell": 1.552
+          "buy": 1.4611,
+          "sell": 1.3641
         },
         "GBP": {
-          "buy": 1.9407,
-          "sell": 1.8155
-        },
-        "MXN": {
-          "buy": 0.08447,
-          "sell": 0.07554
+          "buy": 1.9514,
+          "sell": 1.7938
         },
         "AUD": {
-          "buy": 1.0436,
-          "sell": 0.9527
-        },
-        "CNY": {
-          "buy": 0.2249,
-          "sell": 0.1929
-        },
-        "JPY": {
-          "buy": 0.009353,
-          "sell": 0.008645
-        },
-        "NZD": {
-          "buy": 0.8609,
-          "sell": 0.7519
-        },
-        "ZAR": {
-          "buy": 0.0982,
-          "sell": 0.0764
+          "buy": 1.0338,
+          "sell": 0.9529
         },
         "CHF": {
-          "buy": 1.7569,
-          "sell": 1.6602
+          "buy": 1.773,
+          "sell": 1.6389
+        },
+        "EUR": {
+          "buy": 1.6783,
+          "sell": 1.5433
+        },
+        "SAR": {
+          "buy": 0.1877,
+          "sell": 0.1725
+        },
+        "JPY": {
+          "buy": 0.009389,
+          "sell": 0.008594
+        },
+        "DKK": {
+          "buy": 0.224,
+          "sell": 0.2069
+        },
+        "MXN": {
+          "buy": 0.08303,
+          "sell": 0.07665
+        },
+        "NOK": {
+          "buy": 0.1547,
+          "sell": 0.1427
+        },
+        "NZD": {
+          "buy": 0.8328,
+          "sell": 0.7689
+        },
+        "SEK": {
+          "buy": 0.1483,
+          "sell": 0.1369
+        },
+        "SGD": {
+          "buy": 1.1481,
+          "sell": 1.0646
+        },
+        "ZAR": {
+          "buy": 0.0901,
+          "sell": 0.0831
         }
-      }
+      },
+      "fetchedAt": "2026-09-27T18:13:53.442Z",
+      "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     }
+  },
+  "bankCapture": {
+    "RBC": "captured 14 JSON responses"
   }
 }
