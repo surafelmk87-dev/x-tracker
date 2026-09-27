@@ -91,7 +91,7 @@
                 if (data && data.rates) {
                     cachedLiveRates = data.rates;
                     badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
-                    badge.innerText = `Synced (${new Date().toLocaleTimeString()})`;
+                    badge.innerText = `Live data synced (${new Date().toLocaleTimeString()})`;
                     
                     calculateProfits();
                 } else {
@@ -114,20 +114,25 @@
             trackedCurrencies.forEach((item, index) => {
                 if (!cachedLiveRates[item.code]) return;
 
+                // API returns units per 1 CAD. Convert to standard CAD per 1 Foreign Unit:
                 const liveRatePerForeignUnit = 1 / cachedLiveRates[item.code];
                 const foreignAmountIdeal = cadInputVal / liveRatePerForeignUnit;
 
                 let options = [];
 
                 const evaluateDirect = (name, buyRate, sellRate) => {
+                    // Buy: You spend CAD to get Foreign Currency
                     const youReceiveBuyForeign = cadInputVal / buyRate;
-                    const buySpreadCost = cadInputVal - (youReceiveBuyForeign * liveRatePerForeignUnit);
+                    const idealForeignWithoutSpread = cadInputVal / liveRatePerForeignUnit;
+                    const buySpreadCost = (idealForeignWithoutSpread - youReceiveBuyForeign) * liveRatePerForeignUnit;
 
+                    // Sell: You spend Foreign Currency to get CAD
                     const youReceiveSellCAD = foreignAmountIdeal * sellRate;
-                    const sellSpreadCost = cadInputVal - youReceiveSellCAD;
+                    const idealCADWithoutSpread = cadInputVal;
+                    const sellSpreadCost = idealCADWithoutSpread - youReceiveSellCAD;
 
                     const buyMarkupPercent = ((buyRate / liveRatePerForeignUnit) - 1) * 100;
-                    const sellMarkupPercent = (1 - (sellRate / liveRatePerForeignUnit)) * 100;
+                    const sellMarkupPercent = ((liveRatePerForeignUnit - sellRate) / liveRatePerForeignUnit) * 100;
 
                     return {
                         name: name,
@@ -142,15 +147,15 @@
                     };
                 };
 
-                // 1. Global Currency Services (Using direct input values)
+                // 1. Global Currency Services (Using exact direct input values)
                 options.push(evaluateDirect('Global Currency Services', item.directBuy, item.directSell));
 
-                // 2. VB Currency (Estimated relative spread)
+                // 2. VB Currency (Relative spread adjustment)
                 const vbBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.72);
                 const vbSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.72);
                 options.push(evaluateDirect('VB Currency', vbBuy, vbSell));
 
-                // 3. Calforex (Estimated relative spread)
+                // 3. Calforex (Relative spread adjustment)
                 const calBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.85);
                 const calSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.85);
                 options.push(evaluateDirect('Calforex', calBuy, calSell));
