@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How much birr will they get?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF3EF; --surface:#FFFFFF; --ink:#16211B; --muted:#5E6D64;
+  --green:#1E5A40; --green-soft:#D6E6DC; --gold:#E3B23C; --gold-soft:#FBF0D2; --line:#D3DDD6; --warn:#9A5B12;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1813; --surface:#17231C; --ink:#E7EFE9; --muted:#9AACA1;
+    --green:#5FBF8E; --green-soft:#1F3A2B; --gold:#F0C24E; --gold-soft:#3A3117; --line:#2A3A30; --warn:#E9A94F;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1813; --surface:#17231C; --ink:#E7EFE9; --muted:#9AACA1;
+  --green:#5FBF8E; --green-soft:#1F3A2B; --gold:#F0C24E; --gold-soft:#3A3117; --line:#2A3A30; --warn:#E9A94F;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:17px;line-height:1.45;-webkit-font-smoothing:antialiased}
+main{max-width:640px;margin:0 auto;padding:28px 18px 48px}
+h1{font-size:clamp(28px,7vw,40px);line-height:1.05;font-weight:800;letter-spacing:-.02em;margin:0 0 6px}
+.sub{color:var(--muted);margin:0;font-size:15px}
+.status{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 20px}
+.refresh{font:inherit;font-size:14px;font-weight:600;border:1.5px solid var(--green);color:var(--green);background:none;border-radius:999px;padding:6px 14px;cursor:pointer}
+.refresh[disabled]{opacity:.55;cursor:wait}
+.sub.err{color:var(--warn)}
+
+.entry{background:#1E5A40;color:#fff;border-radius:22px;padding:20px 20px 18px}
+.entry label{display:block;font-size:14px;opacity:.85;margin-bottom:6px}
+.amount-row{display:flex;align-items:baseline;gap:10px;border-bottom:2px solid rgba(255,255,255,.35);padding-bottom:6px}
+.amount-row:focus-within{border-color:#fff}
+.sym{font-size:34px;font-weight:600;opacity:.8}
+#amount{flex:1;min-width:0;background:none;border:0;color:#fff;font:inherit;font-size:clamp(40px,11vw,60px);font-weight:800;letter-spacing:-.02em;outline:none;padding:0}
+#amount::placeholder{color:rgba(255,255,255,.4)}
+.cur{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}
+.cur button{font:inherit;font-size:15px;font-weight:600;border:1.5px solid rgba(255,255,255,.4);background:transparent;color:#fff;border-radius:999px;padding:6px 14px;cursor:pointer}
+.cur button[aria-pressed="true"]{background:#fff;color:#1E5A40;border-color:#fff}
+button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+.tabs{display:flex;margin:20px 0 4px;border-bottom:2px solid var(--line)}
+.tabs button{flex:1;font:inherit;font-size:16px;font-weight:600;background:none;border:0;color:var(--muted);padding:10px 4px 12px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--green)}
+
+.best{margin:16px 0 8px;padding:16px 18px;border-radius:16px;background:var(--gold-soft);border:1.5px solid var(--gold)}
+.best .who{font-size:15px;color:var(--muted)}
+.best .big{font-size:clamp(28px,8vw,38px);font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.best .gain{font-size:15px;margin-top:4px}
+
+.list{list-style:none;margin:14px 0 0;padding:0}
+.row{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.row .name{font-weight:600}
+.row .etb{font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+.row .rate,.row .diff,.row .meta{font-size:14px;color:var(--muted)}
+.row .diff,.row .meta.r{text-align:right;font-variant-numeric:tabular-nums}
+.bar{grid-column:1/-1;height:5px;border-radius:3px;background:var(--green-soft);margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--green);border-radius:3px;transition:width .35s ease}
+.row.top .bar i{background:var(--gold)}
+.row.top .name::after{content:" · best";color:var(--gold);font-weight:800}
+.tag{display:inline-block;font-size:12px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--green-soft);color:var(--green);margin-left:6px;vertical-align:2px}
+.tag.w{background:var(--gold-soft);color:var(--warn)}
+.note{grid-column:1/-1;font-size:13px;color:var(--warn);margin-top:2px}
+.edit-btn{grid-column:1/-1;justify-self:start;font:inherit;font-size:14px;font-weight:600;background:none;border:0;color:var(--green);padding:4px 0 0;cursor:pointer}
+.editor{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px;padding:12px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.editor label{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.editor input{font:inherit;font-size:16px;width:100%;padding:8px 10px;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+.editor .actions{grid-column:1/-1;display:flex;gap:8px;justify-content:flex-end}
+.editor .actions button{font:inherit;font-size:14px;font-weight:600;border-radius:999px;padding:6px 14px;cursor:pointer;border:1.5px solid var(--line);background:none;color:var(--ink)}
+.editor .actions .save{background:var(--green);border-color:var(--green);color:var(--surface)}
+.empty{color:var(--muted);padding:18px 2px}
+.ref{margin-top:18px;font-size:14px;color:var(--muted)}
+footer{margin-top:22px;font-size:13px;color:var(--muted);line-height:1.5}
+footer a{color:var(--green)}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion: reduce){.bar i{transition:none}}
+</style>
+</head>
+<body>
+<main>
+  <h1>How much birr will they get?</h1>
+  <div class="status">
+    <p class="sub" id="status" aria-live="polite"></p>
+    <button type="button" id="refresh" class="refresh">Refresh rates</button>
+  </div>
+
+  <section class="entry" aria-label="Amount you're sending">
+    <label for="amount">You send</label>
+    <div class="amount-row">
+      <span class="sym" id="sym">$</span>
+      <input id="amount" type="text" inputmode="decimal" autocomplete="off" placeholder="0" value="500">
+    </div>
+    <div class="cur" role="group" aria-label="Currency">
+      <button type="button" data-c="USD" aria-pressed="true">USD</button>
+      <button type="button" data-c="CAD" aria-pressed="false">CAD</button>
+      <button type="button" data-c="EUR" aria-pressed="false">EUR</button>
+      <button type="button" data-c="GBP" aria-pressed="false">GBP</button>
+    </div>
+  </section>
+
+  <div class="tabs" role="tablist">
+    <button role="tab" id="t-banks" aria-controls="p-banks" aria-selected="true">Ethiopian banks</button>
+    <button role="tab" id="t-apps" aria-controls="p-apps" aria-selected="false">Transfer services</button>
+  </div>
+
+  <section id="p-banks" role="tabpanel" aria-labelledby="t-banks">
+    <div id="best" class="best" aria-live="polite"></div>
+    <ul id="list" class="list"></ul>
+    <p id="ref" class="ref"></p>
+    <footer>Each bank's published buying rate — what it pays in birr for each unit of foreign currency. Source: <a href="https://banksethiopia.com/ethiopian-birr-exchange-rates/" target="_blank" rel="noopener">banksethiopia.com</a>.</footer>
+  </section>
+
+  <section id="p-apps" role="tabpanel" aria-labelledby="t-apps" hidden>
+    <div id="abest" class="best" aria-live="polite"></div>
+    <ul id="alist" class="list"></ul>
+    <p id="aref" class="ref"></p>
+    <footer>Fees are added on top of what you send, so "You pay" is your amount plus the fee. Services are ranked by birr received per dollar you actually pay. Rates and fees change often and depend on how you pay and how the money is picked up — tap "Update" on any service to put in the exact quote from its app, and it stays saved on this device.</footer>
+  </section>
+</main>
+
+<script>
+const SEED = {"updated": "2026-09-27T18:10:00.000Z", "source": "https://banksethiopia.com/ethiopian-birr-exchange-rates/", "nbe": {"USD": 160.42, "CAD": 115.59, "EUR": 186.92, "GBP": 218.08}, "rates": {"USD": {"Bunna": 164.23, "Wegagen": 161.73, "Goh Betoch": 161.71, "Hibret": 161.71, "Tsedey": 161.68, "Sidama": 161.67, "Hijra": 161.66, "Development Bank": 161.63, "Siket": 161.55, "Amhara": 161.5, "Enat": 161.35, "Abyssinia": 161.25, "Nib": 160.85, "Zemen": 160.81, "Dashen": 160.81, "Cooperative (Coop)": 160.81, "Siinqee": 160.76, "Omo": 160.37, "CBE": 160.23}, "CAD": {"Nib": 114.98, "Hibret": 114.83, "Development Bank": 114.71, "Berhan": 114.54, "Amhara": 114.41, "Wegagen": 114.36, "Enat": 114.33, "Zemen": 113.9, "Omo": 113.85, "Abyssinia": 113.7, "CBE": 113.7, "Sidama": 111.7}, "EUR": {"Hibret": 190.2, "Hijra": 188.69, "Bunna": 188.1, "Siket": 187.99, "Abyssinia": 187.9, "Berhan": 187.54, "Cooperative (Coop)": 187.25, "Nib": 187.22, "Zemen": 187.21, "Dashen": 187.2, "Enat": 187.0, "CBE": 186.99, "Siinqee": 186.5, "Goh Betoch": 186.26, "Development Bank": 184.43, "Wegagen": 184.22, "Sidama": 184.12, "Amhara": 183.59, "Omo": 182.57, "Tsedey": 181.82}, "GBP": {"Hibret": 215.99, "Abyssinia": 215.35, "Nib": 215.24, "Enat": 215.19, "Bunna": 215.1, "Berhan": 214.76, "Development Bank": 214.71, "CBE": 214.56, "Wegagen": 214.24, "Omo": 214.03, "Siket": 213.85, "Goh Betoch": 213.82, "Tsedey": 213.71, "Amhara": 213.52, "Cooperative (Coop)": 213.13, "Dashen": 212.85, "Zemen": 212.35, "Siinqee": 210.4, "Sidama": 208.5}}, "skipped": ["Oromia USD", "Oromia EUR", "Oromia GBP", "Bunna CAD"]};
+let RATES = {USD:{},CAD:{},EUR:{},GBP:{}, ...SEED.rates};
+let NBE = SEED.nbe;
+let UPDATED = SEED.updated, SKIPPED = SEED.skipped;
+const SYM = {USD:"$", CAD:"$", EUR:"€", GBP:"£"};
+
+/* Transfer services: rate = ETB per unit; fee = fixed + pct% of amount; null = not published */
+const DEFAULT_APPS = {
+  USD: [
+    {name:"Dahabshiil", rate:180.00, fixed:null, pct:null},
+    {name:"Ria", rate:178.00, fixed:null, pct:null},
+    {name:"Remitly", rate:162.84, fixed:1.99, pct:0, note:"Bank deposit fee; cash pickup is $2.99. New customers get a better rate on the first $500."},
+    {name:"Taptap Send", rate:null, fixed:null, pct:null},
+    {name:"MoneyGram", rate:null, fixed:null, pct:null},
+    {name:"Western Union", rate:null, fixed:null, pct:null},
+    {name:"WorldRemit", rate:null, fixed:null, pct:null}
+  ],
+  CAD: [
+    {name:"Wise", rate:114.99, fixed:0.50, pct:0.41, note:"Wise may not pay out in birr to Ethiopia — your recipient could get US dollars in their account instead, so this birr amount might not apply. Confirm in the Wise app before sending."},
+    {name:"Revolut", rate:114.65, fixed:0, pct:0.5},
+    {name:"Remitly", rate:113.27, fixed:0, pct:1.5},
+    {name:"WorldRemit", rate:112.69, fixed:1.99, pct:1.2},
+    {name:"Taptap Send", rate:null, fixed:0, pct:0},
+    {name:"Western Union", rate:null, fixed:null, pct:null},
+    {name:"MoneyGram", rate:null, fixed:null, pct:null}
+  ],
+  EUR: [
+    {name:"Remitly", rate:null, fixed:null, pct:null},
+    {name:"WorldRemit", rate:null, fixed:null, pct:null},
+    {name:"Western Union", rate:null, fixed:null, pct:null},
+    {name:"Taptap Send", rate:null, fixed:null, pct:null}
+  ],
+  GBP: [
+    {name:"Remitly", rate:null, fixed:null, pct:null},
+    {name:"WorldRemit", rate:null, fixed:null, pct:null},
+    {name:"Western Union", rate:null, fixed:null, pct:null},
+    {name:"Taptap Send", rate:null, fixed:null, pct:null}
+  ]
+};
+
+let cur = "USD", tab = "banks", openEditor = null;
+let overrides = {};
+try { const s = localStorage.getItem("birr-cur"); if (s && SYM[s]) cur = s; } catch(e){}
+try { const t = localStorage.getItem("birr-tab"); if (t === "apps" || t === "banks") tab = t; } catch(e){}
+try { overrides = JSON.parse(localStorage.getItem("birr-apps") || "{}") || {}; } catch(e){ overrides = {}; }
+
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const getAmt = () => { const a = parseFloat($("amount").value.replace(/[^0-9.]/g,"")); return a > 0 ? a : 0; };
+
+function apps(){
+  return DEFAULT_APPS[cur].map(a => {
+    const o = (overrides[cur] || {})[a.name];
+    return o ? {...a, ...o, edited:true} : {...a};
+  });
+}
+
+function renderBanks(amt){
+  const rows = Object.entries(RATES[cur] || {}).sort((a,b) => b[1]-a[1]);
+  if (!rows.length){
+    $("best").innerHTML = `<div class="who">${UPDATED ? "No bank rates for " + cur + " right now." : "Bank rates haven't loaded yet."}</div>`;
+    $("list").innerHTML = ""; $("ref").textContent = ""; return;
+  }
+  const [bestName, bestRate] = rows[0];
+  const worstRate = rows[rows.length-1][1];
+  if (!amt){
+    $("best").innerHTML = `<div class="who">Enter an amount to compare banks.</div>`;
+    $("list").innerHTML = rows.map(([n,r]) => `<li class="row"><span class="name">${esc(n)}</span><span class="etb">${fmt(r)}</span><span class="rate">per 1 ${cur}</span></li>`).join("");
+    $("ref").textContent = NBE[cur] ? `Official NBE reference rate: ${fmt(NBE[cur])} birr per 1 ${cur}.` : "";
+    return;
+  }
+  const bestEtb = amt * bestRate, cbe = RATES[cur]["CBE"];
+  $("best").innerHTML = `<div class="who">Most birr at ${esc(bestName)}</div>
+     <div class="big">${fmt(bestEtb)} ETB</div>
+     <div class="gain">${bestName !== "CBE" && cbe ? `${fmt(bestEtb - amt*cbe)} birr more than CBE, ` : ""}${fmt(bestEtb - amt*worstRate)} more than the lowest bank.</div>`;
+  $("list").innerHTML = rows.map(([n,r],i) => {
+    const etb = amt*r, pct = Math.max(4, ((r - worstRate*0.97)/(bestRate - worstRate*0.97))*100);
+    return `<li class="row${i===0?" top":""}"><span class="name">${esc(n)}</span><span class="etb">${fmt(etb)} ETB</span>
+      <span class="rate">${fmt(r)} per ${cur}</span><span class="diff">${i===0?"":"−"+fmt(bestEtb-etb)}</span>
+      <span class="bar" aria-hidden="true"><i style="width:${pct}%"></i></span></li>`;
+  }).join("");
+  const skipped = SKIPPED.filter(x => x.endsWith(" " + cur)).map(x => x.slice(0, -4));
+  $("ref").textContent = (NBE[cur] ? `Official NBE reference: ${fmt(amt*NBE[cur])} ETB (${fmt(NBE[cur])} per ${cur}). ` : "") +
+    (skipped.length ? `Left out because their posted rate looks off: ${skipped.join(", ")}.` : "");
+}
+
+function renderApps(amt){
+  const s = SYM[cur];
+  const list = apps().map(a => {
+    const feeKnown = a.fixed !== null && a.pct !== null;
+    const fee = feeKnown ? (a.fixed || 0) + amt * (a.pct || 0) / 100 : null;
+    const etb = a.rate !== null ? amt * a.rate : null;
+    const paid = amt + (fee || 0);
+    const perPaid = etb !== null && paid > 0 ? etb / paid : null;
+    return {...a, fee, etb, paid, perPaid, feeKnown};
+  });
+  const ranked = list.filter(a => a.perPaid !== null).sort((a,b) => b.perPaid - a.perPaid);
+  const missing = list.filter(a => a.perPaid === null);
+  const bankVals = Object.values(RATES[cur] || {});
+  const bestBank = bankVals.length ? Math.max(...bankVals) : 0;
+
+  if (!amt){
+    $("abest").innerHTML = `<div class="who">Enter an amount to compare transfer services.</div>`;
+  } else if (ranked.length){
+    const b = ranked[0];
+    const vsBank = bestBank ? b.etb - amt*bestBank : null;
+    $("abest").innerHTML = `<div class="who">Most birr with ${esc(b.name)}</div>
+      <div class="big">${fmt(b.etb)} ETB</div>
+      <div class="gain">You pay ${s}${fmt(b.paid)}${b.feeKnown ? "" : " + fee"}.${vsBank === null ? "" : " " + (vsBank >= 0 ? fmt(vsBank)+" birr more" : fmt(-vsBank)+" birr less") + " than the best bank rate."}</div>`;
+  } else {
+    $("abest").innerHTML = `<div class="who">No ${cur} quotes yet. Tap "Update" on a service to add its rate and fee.</div>`;
+  }
+
+  const maxP = ranked.length ? ranked[0].perPaid : 1, minP = ranked.length ? ranked[ranked.length-1].perPaid : 1;
+  const rowHtml = (a, i, isRanked) => {
+    const top = isRanked && i === 0 && amt;
+    const pct = isRanked && maxP !== minP*0.97 ? Math.max(4, ((a.perPaid - minP*0.97)/(maxP - minP*0.97))*100) : 100;
+    const feeTxt = a.feeKnown ? (a.fee === 0 ? "No fee" : `Fee ${s}${fmt(a.fee)}`) : "Fee not published";
+    const ed = openEditor === a.name;
+    return `<li class="row${top?" top":""}">
+      <span class="name">${esc(a.name)}${a.edited?'<span class="tag">your quote</span>':""}${!a.feeKnown && a.rate!==null?'<span class="tag w">fee unknown</span>':""}</span>
+      <span class="etb">${a.etb!==null && amt ? fmt(a.etb)+" ETB" : a.rate!==null ? fmt(a.rate) : "—"}</span>
+      <span class="rate">${a.rate!==null ? fmt(a.rate)+" per "+cur : "Rate not available"}</span>
+      <span class="meta r">${amt && a.rate!==null ? "You pay "+s+fmt(a.paid)+(a.feeKnown?"":" + fee") : ""}</span>
+      <span class="meta">${a.rate!==null ? feeTxt : ""}</span>
+      <span class="meta r">${isRanked && amt ? fmt(a.perPaid)+" birr per "+s+"1 paid" : ""}</span>
+      ${isRanked ? `<span class="bar" aria-hidden="true"><i style="width:${pct}%"></i></span>` : ""}
+      ${a.note ? `<span class="note">${esc(a.note)}</span>` : ""}
+      <button class="edit-btn" data-edit="${esc(a.name)}" aria-expanded="${ed}">${ed ? "Close" : (a.rate===null ? "Add quote" : "Update")}</button>
+      ${ed ? `<div class="editor" data-for="${esc(a.name)}">
+        <label>Rate (ETB per ${cur})<input type="text" inputmode="decimal" name="rate" value="${a.rate ?? ""}"></label>
+        <label>Flat fee (${s})<input type="text" inputmode="decimal" name="fixed" value="${a.fixed ?? ""}"></label>
+        <label>Fee % of amount<input type="text" inputmode="decimal" name="pct" value="${a.pct ?? ""}"></label>
+        <div class="actions">${a.edited?'<button type="button" data-reset="1">Reset</button>':""}<button type="button" class="save" data-save="1">Save</button></div>
+      </div>` : ""}
+    </li>`;
+  };
+  $("alist").innerHTML = ranked.map((a,i) => rowHtml(a,i,true)).join("") + missing.map((a,i) => rowHtml(a,i,false)).join("");
+  $("aref").textContent = bestBank ? `For comparison, the best Ethiopian bank rate right now is ${fmt(bestBank)} birr per ${cur}.` : "";
+}
+
+function render(){
+  const amt = getAmt();
+  $("sym").textContent = SYM[cur];
+  document.querySelectorAll(".cur button").forEach(b => b.setAttribute("aria-pressed", b.dataset.c === cur));
+  $("t-banks").setAttribute("aria-selected", tab==="banks");
+  $("t-apps").setAttribute("aria-selected", tab==="apps");
+  $("p-banks").hidden = tab !== "banks";
+  $("p-apps").hidden = tab !== "apps";
+  renderBanks(amt);
+  renderApps(amt);
+}
+
+function saveOverrides(){ try { localStorage.setItem("birr-apps", JSON.stringify(overrides)); } catch(e){} }
+const num = v => { const n = parseFloat(String(v).replace(/[^0-9.]/g,"")); return isNaN(n) ? null : n; };
+
+$("amount").addEventListener("input", render);
+document.querySelectorAll(".cur button").forEach(b => b.addEventListener("click", () => {
+  cur = b.dataset.c; openEditor = null;
+  try { localStorage.setItem("birr-cur", cur); } catch(e){}
+  render();
+}));
+["banks","apps"].forEach(t => $("t-"+t).addEventListener("click", () => {
+  tab = t; try { localStorage.setItem("birr-tab", tab); } catch(e){}
+  render();
+}));
+$("alist").addEventListener("click", e => {
+  const edit = e.target.closest("[data-edit]");
+  if (edit){ openEditor = openEditor === edit.dataset.edit ? null : edit.dataset.edit; render(); return; }
+  const box = e.target.closest(".editor"); if (!box) return;
+  const name = box.dataset.for;
+  if (e.target.closest("[data-save]")){
+    const rate = num(box.querySelector('[name="rate"]').value);
+    const fixed = num(box.querySelector('[name="fixed"]').value);
+    const pct = num(box.querySelector('[name="pct"]').value);
+    overrides[cur] = overrides[cur] || {};
+    overrides[cur][name] = {rate, fixed: fixed ?? (pct!==null ? 0 : null), pct: pct ?? (fixed!==null ? 0 : null)};
+    saveOverrides(); openEditor = null; render();
+  } else if (e.target.closest("[data-reset]")){
+    if (overrides[cur]) delete overrides[cur][name];
+    saveOverrides(); openEditor = null; render();
+  }
+});
+function ago(iso){
+  const mins = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return mins + " min ago";
+  const h = Math.round(mins / 60);
+  if (h < 48) return h + (h === 1 ? " hour ago" : " hours ago");
+  return new Date(iso).toLocaleDateString(undefined,{day:"numeric",month:"short"});
+}
+function showStatus(){
+  if (!UPDATED) return;
+  const d = new Date(UPDATED);
+  $("status").textContent = `Bank rates updated ${ago(UPDATED)} (${d.toLocaleString(undefined,{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})})`;
+  $("status").classList.remove("err");
+}
+function applyData(data){
+  RATES = {USD:{},CAD:{},EUR:{},GBP:{}, ...(data.rates || {})};
+  NBE = data.nbe || {}; UPDATED = data.updated || null; SKIPPED = data.skipped || [];
+}
+const SOURCE = "https://banksethiopia.com/ethiopian-birr-exchange-rates/";
+const PROXIES = [
+  u => "https://api.allorigins.win/raw?url=" + encodeURIComponent(u),
+  u => "https://corsproxy.io/?url=" + encodeURIComponent(u),
+  u => "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(u)
+];
+const BANKS = [["Commercial Bank of Ethiopia (CBE)","CBE"],["Awash Bank","Awash"],["Bank of Abyssinia","Abyssinia"],["Abay Bank","Abay"],["Zemen Bank","Zemen"],["Buna Bank","Bunna"],["Nib International Bank","Nib"],["Berhan Bank SC","Berhan"],["Wegagen Bank","Wegagen"],["Global Bank","Global"],["Enat Bank","Enat"],["Ahadu Bank","Ahadu"],["Addis International Bank S.C","Addis"],["Dashen Bank","Dashen"],["Sidama Bank","Sidama"],["Oromia International Bank","Oromia"],["Lion International Bank","Lion"],["Development Bank of Ethiopia","Development Bank"],["Cooperative Bank of Oromia","Cooperative (Coop)"],["Gadaa Bank","Gadaa"],["Hijra Bank","Hijra"],["Amhara Bank","Amhara"],["Tsehay Bank","Tsehay"],["Tsedey Bank","Tsedey"],["Siinqee Bank","Siinqee"],["Hibret Bank","Hibret"],["Gohbetoch Bank","Goh Betoch"],["Zamzam Bank","ZamZam"],["National Banks Of Ethiopia","NBE"],["Omo Bank","Omo"],["Siket Bank","Siket"]];
+
+async function fetchPage(){
+  for (const make of PROXIES){
+    const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 12000);
+    try {
+      const r = await fetch(make(SOURCE) + (make(SOURCE).includes("?") ? "&" : "?") + "_=" + Date.now(), {signal: ctrl.signal, cache: "no-store"});
+      if (r.ok){ const html = await r.text(); if (html.includes("Lists of All Banks")) return html; }
+    } catch(e){} finally { clearTimeout(t); }
+  }
+  throw new Error("unreachable");
+}
+
+function parse(html){
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  doc.querySelectorAll("script,style").forEach(n => n.remove());
+  const text = (doc.body ? doc.body.textContent : "").replace(/\u200b/g,"").replace(/\s+/g," ");
+  const start = text.indexOf("Lists of All Banks"), end = text.indexOf("Lists of All Independent Forex Bureau");
+  if (start < 0 || end < 0) throw new Error("layout");
+  const section = text.slice(start, end);
+  const found = BANKS.map(([h,n]) => ({name:n, at: section.indexOf(h + " Exchange Rate")})).filter(b => b.at >= 0).sort((a,b) => a.at - b.at);
+  const rates = {USD:{},CAD:{},EUR:{},GBP:{}}, nbe = {}, skipped = [];
+  const re = /\b(USD|CAD|EUR|GBP)\b[^\d]{0,25}?(\d{1,4}\.\d{1,4})\s+(\d{1,4}\.\d{1,4})/g;
+  found.forEach((b,i) => {
+    const block = section.slice(b.at, i+1 < found.length ? found[i+1].at : section.length);
+    for (const m of block.matchAll(re)){
+      const buy = parseFloat(m[2]), sell = parseFloat(m[3]);
+      if (!(buy > 0) || sell < buy) continue;
+      if (b.name === "NBE") nbe[m[1]] = buy;
+      else if (rates[m[1]][b.name] === undefined) rates[m[1]][b.name] = buy;
+    }
+  });
+  if (Object.keys(rates.USD).length < 8) throw new Error("too few");
+  for (const c in rates){
+    const v = Object.values(rates[c]).sort((a,b) => a-b); if (!v.length) continue;
+    const med = v[Math.floor(v.length/2)];
+    for (const [k,r] of Object.entries(rates[c])) if (Math.abs(r-med)/med > 0.08){ delete rates[c][k]; skipped.push(k + " " + c); }
+  }
+  return {updated: new Date().toISOString(), rates, nbe, skipped};
+}
+
+async function loadRates(){
+  const btn = $("refresh");
+  btn.disabled = true; btn.textContent = "Refreshing…";
+  $("status").textContent = "Getting the latest rates…"; $("status").classList.remove("err");
+  try {
+    const data = parse(await fetchPage());
+    applyData(data);
+    try { localStorage.setItem("birr-rates-cache", JSON.stringify(data)); } catch(e){}
+    showStatus();
+  } catch(e){
+    showStatus();
+    $("status").textContent = `Couldn't get new rates right now. Showing rates from ${ago(UPDATED)}.`;
+    $("status").classList.add("err");
+  } finally {
+    btn.disabled = false; btn.textContent = "Refresh rates";
+    render();
+  }
+}
+try {
+  const c = JSON.parse(localStorage.getItem("birr-rates-cache") || "null");
+  if (c && c.rates && new Date(c.updated) > new Date(UPDATED)) applyData(c);
+} catch(e){}
+showStatus();
+$("refresh").addEventListener("click", loadRates);
+setInterval(showStatus, 60000);
+render();
+loadRates();
+</script>
+</body>
+</html>
