@@ -64,17 +64,17 @@
 
     <script>
         const trackedCurrencies = [
-            { code: 'USD', name: 'United States Dollar (USD)', baseBuyMarkup: 0.025, baseSellMarkup: 0.030 },
-            { code: 'EUR', name: 'Euro Member (EUR)', baseBuyMarkup: 0.028, baseSellMarkup: 0.033 },
-            { code: 'GBP', name: 'United Kingdom Pound (GBP)', baseBuyMarkup: 0.028, baseSellMarkup: 0.033 },
-            { code: 'MXN', name: 'Mexican Peso (MXN)', baseBuyMarkup: 0.045, baseSellMarkup: 0.055 },
-            { code: 'AUD', name: 'Australian Dollar (AUD)', baseBuyMarkup: 0.032, baseSellMarkup: 0.038 },
-            { code: 'CNY', name: 'Chinese Yuan (CNY)', baseBuyMarkup: 0.040, baseSellMarkup: 0.050 },
-            { code: 'JPY', name: 'Japanese Yen (JPY)', baseBuyMarkup: 0.035, baseSellMarkup: 0.042 },
-            { code: 'NZD', name: 'New Zealand Dollar (NZD)', baseBuyMarkup: 0.035, baseSellMarkup: 0.042 },
-            { code: 'ZAR', name: 'South African Rand (ZAR)', baseBuyMarkup: 0.045, baseSellMarkup: 0.055 },
-            { code: 'CHF', name: 'Swiss Franc (CHF)', baseBuyMarkup: 0.030, baseSellMarkup: 0.036 },
-            { code: 'ETB', name: 'Ethiopian Birr (ETB)', baseBuyMarkup: 0.050, baseSellMarkup: 0.065 }
+            { code: 'USD', name: 'United States Dollar (USD)', directBuy: 1.44905, directSell: 1.37130 },
+            { code: 'EUR', name: 'Euro Member (EUR)', directBuy: 1.65585, directSell: 1.55759 },
+            { code: 'GBP', name: 'United Kingdom Pound (GBP)', directBuy: 1.92468, directSell: 1.81047 },
+            { code: 'MXN', name: 'Mexican Peso (MXN)', directBuy: 0.08353, directSell: 0.07553 },
+            { code: 'AUD', name: 'Australian Dollar (AUD)', directBuy: 1.02539, directSell: 0.95583 },
+            { code: 'CNY', name: 'Chinese Yuan (CNY)', directBuy: 0.21820, directSell: 0.19932 },
+            { code: 'JPY', name: 'Japanese Yen (JPY)', directBuy: 0.00930, directSell: 0.00860 },
+            { code: 'NZD', name: 'New Zealand Dollar (NZD)', directBuy: 0.82938, directSell: 0.76768 },
+            { code: 'ZAR', name: 'South African Rand (ZAR)', directBuy: 0.09052, directSell: 0.08186 },
+            { code: 'CHF', name: 'Swiss Franc (CHF)', directBuy: 1.75774, directSell: 1.64511 },
+            { code: 'ETB', name: 'Ethiopian Birr (ETB)', directBuy: 0.00913, directSell: 0.00813 }
         ];
 
         let cachedLiveRates = null;
@@ -82,7 +82,7 @@
         async function fetchLiveRatesAndCalculate() {
             const badge = document.getElementById('status-badge');
             badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30";
-            badge.innerText = "Fetching live market data...";
+            badge.innerText = "Fetching market data...";
 
             try {
                 const response = await fetch('https://open.er-api.com/v6/latest/CAD');
@@ -91,7 +91,7 @@
                 if (data && data.rates) {
                     cachedLiveRates = data.rates;
                     badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
-                    badge.innerText = `Live data synced (${new Date().toLocaleTimeString()})`;
+                    badge.innerText = `Synced (${new Date().toLocaleTimeString()})`;
                     
                     calculateProfits();
                 } else {
@@ -99,7 +99,7 @@
                 }
             } catch (error) {
                 badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30";
-                badge.innerText = "Failed to fetch live rates. Check connection.";
+                badge.innerText = "Failed to fetch live rates.";
                 console.error(error);
             }
         }
@@ -119,15 +119,15 @@
 
                 let options = [];
 
-                const evaluateProvider = (name, buyMarkup, sellMarkup) => {
-                    const buyRate = liveRatePerForeignUnit * (1 + buyMarkup);
-                    const sellRate = liveRatePerForeignUnit * (1 - sellMarkup);
-
+                const evaluateDirect = (name, buyRate, sellRate) => {
                     const youReceiveBuyForeign = cadInputVal / buyRate;
                     const buySpreadCost = cadInputVal - (youReceiveBuyForeign * liveRatePerForeignUnit);
 
                     const youReceiveSellCAD = foreignAmountIdeal * sellRate;
                     const sellSpreadCost = cadInputVal - youReceiveSellCAD;
+
+                    const buyMarkupPercent = ((buyRate / liveRatePerForeignUnit) - 1) * 100;
+                    const sellMarkupPercent = (1 - (sellRate / liveRatePerForeignUnit)) * 100;
 
                     return {
                         name: name,
@@ -135,21 +135,25 @@
                         sellRate: sellRate,
                         buyProfit: Math.abs(buySpreadCost),
                         sellProfit: Math.abs(sellSpreadCost),
-                        buySpread: buyMarkup * 100,
-                        sellSpread: sellMarkup * 100,
+                        buySpread: buyMarkupPercent,
+                        sellSpread: sellMarkupPercent,
                         youReceiveBuyForeign: youReceiveBuyForeign,
                         youReceiveSellCAD: youReceiveSellCAD
                     };
                 };
 
-                // 1. Global Currency Services
-                options.push(evaluateProvider('Global Currency Services', item.baseBuyMarkup, item.baseSellMarkup));
+                // 1. Global Currency Services (Using direct input values)
+                options.push(evaluateDirect('Global Currency Services', item.directBuy, item.directSell));
 
-                // 2. VB Currency
-                options.push(evaluateProvider('VB Currency', item.baseBuyMarkup * 0.72, item.baseSellMarkup * 0.72));
+                // 2. VB Currency (Estimated relative spread)
+                const vbBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.72);
+                const vbSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.72);
+                options.push(evaluateDirect('VB Currency', vbBuy, vbSell));
 
-                // 3. Calforex
-                options.push(evaluateProvider('Calforex', item.baseBuyMarkup * 0.85, item.baseSellMarkup * 0.85));
+                // 3. Calforex (Estimated relative spread)
+                const calBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.85);
+                const calSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.85);
+                options.push(evaluateDirect('Calforex', calBuy, calSell));
 
                 // 4. Major Banks
                 const banks = [
@@ -161,7 +165,9 @@
                 ];
 
                 banks.forEach(bank => {
-                    options.push(evaluateProvider(bank.name, item.baseBuyMarkup * bank.multiplier, item.baseSellMarkup * bank.multiplier));
+                    const bankBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * bank.multiplier);
+                    const bankSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * bank.multiplier);
+                    options.push(evaluateDirect(bank.name, bankBuy, bankSell));
                 });
 
                 let bestBuyOpt = options.reduce((min, opt) => opt.buySpread < min.buySpread ? opt : min, options[0]);
