@@ -107,8 +107,19 @@ function parseCodeParenTable(text, label) {
 }
 
 async function fetchBMO() {
-  const text = await renderedText('https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/');
-  return parseCodeParenTable(text, 'BMO');
+  // BMO's page keeps loading trackers forever, so wait for the rate table itself instead of "network idle".
+  const browser = await getBrowser();
+  const page = await browser.newPage({ userAgent: UA });
+  try {
+    await page.goto('https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/', { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForFunction(() => /\(\s*USD\s*\)\s*\d/.test(document.body.innerText.replace(/\s+/g, ' ')), null, { timeout: 45000 });
+    const text = await page.evaluate(() => document.body.innerText);
+    await mkdir('data/raw', { recursive: true });
+    await writeFile('data/raw/page_www_bmo_com.txt', text);
+    return parseCodeParenTable(text, 'BMO');
+  } finally {
+    await page.close();
+  }
 }
 
 // ---------- VBCE (Vancouver Bullion & Currency Exchange) ----------
