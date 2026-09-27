@@ -73,13 +73,13 @@ async function fetchTD() {
 // what you receive (sell). The page's own sanity check rejects anything that doesn't
 // bracket the market rate (e.g. a currency quoted per 100 units).
 function parseScotia(text) {
+  // Rows read as: "U.S. Dollar ( USD ) 1.461100 1.364100" (split across lines in the page text).
   const rates = {};
-  for (const line of text.split('\n')) {
-    const code = line.match(/\b([A-Z]{3})\b/);
-    if (!code || code[1] === 'CAD') continue;
-    const nums = [...line.slice(code.index + 3).matchAll(/(?<![\d.])(\d*\.\d+|\d+)(?![\d.])/g)].map(m => parseFloat(m[1]));
-    if (nums.length < 2 || !(nums[0] > 0 && nums[1] > 0) || nums[0] === nums[1]) continue;
-    if (!rates[code[1]]) rates[code[1]] = { buy: Math.max(nums[0], nums[1]), sell: Math.min(nums[0], nums[1]) };
+  const flat = text.replace(/\s+/g, ' ');
+  for (const [, code, a, b] of flat.matchAll(/\(\s*([A-Z]{3})\s*\)\s*(\d*\.\d+)\s+(\d*\.\d+)/g)) {
+    const x = parseFloat(a), y = parseFloat(b);
+    if (code === 'CAD' || !(x > 0 && y > 0) || x === y || rates[code]) continue;
+    rates[code] = { buy: Math.max(x, y), sell: Math.min(x, y) };
   }
   if (Object.keys(rates).length < 5) throw new Error(`Scotiabank: only parsed ${Object.keys(rates).length} currencies`);
   return rates;
@@ -90,6 +90,62 @@ async function fetchScotia() {
   await mkdir('data/raw', { recursive: true });
   await writeFile('data/raw/Scotiabank.txt', text); // kept so the parser can be checked against the real page
   return parseScotia(text);
+}
+
+// ---------- RBC Royal Bank ----------
+// RBC's calculator asks its server for one conversion at a time:
+//   POST .../api/rates/  {"do":"conv","from":"CAD","to":"USD","trade":"sell","amount":100}
+// and gets back {"amount": "69.185...", ...} (USD received for 100 CAD).
+// We ask the same questions from inside RBC's own page (so its cookies apply).
+// These are RBC's default NON-CASH rates.
+const RBC_PAGE = 'https://apps.royalbank.com/apps/foreign-exchange-calculator';
+const RBC_API = 'https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/';
+
+async function fetchRBC(codes) {
+  const browser = await getBrowser();
+  const page = await browser.newPage({ userAgent: UA });
+  const scripts = [];
+  page.on('response', async (r) => {
+    if (r.request().resourceType() !== 'script' || !r.url().includes('royalbank')) return;
+    try {
+      const t = await r.text();
+      const i = t.indexOf('"conv"') >= 0 ? t.indexOf('"conv"') : t.indexOf("'conv'");
+      if (i >= 0) scripts.push({ url: r.url(), snippet: t.slice(Math.max(0, i - 3000), i + 3000) });
+    } catch {}
+  });
+  try {
+    await page.goto(RBC_PAGE, { waitUntil: 'networkidle', timeout: 60000 });
+    await mkdir('data/raw', { recursive: true });
+    await writeFile('data/raw/RBC_scripts.json', JSON.stringify(scripts, null, 2)); // to find the cash switch later
+
+    const results = await page.evaluate(async ({ api, codes }) => {
+      const ask = async (body) => {
+        const r = await fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+        return r.json();
+      };
+      const out = {};
+      for (const c of codes) {
+        try {
+          const b = await ask({ do: 'conv', from: 'CAD', to: c, trade: 'sell', amount: 100 });
+          const s = await ask({ do: 'conv', from: c, to: 'CAD', trade: 'buy', amount: 100 });
+          out[c] = { toForeign: parseFloat(b.amount), toCAD: parseFloat(s.amount) };
+        } catch (e) { out[c] = { error: String(e) }; }
+      }
+      return out;
+    }, { api: RBC_API, codes });
+
+    const rates = {};
+    for (const [c, v] of Object.entries(results)) {
+      if (!(v.toForeign > 0 && v.toCAD > 0)) continue;
+      const buy = 100 / v.toForeign;   // CAD you pay per unit
+      const sell = v.toCAD / 100;      // CAD you receive per unit
+      if (buy > sell) rates[c] = { buy: +buy.toPrecision(6), sell: +sell.toPrecision(6) };
+    }
+    if (Object.keys(rates).length < 3) throw new Error(`RBC: only ${Object.keys(rates).length} currencies (${JSON.stringify(results).slice(0, 300)})`);
+    return rates;
+  } finally {
+    await page.close();
+  }
 }
 
 // ---------- Other banks (capture only) ----------
@@ -200,6 +256,15 @@ try {
 } catch (e) {
   console.error(e.message);
   out.providers.scotia = { name: 'Scotiabank', error: e.message };
+}
+
+try {
+  out.providers.rbc = { name: 'RBC Bank', type: 'direct', rateType: 'non-cash',
+                        rates: await fetchRBC(CURRENCIES.filter(c => c !== 'ETB')),
+                        fetchedAt: new Date().toISOString(), source: RBC_PAGE };
+} catch (e) {
+  console.error(e.message);
+  out.providers.rbc = { name: 'RBC Bank', error: e.message };
 }
 
 try { out.bankCapture = await captureBanks(); }
