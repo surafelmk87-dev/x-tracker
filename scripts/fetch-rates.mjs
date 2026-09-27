@@ -118,21 +118,21 @@ async function fetchRBC(codes) {
     await mkdir('data/raw', { recursive: true });
     await writeFile('data/raw/RBC_scripts.json', JSON.stringify(scripts, null, 2)); // to find the cash switch later
 
-    const results = await page.evaluate(async ({ api, codes }) => {
-      const ask = async (body) => {
-        const r = await fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-        return r.json();
-      };
+    // Use the calculator's own convert function so the request is formatted exactly as RBC expects.
+    await page.waitForFunction(() => window.APP && typeof window.APP.convert === 'function', null, { timeout: 30000 });
+    const results = await page.evaluate(async (codes) => {
+      const conv = (from, to, trade) => new Promise((resolve) => {
+        const t = setTimeout(() => resolve(null), 15000);
+        window.APP.convert(from, to, trade, 100, (d) => { clearTimeout(t); resolve(d); });
+      });
       const out = {};
       for (const c of codes) {
-        try {
-          const b = await ask({ do: 'conv', from: 'CAD', to: c, trade: 'sell', amount: 100 });
-          const s = await ask({ do: 'conv', from: c, to: 'CAD', trade: 'buy', amount: 100 });
-          out[c] = { toForeign: parseFloat(b.amount), toCAD: parseFloat(s.amount) };
-        } catch (e) { out[c] = { error: String(e) }; }
+        const b = await conv('CAD', c, 'sell');
+        const s = await conv(c, 'CAD', 'buy');
+        out[c] = { toForeign: parseFloat(b?.amount), toCAD: parseFloat(s?.amount) };
       }
       return out;
-    }, { api: RBC_API, codes });
+    }, codes);
 
     const rates = {};
     for (const [c, v] of Object.entries(results)) {
