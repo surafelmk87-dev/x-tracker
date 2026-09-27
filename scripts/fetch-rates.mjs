@@ -21,7 +21,16 @@ async function renderedText(url) {
   const page = await browser.newPage({ userAgent: UA });
   try {
     await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
-    return await page.evaluate(() => document.body.innerText);
+    await page.waitForTimeout(4000); // let late scripts fill in rates
+    // textContent includes collapsed accordions / hidden rows that innerText skips.
+    const text = await page.evaluate(() => {
+      const walk = (n) => n.nodeType === 3 ? n.textContent : [...n.childNodes].map(walk).join('\n');
+      return walk(document.body).replace(/\n\s*\n+/g, '\n');
+    });
+    await mkdir('data/raw', { recursive: true });
+    const slug = new URL(url).hostname.replace(/[^a-z0-9]+/gi, '_');
+    await writeFile(`data/raw/page_${slug}.txt`, text);
+    return text;
   } finally {
     await page.close();
   }
@@ -106,7 +115,7 @@ async function captureBanks() {
       try {
         const text = await r.text();
         let body; try { body = JSON.parse(text); } catch { body = text.slice(0, 20000); }
-        captured.push({ url: r.url(), method: r.request().method(), status: r.status(), body });
+        captured.push({ url: r.url(), method: r.request().method(), postData: r.request().postData(), status: r.status(), body });
       } catch {}
     });
     try {
