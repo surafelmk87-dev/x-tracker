@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:35:40.444Z",
+  "generatedAt": "2026-09-27T18:37:50.022Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.64465
         }
       },
-      "fetchedAt": "2026-09-27T18:35:47.509Z",
+      "fetchedAt": "2026-09-27T18:37:57.075Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-09-27T18:35:54.217Z",
+      "fetchedAt": "2026-09-27T18:38:03.145Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,16 +378,168 @@
           "sell": 0.0831
         }
       },
-      "fetchedAt": "2026-09-27T18:36:02.895Z",
+      "fetchedAt": "2026-09-27T18:38:12.635Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "bmo": {
       "name": "BMO Bank",
-      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/\nCall log:\n  - navigating to \"https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/\", waiting until \"networkidle\"\n"
+      "error": "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/\", waiting until \"networkidle\"\n"
     },
     "vbce": {
       "name": "VBCE (VB Currency)",
-      "error": "VBCE: only parsed 0 currencies"
+      "type": "direct",
+      "rates": {
+        "USD": {
+          "buy": 1.4315,
+          "sell": 1.3972
+        },
+        "EUR": {
+          "buy": 1.6424,
+          "sell": 1.5846
+        },
+        "GBP": {
+          "buy": 1.9094,
+          "sell": 1.8431
+        },
+        "JPY": {
+          "buy": 0.009256,
+          "sell": 0.00881
+        },
+        "MXN": {
+          "buy": 0.08409,
+          "sell": 0.07711
+        },
+        "AUD": {
+          "buy": 1.0209,
+          "sell": 0.9658
+        },
+        "NZD": {
+          "buy": 0.8247,
+          "sell": 0.7797
+        },
+        "HKD": {
+          "buy": 0.1867,
+          "sell": 0.1731
+        },
+        "CNY": {
+          "buy": 0.2181,
+          "sell": 0.199
+        },
+        "AED": {
+          "buy": 0.4063,
+          "sell": 0.3618
+        },
+        "ARS": {
+          "buy": 0.00114,
+          "sell": 0.00088
+        },
+        "BRL": {
+          "buy": 0.3141,
+          "sell": 0.2594
+        },
+        "CHF": {
+          "buy": 1.7528,
+          "sell": 1.6671
+        },
+        "CLP": {
+          "buy": 0.001606,
+          "sell": 0.001396
+        },
+        "CRC": {
+          "buy": 0.003404,
+          "sell": 0.002976
+        },
+        "CZK": {
+          "buy": 0.07028,
+          "sell": 0.06332
+        },
+        "DKK": {
+          "buy": 0.2226,
+          "sell": 0.2026
+        },
+        "EGP": {
+          "buy": 0.03376,
+          "sell": 0.02512
+        },
+        "FJD": {
+          "buy": 0.7026,
+          "sell": 0.5882
+        },
+        "HUF": {
+          "buy": 0.004682,
+          "sell": 0.004236
+        },
+        "IDR": {
+          "buy": 0.0000845,
+          "sell": 0.00007695
+        },
+        "ILS": {
+          "buy": 0.4998,
+          "sell": 0.4454
+        },
+        "INR": {
+          "buy": 0.01595,
+          "sell": 0.01416
+        },
+        "KRW": {
+          "buy": 0.001112,
+          "sell": 0.00098
+        },
+        "MYR": {
+          "buy": 0.3701,
+          "sell": 0.3382
+        },
+        "NOK": {
+          "buy": 0.154,
+          "sell": 0.1409
+        },
+        "PEN": {
+          "buy": 0.4485,
+          "sell": 0.4
+        },
+        "PHP": {
+          "buy": 0.0248,
+          "sell": 0.02206
+        },
+        "PLN": {
+          "buy": 0.3911,
+          "sell": 0.3537
+        },
+        "SAR": {
+          "buy": 0.4034,
+          "sell": 0.3465
+        },
+        "SCP": {
+          "buy": 1.9066,
+          "sell": 1.845
+        },
+        "SEK": {
+          "buy": 0.1473,
+          "sell": 0.1354
+        },
+        "SGD": {
+          "buy": 1.1541,
+          "sell": 1.0511
+        },
+        "THB": {
+          "buy": 0.04523,
+          "sell": 0.04141
+        },
+        "TRY": {
+          "buy": 0.0318,
+          "sell": 0.0277
+        },
+        "TWD": {
+          "buy": 0.04753,
+          "sell": 0.04381
+        },
+        "ZAR": {
+          "buy": 0.09257,
+          "sell": 0.0825
+        }
+      },
+      "fetchedAt": "2026-09-27T18:39:25.730Z",
+      "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
       "name": "RBC Bank",
@@ -431,7 +583,7 @@
           "sell": 1.6625
         }
       },
-      "fetchedAt": "2026-09-27T18:36:29.251Z",
+      "fetchedAt": "2026-09-27T18:39:39.049Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
