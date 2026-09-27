@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:16:15.502Z",
+  "generatedAt": "2026-09-27T18:18:24.679Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.64465
         }
       },
-      "fetchedAt": "2026-09-27T18:16:22.118Z",
+      "fetchedAt": "2026-09-27T18:18:32.434Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,12 +309,81 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-09-27T18:16:28.462Z",
+      "fetchedAt": "2026-09-27T18:18:39.108Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
       "name": "Scotiabank",
-      "error": "Scotiabank: only parsed 0 currencies"
+      "type": "direct",
+      "rateType": "non-cash",
+      "rates": {
+        "USD": {
+          "buy": 1.4611,
+          "sell": 1.3641
+        },
+        "GBP": {
+          "buy": 1.9514,
+          "sell": 1.7938
+        },
+        "AUD": {
+          "buy": 1.0338,
+          "sell": 0.9529
+        },
+        "CHF": {
+          "buy": 1.773,
+          "sell": 1.6389
+        },
+        "EUR": {
+          "buy": 1.6783,
+          "sell": 1.5433
+        },
+        "HKD": {
+          "buy": 0.1877,
+          "sell": 0.1725
+        },
+        "JPY": {
+          "buy": 0.009389,
+          "sell": 0.008594
+        },
+        "DKK": {
+          "buy": 0.224,
+          "sell": 0.2069
+        },
+        "MXN": {
+          "buy": 0.08303,
+          "sell": 0.07665
+        },
+        "NOK": {
+          "buy": 0.1547,
+          "sell": 0.1427
+        },
+        "NZD": {
+          "buy": 0.8328,
+          "sell": 0.7689
+        },
+        "SAR": {
+          "buy": 0.3933,
+          "sell": 0.3595
+        },
+        "SEK": {
+          "buy": 0.1483,
+          "sell": 0.1369
+        },
+        "SGD": {
+          "buy": 1.1481,
+          "sell": 1.0646
+        },
+        "ZAR": {
+          "buy": 0.0901,
+          "sell": 0.0831
+        }
+      },
+      "fetchedAt": "2026-09-27T18:18:46.907Z",
+      "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
+    },
+    "rbc": {
+      "name": "RBC Bank",
+      "error": "RBC: only 0 currencies ({\"USD\":{\"toForeign\":null,\"toCAD\":null},\"EUR\":{\"toForeign\":null,\"toCAD\":null},\"GBP\":{\"toForeign\":null,\"toCAD\":null},\"MXN\":{\"toForeign\":null,\"toCAD\":null},\"AUD\":{\"toForeign\":null,\"toCAD\":null},\"CNY\":{\"toForeign\":null,\"toCAD\":null},\"JPY\":{\"toForeign\":null,\"toCAD\":null},\"NZD\":{\"toForeign\":null,\"toCAD\":n)"
     }
   },
   "bankCapture": {
