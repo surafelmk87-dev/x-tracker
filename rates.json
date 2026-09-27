@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:13:43.819Z",
+  "generatedAt": "2026-09-27T18:15:10.550Z",
   "currencies": [
     "USD",
     "EUR",
@@ -60,7 +60,7 @@
         }
       },
       "rates": {},
-      "fetchedAt": "2026-09-27T18:13:46.883Z",
+      "fetchedAt": "2026-09-27T18:15:13.759Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -129,7 +129,7 @@
           "sell": 0.0831
         }
       },
-      "fetchedAt": "2026-09-27T18:13:53.442Z",
+      "fetchedAt": "2026-09-27T18:15:20.440Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     }
   },
