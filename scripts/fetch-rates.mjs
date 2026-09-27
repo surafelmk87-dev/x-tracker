@@ -92,6 +92,63 @@ async function fetchScotia() {
   return parseScotia(text);
 }
 
+// ---------- BMO ----------
+// BMO's page shows CASH rates: "US Dollar (USD)  <we will buy from you>  <we will sell to you>".
+function parseCodeParenTable(text, label) {
+  const rates = {};
+  const flat = text.replace(/\s+/g, ' ');
+  for (const [, code, a, b] of flat.matchAll(/\(\s*([A-Z]{3})\s*\)\s*(\d*\.\d+)\s+(\d*\.\d+)/g)) {
+    const x = parseFloat(a), y = parseFloat(b);
+    if (code === 'CAD' || !(x > 0 && y > 0) || x === y || rates[code]) continue;
+    rates[code] = { buy: Math.max(x, y), sell: Math.min(x, y) };
+  }
+  if (Object.keys(rates).length < 5) throw new Error(`${label}: only parsed ${Object.keys(rates).length} currencies`);
+  return rates;
+}
+
+async function fetchBMO() {
+  const text = await renderedText('https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/');
+  return parseCodeParenTable(text, 'BMO');
+}
+
+// ---------- VBCE (Vancouver Bullion & Currency Exchange) ----------
+// Cash table with two tabs (Major / Exotic): Currency, Country, Currency Unit, VBCE Buys At, VBCE Sells At.
+// Rates are per "Currency Unit" (e.g. 100 for some currencies), so we divide by the unit.
+function parseVBCE(text) {
+  const rates = {};
+  const flat = text.replace(/\s+/g, ' ');
+  const re = /\b([A-Z]{3})\b[^0-9()]{0,80}?\b(\d+)\s+(\d*\.\d+)\s+(\d*\.\d+)/g;
+  for (const [, code, unitS, a, b] of flat.matchAll(re)) {
+    const unit = parseInt(unitS, 10), x = parseFloat(a), y = parseFloat(b);
+    if (code === 'CAD' || !(unit > 0 && x > 0 && y > 0) || x === y || rates[code]) continue;
+    rates[code] = { buy: +(Math.max(x, y) / unit).toPrecision(6), sell: +(Math.min(x, y) / unit).toPrecision(6) };
+  }
+  if (Object.keys(rates).length < 5) throw new Error(`VBCE: only parsed ${Object.keys(rates).length} currencies`);
+  return rates;
+}
+
+async function fetchVBCE() {
+  const url = 'https://www.vbce.ca/travel-rates';
+  const browser = await getBrowser();
+  const page = await browser.newPage({ userAgent: UA });
+  try {
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+    await page.waitForTimeout(4000);
+    const grab = () => page.evaluate(() => document.body.innerText);
+    let text = await grab();
+    try { // open the "Exotic Currencies" tab too (that's where rarer currencies like ETB would be)
+      await page.getByText('Exotic Currencies', { exact: true }).first().click({ timeout: 5000 });
+      await page.waitForTimeout(3000);
+      text += '\n' + await grab();
+    } catch (e) { console.warn('VBCE exotic tab:', e.message); }
+    await mkdir('data/raw', { recursive: true });
+    await writeFile('data/raw/page_www_vbce_ca.txt', text);
+    return parseVBCE(text);
+  } finally {
+    await page.close();
+  }
+}
+
 // ---------- RBC Royal Bank ----------
 // RBC's calculator asks its server for one conversion at a time:
 //   POST .../api/rates/  {"do":"conv","from":"CAD","to":"USD","trade":"sell","amount":100}
@@ -263,6 +320,18 @@ try {
 } catch (e) {
   console.error(e.message);
   out.providers.scotia = { name: 'Scotiabank', error: e.message };
+}
+
+for (const [key, name, fn, src] of [
+  ['bmo', 'BMO Bank', fetchBMO, 'https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/'],
+  ['vbce', 'VBCE (VB Currency)', fetchVBCE, 'https://www.vbce.ca/travel-rates'],
+]) {
+  try {
+    out.providers[key] = { name, type: 'direct', rates: await fn(), fetchedAt: new Date().toISOString(), source: src };
+  } catch (e) {
+    console.error(e.message);
+    out.providers[key] = { name, error: e.message };
+  }
 }
 
 try {

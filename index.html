@@ -58,7 +58,7 @@
         </div>
         
         <footer class="mt-6 text-center text-xs text-slate-500">
-            * Market rate is live. Global Currency Services and TD Bank cash rates come from their own websites, refreshed every 15 minutes. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
+            * Market rate is live. Global Currency Services, TD, BMO and VBCE cash rates come from their own websites, refreshed every 15 minutes. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
         </footer>
     </div>
 
@@ -79,9 +79,7 @@
 
         // Providers without a live feed yet: shown as estimates, scaled from GCS's live spread.
         const estimatedProviders = [
-            { name: 'VB Currency', multiplier: 0.72 },
             { name: 'Calforex', multiplier: 0.85 },
-            { name: 'BMO Bank', multiplier: 1.35 },
             { name: 'CIBC Bank', multiplier: 1.45 }
         ];
 
@@ -139,19 +137,6 @@
                 const liveRatePerForeignUnit = 1 / cachedLiveRates[item.code];
                 const foreignAmountIdeal = cadInputVal / liveRatePerForeignUnit;
 
-                if (!gcsRate && !m) {
-                    // No provider publishes a rate for this currency: show the market rate only.
-                    const info = document.createElement('tr');
-                    info.className = "border-b border-slate-700/60";
-                    info.innerHTML = `
-                        <td class="p-3 text-center"><span class="bg-slate-700 text-white px-3 py-1 rounded-full font-bold text-xs">${item.code}</span></td>
-                        <td class="p-3 text-slate-400 italic">No provider publishes ${item.code} rates</td>
-                        <td class="p-3 font-mono text-slate-300">${liveRatePerForeignUnit.toFixed(5)}</td>
-                        <td class="p-3 text-slate-500" colspan="6">Market value of your amount: ${foreignAmountIdeal.toFixed(2)} ${item.code} · buy/sell rates not available from GCS, TD, Scotiabank or RBC</td>`;
-                    tbody.appendChild(info);
-                    return;
-                }
-
                 const evaluateDirect = (name, buyRate, sellRate, estimated = false) => {
                     const youReceiveBuyForeign = cadInputVal / buyRate;
                     const buySpreadCost = (foreignAmountIdeal - youReceiveBuyForeign) * liveRatePerForeignUnit;
@@ -169,9 +154,10 @@
 
                 // 1. Global Currency Services — live: their published margins applied to the live market rate.
                 //    Uses GCS's exact posted rate when available; otherwise their margins on the market rate.
-                const gcsBuy = gcsRate ? gcsRate.buy : liveRatePerForeignUnit * (1 + m.weSellMargin);
-                const gcsSell = gcsRate ? gcsRate.sell : liveRatePerForeignUnit * (1 - m.weBuyMargin);
-                const options = [evaluateDirect('Global Currency Services', gcsBuy, gcsSell)];
+                const hasGCS = !!(gcsRate || m);
+                const gcsBuy = !hasGCS ? null : gcsRate ? gcsRate.buy : liveRatePerForeignUnit * (1 + m.weSellMargin);
+                const gcsSell = !hasGCS ? null : gcsRate ? gcsRate.sell : liveRatePerForeignUnit * (1 - m.weBuyMargin);
+                const options = hasGCS ? [evaluateDirect('Global Currency Services', gcsBuy, gcsSell)] : [];
 
                 // 2. Providers with published buy/sell rates (e.g. TD's cash table).
                 Object.values(providerData?.providers || {}).forEach(p => {
@@ -185,8 +171,25 @@
                     }
                 });
 
-                // 3. Others — estimates until their live parsers are wired in.
-                estimatedProviders.forEach(p => {
+                // Nobody publishes this currency: show the market rate only.
+                if (!options.length) {
+                    // No provider publishes a rate for this currency: show the market rate only.
+                    const info = document.createElement('tr');
+                    info.className = "border-b border-slate-700/60";
+                    info.innerHTML = `
+                        <td class="p-3 text-center"><span class="bg-slate-700 text-white px-3 py-1 rounded-full font-bold text-xs">${item.code}</span></td>
+                        <td class="p-3 text-slate-400 italic">No provider publishes ${item.code} rates</td>
+                        <td class="p-3 font-mono text-slate-300">${liveRatePerForeignUnit.toFixed(5)}</td>
+                        <td class="p-3 text-slate-500" colspan="6">Market value of your amount: ${foreignAmountIdeal.toFixed(2)} ${item.code} · none of the tracked providers publish buy/sell rates</td>`;
+                    tbody.appendChild(info);
+                    return;
+                }
+
+                // Cash quotes first so the main row shows a cash rate where possible.
+                options.sort((x, y) => (!!x.nonCash) - (!!y.nonCash));
+
+                // 3. Others — estimates (scaled from GCS's spread) until their live rates are found.
+                if (hasGCS) estimatedProviders.forEach(p => {
                     const b = liveRatePerForeignUnit + (gcsBuy - liveRatePerForeignUnit) * p.multiplier;
                     const s = liveRatePerForeignUnit - (liveRatePerForeignUnit - gcsSell) * p.multiplier;
                     options.push(evaluateDirect(`${p.name} (est.)`, b, s, true));
