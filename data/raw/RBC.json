@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://bat.bing.com/p/insights/c/y",
+    "method": "POST",
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�@\u0010��e�\u0012\u0018ٚ�H��R\u0012�6%I\u001fr�\u0005!�ZZǊe�Hr��6�^FrJ\u001f\u000bE,�=s�9�g~���\u0014��! a�d\u0013�����U-�\u0015 <�̡\u0002\u0004J�EQ�#�?X���;�N�v�M��અ�ד��\f�tٴ�|�\u0003��W�~�A�|W��i!Cpp����\"I\u001b\"%��0%�D#\u0012�p\u0004�E��ZT\u001aa6�r\u0007�\u0002���d\b��7e��\"\\Ě�Q�*\u0002�\n\u0019�E,�8J����[\u0015\u0001�\u001b�+w\\����q�wc/F��6�f\u0004�e�\u0017�� \u001b\u0004'�k�pӼ�U�f\u0012���D��uY��bo�y�O��v[�o~qU�S�≊������5��\\{�����T�Vm��S�Zܹ�k�#\u00192$L��\u0010�)|\u001a\u0019��!f���u~\u0010��~�m�[\u0011�ۋ�������k�0�\u0014|\u001d<ܱ\u0010��4�u�<�5\u001ar�����06_4�p�]Q��\u001b�z%�\u0000�צ��uu�j\u0001aH��͐�PF��\u0019/E\n!\u0007�1P\\��~ơy����KWu��5��\u0014'�1��$Rv0K#i4H�\u001b\u0017��&� R�4hX\u0003��1DEH�$G\n5+��;<v��!�,��\u001b�5�\nm\u0003\u0000\u0000",
+    "status": 204,
+    "body": ""
+  },
+  {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/tools/foreign-exchange-calculator/_assets-custom/js/data.json",
     "method": "GET",
     "postData": null,
@@ -1126,92 +1133,11 @@
     }
   },
   {
-    "url": "https://bat.bing.com/p/insights/c/l",
-    "method": "POST",
-    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�0\u0010�\u00151O\t�w=��KJ)��6%I\u001fr�\u0005a\u0016ū��z�ŗe����2����P�`t�p�f~��\u0013\u0003�,�%! a��%B퇽/��J@��*���ݰ֛�D�\u0003e�o����n�ݬm�m}o�zV4�\u0011�?4��\u001e}��Ei��\u000b\n[\u0017Cm���\u001c�12�\u0014I�!R\u0016�\u001c�̐hB\u0012\u0019N�L�r4�.R\b��\u001b@\u0003Įƛ#,\u0007�o�\u0015��ʰ�b\u0019�\ne\u0003Eq\u0011d�*\u000b\\F��ci�X\u0002�\u001b��;\u0016�|W=�}7�bD�4�S=\u0001˪�\u000b�I�\u001f\f�o\u0019�j^���s=\u000b��w�w���^��x\u0019�cq���������Y\u0014����۫K\u0014u�v�+�ͱX�m�qs�J��\u0007�V\u00072�Hh�s \u0011\u001a�41��\u0003C,��u�x\u0016���\\ۻV\u0004��l!�Y^�Y��\u001c34�|pw�F4\u001aة�ɖ���\u0014�(%\u001a\u0018��B\u0003�ήj�uSW�$3@����O?��֯^S@\u0018�հ\u0019�9�x\u001c|�;a � ;\u0004\u0011k��.8�o�\u001b=b���;�g2�Ôd�V��,��8+ł\u001a\tI\u001d�R�\"r#R�Ԩ�\u0003�L0Ĉ�0b�(B�\u000eR�\u001d\u001e*(�\u0010R���\r�a~�m\u0003\u0000\u0000",
-    "status": 204,
-    "body": ""
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790544179308",
+    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790553179338",
     "method": "GET",
     "postData": null,
     "status": 200,
     "body": "!function(u){var f,h,n,b=u(window),a={},g=[],v=[],m=null,p=\"_open\",y=\"_close\",k=[],w=null,l=/(iPad|iPhone|iPod)/.test(navigator.userAgent),_={_init:function(t){var o=u(t),e=o.data(\"popupoptions\");v[t.id]=!1,g[t.id]=0,o.data(\"popup-initialized\")||(o.attr(\"data-popup-initialized\",\"true\"),_._initonce(t)),e.autoopen&&setTimeout(function(){_.show(t,0)},0)},_initonce:function(e){var t,o,i=u(e),n=u(\"body\"),a=i.data(\"popupoptions\"),s=(m=parseInt(n.css(\"margin-right\"),10),w=void 0!==document.body.style.webkitTransition||void 0!==document.body.style.MozTransition||void 0!==document.body.style.msTransition||void 0!==document.body.style.OTransition||void 0!==document.body.style.transition,a.scrolllock&&void 0===f&&(t=(s=u('<div style=\"width:50px;height:50px;overflow:auto\"><div/></div>').appendTo(\"body\")).children(),f=t.innerWidth()-t.height(99).innerWidth(),s.remove()),i.attr(\"id\")||i.attr(\"id\",\"j-popup-\"+parseInt(1e8*Math.random(),10)),i.addClass(\"popup_content\"),a.background&&!u(\"#\"+e.id+\"_background\").length&&(n.append('<div id=\"'+e.id+'_background\" class=\"popup_background\"></div>'),(o=u(\"#\"+e.id+\"_background\")).css({opacity:0,visibility:\"hidden\",backgroundColor:a.color,position:\"fixed\",top:0,right:0,bottom:0,left:0}),a.setzindex&&!a.autozindex&&o.css(\"z-index\",\"100000\"),a.transition&&o.css(\"transition\",a.transition)),n.append(e),i.wrap('<div id=\"'+e.id+'_wrapper\" class=\"popup_wrapper\" />'),(t=u(\"#\"+e.id+\"_wrapper\")).css({opacity:0,visibility:\"hidden\",position:\"absolute\"}),l&&((o=u(\"#\"+e.id+\"_background\")).css(\"cursor\",\"pointer\"),u(a.pagecontainer).css(\"cursor\",\"pointer\")),\"overlay\"==a.type&&!a.absolute&&a.background&&(t.css(\"overflow\",\"auto\"),t[0].style.WebkitOverflowScrolling=\"touch\"),i.css({opacity:0,visibility:\"hidden\",\"pointer-events\":\"auto\",display:\"inline-block\"}),a.setzindex&&!a.autozindex&&t.css(\"z-index\",\"100001\"),a.outline||i.css(\"outline\",\"none\"),a.transition&&(i.css(\"transition\",a.transition),t.css(\"transition\",a.transition)),i.attr(\"aria-hidden\",!0),\"overlay\"==a.type&&(i.css({textAlign:\"left\",position:\"relative\",verticalAlign:\"middle\"}),t.css({position:\"fixed\",width:\"100%\",height:\"100%\",top:0,left:0,textAlign:\"center\"}),t.append('<div class=\"popup_align\" />'),u(\".popup_align\").css({display:\"inline-block\",verticalAlign:\"middle\",height:\"100%\"})),i.attr(\"role\",\"dialog\"),a.openelement||\".\"+e.id+p);u(s).each(function(t,o){u(o).attr(\"data-popup-ordinal\",t),o.id||u(o).attr(\"id\",\"open_\"+parseInt(1e8*Math.random(),10))}),i.attr(\"aria-labelledby\")||i.attr(\"aria-label\")||i.attr(\"aria-labelledby\",u(s).attr(\"id\")),\"hover\"==a.action?(a.keepfocus=!1,u(s).on(\"mouseenter\",function(){_.show(e,u(this).data(\"popup-ordinal\"))}),u(s).on(\"mouseleave\",function(){_.hide(e)})):u(document).on(\"click.jqp\",s,function(t){t.preventDefault();var o=u(this).data(\"popup-ordinal\");setTimeout(function(){_.show(e,o)},0)}),a.closebutton&&_.addclosebutton(e),a.detach?i.detach():i.hide()},show:function(t,o){var e=u(t);if(!e.data(\"popup-visible\")){e.data(\"popup-initialized\")||_._init(t),e.attr(\"data-popup-initialized\",\"true\");var i=u(\"body\"),n=e.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\");if(x(t,o,n.beforeopen),v[t.id]=o,setTimeout(function(){k.push(t.id)},0),n.autozindex){for(var p=document.getElementsByTagName(\"*\"),l=p.length,d=0,r=0;r<l;r++){var c=u(p[r]).css(\"z-index\");\"auto\"!==c&&d<(c=parseInt(c,10))&&(d=c)}g[t.id]=d,n.background&&0<=g[t.id]&&u(\"#\"+t.id+\"_background\").css({zIndex:g[t.id]+1}),0<=g[t.id]&&a.css({zIndex:g[t.id]+2})}n.detach&&a.prepend(t),e.show(),h=setTimeout(function(){a.css({visibility:\"visible\",opacity:1}),u(\"html\").addClass(\"popup_visible\").addClass(\"popup_visible_\"+t.id),a.addClass(\"popup_wrapper_visible\")},20),n.scrolllock&&(i.css(\"overflow\",\"hidden\"),i.height()>b.height()&&i.css(\"margin-right\",m+f)),e.css({visibility:\"visible\",opacity:1}),n.background&&(s.css({visibility:\"visible\",opacity:n.opacity}),setTimeout(function(){s.css({opacity:n.opacity})},0)),e.data(\"popup-visible\",!0),_.reposition(t,o),e.data(\"focusedelementbeforepopup\",document.activeElement),e.attr(\"tabindex\",-1),setTimeout(function(){\"closebutton\"===n.focuselement?u(\"#\"+t.id+\" .\"+t.id+y+\":first\").focus():n.focuselement?u(n.focuselement).focus():!0!==n.focuselement&&!n.keepfocus||e.focus()},n.focusdelay),n.keepfocus&&u(n.pagecontainer).attr(\"aria-hidden\",!0),e.attr(\"aria-hidden\",!1),x(t,o,n.onopen),w?a.one(\"transitionend\",function(){x(t,o,n.opentransitionend)}):x(t,o,n.opentransitionend),\"tooltip\"==n.type&&u(window).on(\"resize.\"+t.id,function(){_.reposition(t,o)})}},hide:function(t,o){var e,i,n,a,s,p=u.inArray(t.id,k);-1!==p&&(h&&clearTimeout(h),e=u(\"body\"),i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\"),i.data(\"popup-visible\",!1),1===k.length?u(\"html\").removeClass(\"popup_visible\").removeClass(\"popup_visible_\"+t.id):u(\"html\").hasClass(\"popup_visible_\"+t.id)&&u(\"html\").removeClass(\"popup_visible_\"+t.id),k.splice(p,1),a.hasClass(\"popup_wrapper_visible\")&&a.removeClass(\"popup_wrapper_visible\"),n.keepfocus&&!o&&setTimeout(function(){u(i.data(\"focusedelementbeforepopup\")).is(\":visible\")&&i.data(\"focusedelementbeforepopup\").focus()},0),a.css({visibility:\"hidden\",opacity:0}),i.css({visibility:\"hidden\",opacity:0}),n.background&&s.css({visibility:\"hidden\",opacity:0}),u(n.pagecontainer).attr(\"aria-hidden\",!1),i.attr(\"aria-hidden\",!0),x(t,v[t.id],n.onclose),w&&\"0s\"!==i.css(\"transition-duration\")?i.one(\"transitionend\",function(){i.data(\"popup-visible\")||(n.detach?i.detach():i.hide()),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)}):(n.detach?i.detach():i.hide(),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)),\"tooltip\"==n.type&&u(window).off(\"resize.\"+t.id))},toggle:function(t,o){u(t).data(\"popup-visible\")?_.hide(t):setTimeout(function(){_.show(t,o)},0)},reposition:function(t,o){var e,i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\");o=o||0,\"tooltip\"==n.type?(a.css({position:\"absolute\"}),e=(o=n.tooltipanchor?u(n.tooltipanchor):n.openelement?u(n.openelement).filter('[data-popup-ordinal=\"'+o+'\"]'):u(\".\"+t.id+p+'[data-popup-ordinal=\"'+o+'\"]')).offset()||{left:0,top:0},\"right\"==n.horizontal?a.css(\"left\",e.left+o.outerWidth()+n.offsetleft):\"leftedge\"==n.horizontal?a.css(\"left\",e.left+n.offsetleft):\"left\"==n.horizontal?a.css(\"right\",b.width()-e.left-n.offsetleft):\"rightedge\"==n.horizontal?a.css(\"right\",b.width()-e.left-o.outerWidth()-n.offsetleft):a.css(\"left\",e.left+o.outerWidth()/2-i.outerWidth()/2-parseFloat(i.css(\"marginLeft\"))+n.offsetleft),\"bottom\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()+n.offsettop):\"bottomedge\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()-i.outerHeight()+n.offsettop):\"top\"==n.vertical?a.css(\"bottom\",b.height()-e.top-n.offsettop):\"topedge\"==n.vertical?a.css(\"bottom\",b.height()-e.top-i.outerHeight()-n.offsettop):a.css(\"top\",e.top+o.outerHeight()/2-i.outerHeight()/2-parseFloat(i.css(\"marginTop\"))+n.offsettop)):\"overlay\"==n.type&&(n.horizontal?a.css(\"text-align\",n.horizontal):a.css(\"text-align\",\"center\"),n.vertical?i.css(\"vertical-align\",n.vertical):i.css(\"vertical-align\",\"middle\"),n.absolute&&a.css({position:\"absolute\",top:window.scrollY}),n.background||(a.css({\"pointer-events\":\"none\"}),n.absolute||s(t)||(i.css(\"overflow\",\"auto\"),i[0].style.WebkitOverflowScrolling=\"touch\",i.css(\"max-height\",\"calc(100% - \"+i.css(\"margin-top\")+\" - \"+i.css(\"margin-bottom\")+\")\"))))},addclosebutton:function(t){var o=u(t).data(\"popupoptions\").closebuttonmarkup?u(a.closebuttonmarkup).addClass(t.id+\"_close\"):'<button class=\"popup_close '+t.id+'_close\" title=\"Close\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></button>';u(t).data(\"popup-initialized\")&&u(t).append(o)}},x=function(t,o,e){var i=u(t).data(\"popupoptions\");void 0!==i&&(i=i.openelement||\".\"+t.id+p,i=u(i+'[data-popup-ordinal=\"'+o+'\"]'),\"function\"==typeof e&&e.call(u(t),t,i))},s=function(t){t=t.getBoundingClientRect();return 0<=t.top&&0<=t.left&&t.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&t.right<=(window.innerWidth||document.documentElement.clientWidth)};u(document).on(\"keydown\",function(t){var o;k.length&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").escape&&27==t.keyCode&&_.hide(o))}),u(document).on(\"mousedown\",function(t){n=t.target}),u(document).on(\"click\",function(t){var o,e,i;k.length&&(o=k[k.length-1],e=document.getElementById(o),i=u(e).data(\"popupoptions\").closeelement?u(e).data(\"popupoptions\").closeelement:\".\"+e.id+y,u(t.target).closest(i).length&&(t.preventDefault(),_.hide(e)),u(e).data(\"popupoptions\")&&u(e).data(\"popupoptions\").blur&&!u(t.target).closest(u(e).data(\"popupoptions\").blurignore).length&&!u(t.target).closest(\"#\"+o).length&&!u(n).closest(\"#\"+o).length&&2!==t.which&&u(t.target).is(\":visible\")&&(u(e).data(\"popupoptions\").background?(_.hide(e),t.preventDefault()):_.hide(e,!0)))}),u(document).on(\"keydown\",function(t){var o,e,i,n;k.length&&9==t.which&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").keepfocus&&(e=u(o).find(\"*\").filter(\"a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]\").filter(\":visible\"),n=u(\":focus\"),i=e.length,n=e.index(n),0===i?(u(o).focus(),t.preventDefault()):t.shiftKey?0===n&&(e.get(i-1).focus(),t.preventDefault()):n==i-1&&(e.get(0).focus(),t.preventDefault())))}),u.fn.popup=function(i){return this.each(function(){var t,o=u(this),e=u.extend(!0,{},u.fn.popup.defaults);i&&\"tooltip\"===i.type&&(e.background=!1),\"object\"==typeof i?(t=u.extend({},e,o.data(\"popupoptions\"),i),o.data(\"popupoptions\",t),a=o.data(\"popupoptions\"),_._init(this)):\"string\"==typeof i?(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_[i].call(this,this)):(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_._init(this))})},u.fn.popup.destroyall=function(){for(var t=0;t<k.length;t++)u(\"#\"+k[t]).popup(\"hide\");u(\".popup_wrapper\").remove(),u(\".popup_background\").remove(),u(document).off(\"click.jqp\")},u.fn.popup.defaults={type:\"overlay\",absolute:!1,autoopen:!1,background:!0,color:\"black\",opacity:\"0.5\",horizontal:\"center\",vertical:\"middle\",offsettop:0,offsetleft:0,escape:!0,blur:!0,blurignore:null,setzindex:!0,autozindex:!1,scrolllock:!1,closebutton:!1,closebuttonmarkup:null,keepfocus:!0,focuselement:null,focusdelay:50,outline:!1,pagecontainer:null,detach:!1,openelement:null,closeelement:null,transition:null,tooltipanchor:null,beforeopen:null,onclose:null,onopen:null,opentransitionend:null,closetransitionend:null}}(jQuery);"
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"updated\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "updated": "20260927 17:20:02"
-    }
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"currencies\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "buy": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "KYD",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ],
-      "sell": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "BSD",
-        "BBD",
-        "KYD",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KES",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ]
-    }
   },
   {
     "url": "https://cdn.cookielaw.org/consent/233e8ad3-37e0-427e-8695-012e6ec65ee9/233e8ad3-37e0-427e-8695-012e6ec65ee9.json",
@@ -1675,14 +1601,19 @@
   {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
+    "postData": "{\"do\":\"updated\"}",
     "status": 200,
     "body": {
-      "amount": "69.185000691850006918500069185",
       "status": "success",
-      "frate": "1",
-      "trate": "1.4454"
+      "updated": "20260927 19:50:08"
     }
+  },
+  {
+    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "method": "POST",
+    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"a27a5957-af99-4a10-96e3-625e944347cf\",\"dtm\":\"1790553180029\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790553179\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"90755307.1790553180\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"35d55f3c-7fcb-49c9-a22e-2aea0118a0e1\",\"duid\":\"097d9bdd-7f7c-4db9-af18-e8c96a52976b\",\"stm\":\"1790553180031\"}]}",
+    "status": 200,
+    "body": "ok"
   },
   {
     "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
@@ -1697,11 +1628,80 @@
     }
   },
   {
-    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"001f6a3f-4299-46dc-86a9-e0e892ef82d5\",\"dtm\":\"1790544180391\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790544179\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"1079391117.1790544180\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1907\",\"vid\":\"1\",\"sid\":\"91400f6c-4bfa-438d-8159-6a6f137f49f5\",\"duid\":\"bd77dab2-ad65-42ca-ba7d-97397ddae469\",\"stm\":\"1790544180395\"}]}",
+    "postData": "{\"do\":\"currencies\"}",
     "status": 200,
-    "body": "ok"
+    "body": {
+      "status": "success",
+      "buy": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ],
+      "sell": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "BSD",
+        "BBD",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KES",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ]
+    }
+  },
+  {
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
+    "method": "POST",
+    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
+    "status": 200,
+    "body": {
+      "amount": "69.185000691850006918500069185",
+      "status": "success",
+      "frate": "1",
+      "trate": "1.4454"
+    }
   },
   {
     "url": "https://cdn.cookielaw.org/consent/233e8ad3-37e0-427e-8695-012e6ec65ee9/018f5819-9310-7ec6-92b7-e4effb189a4c/en.json",
