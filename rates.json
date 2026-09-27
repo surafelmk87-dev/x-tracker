@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:18:24.679Z",
+  "generatedAt": "2026-09-27T18:20:06.473Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.64465
         }
       },
-      "fetchedAt": "2026-09-27T18:18:32.434Z",
+      "fetchedAt": "2026-09-27T18:20:13.277Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-09-27T18:18:39.108Z",
+      "fetchedAt": "2026-09-27T18:20:19.193Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,12 +378,12 @@
           "sell": 0.0831
         }
       },
-      "fetchedAt": "2026-09-27T18:18:46.907Z",
+      "fetchedAt": "2026-09-27T18:20:27.721Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "rbc": {
       "name": "RBC Bank",
-      "error": "RBC: only 0 currencies ({\"USD\":{\"toForeign\":null,\"toCAD\":null},\"EUR\":{\"toForeign\":null,\"toCAD\":null},\"GBP\":{\"toForeign\":null,\"toCAD\":null},\"MXN\":{\"toForeign\":null,\"toCAD\":null},\"AUD\":{\"toForeign\":null,\"toCAD\":null},\"CNY\":{\"toForeign\":null,\"toCAD\":null},\"JPY\":{\"toForeign\":null,\"toCAD\":null},\"NZD\":{\"toForeign\":null,\"toCAD\":n)"
+      "error": "RBC: only 0 currencies ({\"USD\":{\"toForeign\":69.18500069185001,\"toCAD\":144.54},\"EUR\":{\"toForeign\":60.16123210203345,\"toCAD\":166.22},\"GBP\":{\"toForeign\":51.719679337988104,\"toCAD\":193.35},\"MXN\":{\"toForeign\":1216.54501216545,\"toCAD\":8.22},\"AUD\":{\"toForeign\":97.71350400625366,\"toCAD\":102.34},\"CNY\":{\"toForeign\":null,\"toCAD\":null)"
     }
   },
   "bankCapture": {
