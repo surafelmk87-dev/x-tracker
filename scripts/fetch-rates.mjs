@@ -336,7 +336,7 @@ try {
 }
 
 for (const [key, name, fn, src] of [
-  ['bmo', 'BMO Bank', fetchBMO, 'https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/'],
+  // BMO: its site blocks automated visitors, so it stays an estimate on the page.
   ['vbce', 'VBCE (VB Currency)', fetchVBCE, 'https://www.vbce.ca/travel-rates'],
 ]) {
   try {
