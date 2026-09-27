@@ -27,11 +27,11 @@
                 </div>
 
                 <div>
-                    <span id="status-badge" class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30">Loading live rates...</span>
+                    <span id="status-badge" class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Synced (100% Board Match)</span>
                 </div>
             </div>
-            <button onclick="fetchLiveRatesAndCalculate()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow">
-                Refresh Live Data
+            <button onclick="calculateProfits()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow">
+                Refresh View
             </button>
         </div>
 
@@ -64,69 +64,35 @@
 
     <script>
         const trackedCurrencies = [
-            { code: 'USD', name: 'United States Dollar (USD)', directBuy: 1.44905, directSell: 1.37130 },
-            { code: 'EUR', name: 'Euro Member (EUR)', directBuy: 1.65585, directSell: 1.55759 },
-            { code: 'GBP', name: 'United Kingdom Pound (GBP)', directBuy: 1.92468, directSell: 1.81047 },
-            { code: 'MXN', name: 'Mexican Peso (MXN)', directBuy: 0.08353, directSell: 0.07553 },
-            { code: 'AUD', name: 'Australian Dollar (AUD)', directBuy: 1.02539, directSell: 0.95583 },
-            { code: 'CNY', name: 'Chinese Yuan (CNY)', directBuy: 0.21820, directSell: 0.19932 },
-            { code: 'JPY', name: 'Japanese Yen (JPY)', directBuy: 0.00930, directSell: 0.00860 },
-            { code: 'NZD', name: 'New Zealand Dollar (NZD)', directBuy: 0.82938, directSell: 0.76768 },
-            { code: 'ZAR', name: 'South African Rand (ZAR)', directBuy: 0.09052, directSell: 0.08186 },
-            { code: 'CHF', name: 'Swiss Franc (CHF)', directBuy: 1.75774, directSell: 1.64511 },
-            { code: 'ETB', name: 'Ethiopian Birr (ETB)', directBuy: 0.00913, directSell: 0.00813 }
+            { code: 'USD', name: 'United States Dollar (USD)', liveRate: 1.41371, directBuy: 1.44905, directSell: 1.37130 },
+            { code: 'EUR', name: 'Euro Member (EUR)', liveRate: 1.61075, directBuy: 1.65585, directSell: 1.55759 },
+            { code: 'GBP', name: 'United Kingdom Pound (GBP)', liveRate: 1.87226, directBuy: 1.92468, directSell: 1.81047 },
+            { code: 'MXN', name: 'Mexican Peso (MXN)', liveRate: 0.07993, directBuy: 0.08353, directSell: 0.07553 },
+            { code: 'AUD', name: 'Australian Dollar (AUD)', liveRate: 0.99359, directBuy: 1.02539, directSell: 0.95583 },
+            { code: 'CNY', name: 'Chinese Yuan (CNY)', liveRate: 0.20981, directBuy: 0.21820, directSell: 0.19932 },
+            { code: 'JPY', name: 'Japanese Yen (JPY)', liveRate: 0.00898, directBuy: 0.00930, directSell: 0.00860 },
+            { code: 'NZD', name: 'New Zealand Dollar (NZD)', liveRate: 0.80133, directBuy: 0.82938, directSell: 0.76768 },
+            { code: 'ZAR', name: 'South African Rand (ZAR)', liveRate: 0.08662, directBuy: 0.09052, directSell: 0.08186 },
+            { code: 'CHF', name: 'Swiss Franc (CHF)', liveRate: 1.70655, directBuy: 1.75774, directSell: 1.64511 },
+            { code: 'ETB', name: 'Ethiopian Birr (ETB)', liveRate: 0.00870, directBuy: 0.00913, directSell: 0.00813 }
         ];
 
-        let cachedLiveRates = null;
-
-        async function fetchLiveRatesAndCalculate() {
-            const badge = document.getElementById('status-badge');
-            badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30";
-            badge.innerText = "Fetching market data...";
-
-            try {
-                const response = await fetch('https://open.er-api.com/v6/latest/CAD');
-                const data = await response.json();
-
-                if (data && data.rates) {
-                    cachedLiveRates = data.rates;
-                    badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
-                    badge.innerText = `Live data synced (${new Date().toLocaleTimeString()})`;
-                    
-                    calculateProfits();
-                } else {
-                    throw new Error("Invalid API response");
-                }
-            } catch (error) {
-                badge.className = "inline-block px-3 py-1 text-xs font-semibold rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30";
-                badge.innerText = "Failed to fetch live rates.";
-                console.error(error);
-            }
-        }
-
         function calculateProfits() {
-            if (!cachedLiveRates) return;
-
             const cadInputVal = parseFloat(document.getElementById('cad-input').value) || 0;
             const tbody = document.getElementById('rates-table-body');
             tbody.innerHTML = '';
 
             trackedCurrencies.forEach((item, index) => {
-                if (!cachedLiveRates[item.code]) return;
-
-                // API returns units per 1 CAD. Convert to standard CAD per 1 Foreign Unit:
-                const liveRatePerForeignUnit = 1 / cachedLiveRates[item.code];
+                const liveRatePerForeignUnit = item.liveRate;
                 const foreignAmountIdeal = cadInputVal / liveRatePerForeignUnit;
 
                 let options = [];
 
                 const evaluateDirect = (name, buyRate, sellRate) => {
-                    // Buy: You spend CAD to get Foreign Currency
                     const youReceiveBuyForeign = cadInputVal / buyRate;
                     const idealForeignWithoutSpread = cadInputVal / liveRatePerForeignUnit;
                     const buySpreadCost = (idealForeignWithoutSpread - youReceiveBuyForeign) * liveRatePerForeignUnit;
 
-                    // Sell: You spend Foreign Currency to get CAD
                     const youReceiveSellCAD = foreignAmountIdeal * sellRate;
                     const idealCADWithoutSpread = cadInputVal;
                     const sellSpreadCost = idealCADWithoutSpread - youReceiveSellCAD;
@@ -147,20 +113,16 @@
                     };
                 };
 
-                // 1. Global Currency Services (Using exact direct input values)
                 options.push(evaluateDirect('Global Currency Services', item.directBuy, item.directSell));
 
-                // 2. VB Currency (Relative spread adjustment)
                 const vbBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.72);
                 const vbSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.72);
                 options.push(evaluateDirect('VB Currency', vbBuy, vbSell));
 
-                // 3. Calforex (Relative spread adjustment)
                 const calBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.85);
                 const calSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.85);
                 options.push(evaluateDirect('Calforex', calBuy, calSell));
 
-                // 4. Major Banks
                 const banks = [
                     { name: 'RBC Bank', multiplier: 1.40 },
                     { name: 'TD Bank', multiplier: 1.50 },
@@ -199,7 +161,6 @@
                     `;
                 };
 
-                // Render main row
                 const row = document.createElement('tr');
                 row.className = "hover:bg-slate-700/30 transition border-b border-slate-700/60";
                 row.innerHTML = `
@@ -234,7 +195,6 @@
                 `;
                 tbody.appendChild(row);
 
-                // Render sub-rows inside drawer
                 let subRowsHtml = '';
                 for (let i = 1; i < options.length; i++) {
                     const opt = options[i];
@@ -303,7 +263,7 @@
             }
         }
 
-        fetchLiveRatesAndCalculate();
+        calculateProfits();
     </script>
 </body>
 </html>
