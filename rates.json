@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:21:49.721Z",
+  "generatedAt": "2026-09-27T18:35:40.444Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.64465
         }
       },
-      "fetchedAt": "2026-09-27T18:21:57.251Z",
+      "fetchedAt": "2026-09-27T18:35:47.509Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-09-27T18:22:03.704Z",
+      "fetchedAt": "2026-09-27T18:35:54.217Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,8 +378,16 @@
           "sell": 0.0831
         }
       },
-      "fetchedAt": "2026-09-27T18:22:12.902Z",
+      "fetchedAt": "2026-09-27T18:36:02.895Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
+    },
+    "bmo": {
+      "name": "BMO Bank",
+      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/\nCall log:\n  - navigating to \"https://www.bmo.com/en-ca/main/personal/bank-accounts/foreign-exchange/\", waiting until \"networkidle\"\n"
+    },
+    "vbce": {
+      "name": "VBCE (VB Currency)",
+      "error": "VBCE: only parsed 0 currencies"
     },
     "rbc": {
       "name": "RBC Bank",
@@ -423,7 +431,7 @@
           "sell": 1.6625
         }
       },
-      "fetchedAt": "2026-09-27T18:22:23.894Z",
+      "fetchedAt": "2026-09-27T18:36:29.251Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
