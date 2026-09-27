@@ -11,7 +11,7 @@ const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck
 let browserPromise = null;
 async function getBrowser() {
   if (!browserPromise) {
-    browserPromise = import('playwright').then(({ chromium }) => chromium.launch());
+    browserPromise = import('playwright').then(({ chromium }) => chromium.launch({ args: ['--disable-http2'] })); // some bank sites reject headless HTTP/2
   }
   return browserPromise;
 }
@@ -115,13 +115,15 @@ async function fetchBMO() {
 // Cash table with two tabs (Major / Exotic): Currency, Country, Currency Unit, VBCE Buys At, VBCE Sells At.
 // Rates are per "Currency Unit" (e.g. 100 for some currencies), so we divide by the unit.
 function parseVBCE(text) {
+  // Table rows (tab-separated): "USD  USA CASH  DOLLARS  1.3972  1.4315" — rates are CAD per 1 unit.
   const rates = {};
-  const flat = text.replace(/\s+/g, ' ');
-  const re = /\b([A-Z]{3})\b[^0-9()]{0,80}?\b(\d+)\s+(\d*\.\d+)\s+(\d*\.\d+)/g;
-  for (const [, code, unitS, a, b] of flat.matchAll(re)) {
-    const unit = parseInt(unitS, 10), x = parseFloat(a), y = parseFloat(b);
-    if (code === 'CAD' || !(unit > 0 && x > 0 && y > 0) || x === y || rates[code]) continue;
-    rates[code] = { buy: +(Math.max(x, y) / unit).toPrecision(6), sell: +(Math.min(x, y) / unit).toPrecision(6) };
+  for (const line of text.split('\n')) {
+    const cells = line.split('\t').map(c => c.trim()).filter(Boolean);
+    if (cells.length < 4 || !/^[A-Z]{3}$/.test(cells[0])) continue;
+    const x = parseFloat(cells.at(-2)), y = parseFloat(cells.at(-1));
+    const code = cells[0];
+    if (code === 'CAD' || !(x > 0 && y > 0) || x === y || rates[code]) continue;
+    rates[code] = { buy: +Math.max(x, y).toPrecision(6), sell: +Math.min(x, y).toPrecision(6) };
   }
   if (Object.keys(rates).length < 5) throw new Error(`VBCE: only parsed ${Object.keys(rates).length} currencies`);
   return rates;
