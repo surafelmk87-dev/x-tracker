@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "providers": {
+    "gcs": {
+      "name": "Global Currency Services",
+      "type": "gcs",
+      "fetchedAt": "2026-09-27T00:00:00.000Z",
+      "source": "https://www.global-currency.com/rates",
+      "margins": {
+        "USD": {
+          "weBuyMargin": 0.015,
+          "weSellMargin": 0.016
+        },
+        "EUR": {
+          "weBuyMargin": 0.027,
+          "weSellMargin": 0.0312
+        },
+        "GBP": {
+          "weBuyMargin": 0.029,
+          "weSellMargin": 0.027
+        },
+        "MXN": {
+          "weBuyMargin": 0.055,
+          "weSellMargin": 0.07
+        },
+        "AUD": {
+          "weBuyMargin": 0.046,
+          "weSellMargin": 0.058
+        },
+        "CNY": {
+          "weBuyMargin": 0.075,
+          "weSellMargin": 0.095
+        },
+        "JPY": {
+          "weBuyMargin": 0.03,
+          "weSellMargin": 0.045
+        },
+        "NZD": {
+          "weBuyMargin": 0.039,
+          "weSellMargin": 0.06
+        },
+        "ZAR": {
+          "weBuyMargin": 0.08,
+          "weSellMargin": 0.1
+        },
+        "CHF": {
+          "weBuyMargin": 0.037,
+          "weSellMargin": 0.036
+        }
+      },
+      "rates": {
+        "USD": {
+          "buy": 1.43718,
+          "sell": 1.39333
+        }
+      }
+    },
+    "td": {
+      "name": "TD Bank",
+      "type": "direct",
+      "fetchedAt": "2026-09-27T13:00:00.000Z",
+      "source": "https://ix0.apps.td.com/en/fxcal/",
+      "rates": {
+        "USD": {
+          "buy": 1.4603,
+          "sell": 1.3645
+        },
+        "EUR": {
+          "buy": 1.6769,
+          "sell": 1.552
+        },
+        "GBP": {
+          "buy": 1.9407,
+          "sell": 1.8155
+        },
+        "MXN": {
+          "buy": 0.08447,
+          "sell": 0.07554
+        },
+        "AUD": {
+          "buy": 1.0436,
+          "sell": 0.9527
+        },
+        "CNY": {
+          "buy": 0.2249,
+          "sell": 0.1929
+        },
+        "JPY": {
+          "buy": 0.009353,
+          "sell": 0.008645
+        },
+        "NZD": {
+          "buy": 0.8609,
+          "sell": 0.7519
+        },
+        "ZAR": {
+          "buy": 0.0982,
+          "sell": 0.0764
+        },
+        "CHF": {
+          "buy": 1.7569,
+          "sell": 1.6602
+        }
+      }
+    }
+  }
+}

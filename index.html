@@ -27,11 +27,11 @@
                 </div>
 
                 <div>
-                    <span id="status-badge" class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Synced (100% Board Match)</span>
+                    <span id="status-badge" class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30">Loading live rates...</span>
                 </div>
             </div>
-            <button onclick="calculateProfits()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow">
-                Refresh View
+            <button onclick="fetchLiveRatesAndCalculate()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow">
+                Refresh Live Data
             </button>
         </div>
 
@@ -58,87 +58,135 @@
         </div>
         
         <footer class="mt-6 text-center text-xs text-slate-500">
-            * Walk-in cash exchange true payout reflects active live exchange rate spread markups ($0.00 transfer fees). Highlighted badges indicate best customer value.
+            * Market rate is live. Global Currency Services and TD Bank cash rates come from their own websites, refreshed every 15 minutes. Scotiabank only publishes non-cash rates (wires/transfers), so it is shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
         </footer>
     </div>
 
     <script>
         const trackedCurrencies = [
-            { code: 'USD', name: 'United States Dollar (USD)', liveRate: 1.41371, directBuy: 1.44905, directSell: 1.37130 },
-            { code: 'EUR', name: 'Euro Member (EUR)', liveRate: 1.61075, directBuy: 1.65585, directSell: 1.55759 },
-            { code: 'GBP', name: 'United Kingdom Pound (GBP)', liveRate: 1.87226, directBuy: 1.92468, directSell: 1.81047 },
-            { code: 'MXN', name: 'Mexican Peso (MXN)', liveRate: 0.07993, directBuy: 0.08353, directSell: 0.07553 },
-            { code: 'AUD', name: 'Australian Dollar (AUD)', liveRate: 0.99359, directBuy: 1.02539, directSell: 0.95583 },
-            { code: 'CNY', name: 'Chinese Yuan (CNY)', liveRate: 0.20981, directBuy: 0.21820, directSell: 0.19932 },
-            { code: 'JPY', name: 'Japanese Yen (JPY)', liveRate: 0.00898, directBuy: 0.00930, directSell: 0.00860 },
-            { code: 'NZD', name: 'New Zealand Dollar (NZD)', liveRate: 0.80133, directBuy: 0.82938, directSell: 0.76768 },
-            { code: 'ZAR', name: 'South African Rand (ZAR)', liveRate: 0.08662, directBuy: 0.09052, directSell: 0.08186 },
-            { code: 'CHF', name: 'Swiss Franc (CHF)', liveRate: 1.70655, directBuy: 1.75774, directSell: 1.64511 },
-            { code: 'ETB', name: 'Ethiopian Birr (ETB)', liveRate: 0.00870, directBuy: 0.00913, directSell: 0.00813 }
+            { code: 'USD', name: 'United States Dollar (USD)' },
+            { code: 'EUR', name: 'Euro Member (EUR)' },
+            { code: 'GBP', name: 'United Kingdom Pound (GBP)' },
+            { code: 'MXN', name: 'Mexican Peso (MXN)' },
+            { code: 'AUD', name: 'Australian Dollar (AUD)' },
+            { code: 'CNY', name: 'Chinese Yuan (CNY)' },
+            { code: 'JPY', name: 'Japanese Yen (JPY)' },
+            { code: 'NZD', name: 'New Zealand Dollar (NZD)' },
+            { code: 'ZAR', name: 'South African Rand (ZAR)' },
+            { code: 'CHF', name: 'Swiss Franc (CHF)' },
+            { code: 'ETB', name: 'Ethiopian Birr (ETB)' }
         ];
 
+        // Providers without a live feed yet: shown as estimates, scaled from GCS's live spread.
+        const estimatedProviders = [
+            { name: 'VB Currency', multiplier: 0.72 },
+            { name: 'Calforex', multiplier: 0.85 },
+            { name: 'BMO Bank', multiplier: 1.35 },
+            { name: 'RBC Bank', multiplier: 1.40 },
+            { name: 'CIBC Bank', multiplier: 1.45 }
+        ];
+
+        let cachedLiveRates = null;
+        let providerData = null;
+
+        const setBadge = (tone, text) => {
+            const badge = document.getElementById('status-badge');
+            badge.className = `inline-block px-3 py-1 text-xs font-semibold rounded-full bg-${tone}-500/20 text-${tone}-400 border border-${tone}-500/30`;
+            badge.innerText = text;
+        };
+
+        async function fetchLiveRatesAndCalculate() {
+            setBadge('amber', 'Fetching market data...');
+            try {
+                const [marketRes, providerRes] = await Promise.allSettled([
+                    fetch('https://open.er-api.com/v6/latest/CAD').then(r => r.json()),
+                    fetch(`rates.json?t=${Date.now()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+                ]);
+
+                if (marketRes.status !== 'fulfilled' || !marketRes.value?.rates) throw new Error('Market rate API failed');
+                cachedLiveRates = marketRes.value.rates;
+                providerData = providerRes.status === 'fulfilled' ? providerRes.value : null;
+
+                const provs = Object.values(providerData?.providers || {});
+                const ok = provs.filter(p => p.margins || p.rates);
+                const failed = provs.filter(p => p.error).map(p => p.name);
+                if (ok.length) {
+                    const t = new Date(Math.min(...ok.map(p => Date.parse(p.fetchedAt)))).toLocaleTimeString();
+                    const note = failed.length ? ` · unavailable: ${failed.join(', ')}` : '';
+                    setBadge(failed.length ? 'amber' : 'emerald', `Market live · provider rates checked ${t}${note}`);
+                } else {
+                    setBadge('rose', 'Market live · provider rates unavailable');
+                }
+                calculateProfits();
+            } catch (error) {
+                setBadge('rose', 'Failed to fetch live rates.');
+                console.error(error);
+            }
+        }
+
         function calculateProfits() {
+            if (!cachedLiveRates) return;
+
             const cadInputVal = parseFloat(document.getElementById('cad-input').value) || 0;
             const tbody = document.getElementById('rates-table-body');
             tbody.innerHTML = '';
+            const gcsData = providerData?.providers?.gcs || {};
 
             trackedCurrencies.forEach((item, index) => {
-                const liveRatePerForeignUnit = item.liveRate;
+                if (!cachedLiveRates[item.code]) return;
+                const gcsRate = gcsData.rates?.[item.code];     // GCS's exact posted rate
+                const m = gcsData.margins?.[item.code];         // fallback: their margin on the market rate
+                if (!gcsRate && !m) return; // GCS doesn't publish this currency
+
+                // API returns units per 1 CAD. Convert to standard CAD per 1 Foreign Unit:
+                const liveRatePerForeignUnit = 1 / cachedLiveRates[item.code];
                 const foreignAmountIdeal = cadInputVal / liveRatePerForeignUnit;
 
-                let options = [];
-
-                const evaluateDirect = (name, buyRate, sellRate) => {
+                const evaluateDirect = (name, buyRate, sellRate, estimated = false) => {
                     const youReceiveBuyForeign = cadInputVal / buyRate;
-                    const idealForeignWithoutSpread = cadInputVal / liveRatePerForeignUnit;
-                    const buySpreadCost = (idealForeignWithoutSpread - youReceiveBuyForeign) * liveRatePerForeignUnit;
-
+                    const buySpreadCost = (foreignAmountIdeal - youReceiveBuyForeign) * liveRatePerForeignUnit;
                     const youReceiveSellCAD = foreignAmountIdeal * sellRate;
-                    const idealCADWithoutSpread = cadInputVal;
-                    const sellSpreadCost = idealCADWithoutSpread - youReceiveSellCAD;
-
-                    const buyMarkupPercent = ((buyRate / liveRatePerForeignUnit) - 1) * 100;
-                    const sellMarkupPercent = ((liveRatePerForeignUnit - sellRate) / liveRatePerForeignUnit) * 100;
-
+                    const sellSpreadCost = cadInputVal - youReceiveSellCAD;
                     return {
-                        name: name,
-                        buyRate: buyRate,
-                        sellRate: sellRate,
+                        name, buyRate, sellRate, estimated,
                         buyProfit: Math.abs(buySpreadCost),
                         sellProfit: Math.abs(sellSpreadCost),
-                        buySpread: buyMarkupPercent,
-                        sellSpread: sellMarkupPercent,
-                        youReceiveBuyForeign: youReceiveBuyForeign,
-                        youReceiveSellCAD: youReceiveSellCAD
+                        buySpread: ((buyRate / liveRatePerForeignUnit) - 1) * 100,
+                        sellSpread: ((liveRatePerForeignUnit - sellRate) / liveRatePerForeignUnit) * 100,
+                        youReceiveBuyForeign, youReceiveSellCAD
                     };
                 };
 
-                options.push(evaluateDirect('Global Currency Services', item.directBuy, item.directSell));
+                // 1. Global Currency Services — live: their published margins applied to the live market rate.
+                //    Uses GCS's exact posted rate when available; otherwise their margins on the market rate.
+                const gcsBuy = gcsRate ? gcsRate.buy : liveRatePerForeignUnit * (1 + m.weSellMargin);
+                const gcsSell = gcsRate ? gcsRate.sell : liveRatePerForeignUnit * (1 - m.weBuyMargin);
+                const options = [evaluateDirect('Global Currency Services', gcsBuy, gcsSell)];
 
-                const vbBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.72);
-                const vbSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.72);
-                options.push(evaluateDirect('VB Currency', vbBuy, vbSell));
-
-                const calBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * 0.85);
-                const calSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * 0.85);
-                options.push(evaluateDirect('Calforex', calBuy, calSell));
-
-                const banks = [
-                    { name: 'RBC Bank', multiplier: 1.40 },
-                    { name: 'TD Bank', multiplier: 1.50 },
-                    { name: 'BMO Bank', multiplier: 1.35 },
-                    { name: 'CIBC Bank', multiplier: 1.45 },
-                    { name: 'Scotiabank', multiplier: 1.48 }
-                ];
-
-                banks.forEach(bank => {
-                    const bankBuy = liveRatePerForeignUnit + ((item.directBuy - liveRatePerForeignUnit) * bank.multiplier);
-                    const bankSell = liveRatePerForeignUnit - ((liveRatePerForeignUnit - item.directSell) * bank.multiplier);
-                    options.push(evaluateDirect(bank.name, bankBuy, bankSell));
+                // 2. Providers with published buy/sell rates (e.g. TD's cash table).
+                Object.values(providerData?.providers || {}).forEach(p => {
+                    if (p.type !== 'direct' || !p.rates?.[item.code]) return;
+                    const { buy, sell } = p.rates[item.code];
+                    // Sanity check: a real quote brackets the market rate.
+                    if (buy >= liveRatePerForeignUnit && sell <= liveRatePerForeignUnit) {
+                        const opt = evaluateDirect(p.rateType === 'non-cash' ? `${p.name} (non-cash)` : p.name, buy, sell);
+                        opt.nonCash = p.rateType === 'non-cash';
+                        options.push(opt);
+                    }
                 });
 
-                let bestBuyOpt = options.reduce((min, opt) => opt.buySpread < min.buySpread ? opt : min, options[0]);
-                let bestSellOpt = options.reduce((min, opt) => opt.sellSpread < min.sellSpread ? opt : min, options[0]);
+                // 3. Others — estimates until their live parsers are wired in.
+                estimatedProviders.forEach(p => {
+                    const b = liveRatePerForeignUnit + (gcsBuy - liveRatePerForeignUnit) * p.multiplier;
+                    const s = liveRatePerForeignUnit - (liveRatePerForeignUnit - gcsSell) * p.multiplier;
+                    options.push(evaluateDirect(`${p.name} (est.)`, b, s, true));
+                });
+
+                // Only rank providers with real live rates; estimates never earn a "Best" badge.
+                // Non-cash quotes aren't comparable to walk-in cash, so they're shown but not ranked.
+                const live = options.filter(o => !o.estimated && !o.nonCash);
+                const bestBuyOpt = live.length > 1 ? live.reduce((a, o) => o.buySpread < a.buySpread ? o : a) : { name: null };
+                const bestSellOpt = live.length > 1 ? live.reduce((a, o) => o.sellSpread < a.sellSpread ? o : a) : { name: null };
 
                 const siteOpt = options[0]; 
                 const isBestBuySite = siteOpt.name === bestBuyOpt.name;
@@ -161,6 +209,7 @@
                     `;
                 };
 
+                // Render main row
                 const row = document.createElement('tr');
                 row.className = "hover:bg-slate-700/30 transition border-b border-slate-700/60";
                 row.innerHTML = `
@@ -195,6 +244,7 @@
                 `;
                 tbody.appendChild(row);
 
+                // Render sub-rows inside drawer
                 let subRowsHtml = '';
                 for (let i = 1; i < options.length; i++) {
                     const opt = options[i];
@@ -204,7 +254,7 @@
                     subRowsHtml += `
                         <tr class="bg-slate-900/80 text-xs border-b border-slate-800">
                             <td class="p-3 text-center text-slate-600 font-mono">-</td>
-                            <td class="p-3 font-semibold text-slate-300 pl-6">${opt.name}</td>
+                            <td class="p-3 font-semibold ${opt.estimated ? 'text-slate-500 italic' : opt.nonCash ? 'text-sky-300' : 'text-slate-300'} pl-6">${opt.name}</td>
                             <td class="p-3 font-mono text-slate-400">${liveRatePerForeignUnit.toFixed(5)}</td>
                             <td class="p-3 font-mono text-slate-300">${opt.buyRate.toFixed(5)}</td>
                             <td class="p-3 font-mono">
@@ -263,7 +313,7 @@
             }
         }
 
-        calculateProfits();
+        fetchLiveRatesAndCalculate();
     </script>
 </body>
 </html>

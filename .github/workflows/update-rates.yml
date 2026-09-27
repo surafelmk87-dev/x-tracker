@@ -1,0 +1,34 @@
+name: Update rates
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 min (GitHub may delay scheduled runs a few minutes)
+  workflow_dispatch:          # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-rates
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright (for bank calculators)
+        run: |
+          npm i --no-save playwright@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Fetch rates
+        run: node scripts/fetch-rates.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name  "rates-bot"
+          git config user.email "rates-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update rates" && git push)
