@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:15:10.550Z",
+  "generatedAt": "2026-09-27T18:16:15.502Z",
   "currencies": [
     "USD",
     "EUR",
@@ -59,78 +59,262 @@
           "weSellMargin": 0.036
         }
       },
-      "rates": {},
-      "fetchedAt": "2026-09-27T18:15:13.759Z",
+      "rates": {
+        "USD": {
+          "buy": 1.43718,
+          "sell": 1.39333
+        },
+        "EUR": {
+          "buy": 1.66655,
+          "sell": 1.57249
+        },
+        "GBP": {
+          "buy": 1.92496,
+          "sell": 1.81999
+        },
+        "MXN": {
+          "buy": 0.08561,
+          "sell": 0.07561
+        },
+        "AUD": {
+          "buy": 1.05585,
+          "sell": 0.95206
+        },
+        "CNY": {
+          "buy": 0.23073,
+          "sell": 0.19491
+        },
+        "JPY": {
+          "buy": 0.0094,
+          "sell": 0.00873
+        },
+        "NZD": {
+          "buy": 0.857,
+          "sell": 0.77695
+        },
+        "ZAR": {
+          "buy": 0.09544,
+          "sell": 0.07982
+        },
+        "CHF": {
+          "buy": 1.76932,
+          "sell": 1.64465
+        }
+      },
+      "fetchedAt": "2026-09-27T18:16:22.118Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
       "name": "TD Bank",
-      "error": "TD: only parsed 0 currencies"
+      "type": "direct",
+      "rates": {
+        "USD": {
+          "buy": 1.461,
+          "sell": 1.3652
+        },
+        "GBP": {
+          "buy": 1.9407,
+          "sell": 1.8155
+        },
+        "EUR": {
+          "buy": 1.6769,
+          "sell": 1.552
+        },
+        "AUD": {
+          "buy": 1.0436,
+          "sell": 0.9527
+        },
+        "BHD": {
+          "buy": 4.05,
+          "sell": 3.4226
+        },
+        "BBD": {
+          "buy": 0.7704,
+          "sell": 0.6511
+        },
+        "BRL": {
+          "buy": 0.3216,
+          "sell": 0.2341
+        },
+        "BND": {
+          "buy": 1.2097,
+          "sell": 1.006
+        },
+        "KYD": {
+          "buy": 1.8496,
+          "sell": 1.5385
+        },
+        "CLP": {
+          "buy": 0.001688,
+          "sell": 0.001264
+        },
+        "CNY": {
+          "buy": 0.2249,
+          "sell": 0.1929
+        },
+        "COP": {
+          "buy": 0.000491,
+          "sell": 0.000375
+        },
+        "CRC": {
+          "buy": 0.003413,
+          "sell": 0.002826
+        },
+        "CZK": {
+          "buy": 0.074,
+          "sell": 0.0591
+        },
+        "DOP": {
+          "buy": 0.0264,
+          "sell": 0.0212
+        },
+        "FJD": {
+          "buy": 0.739,
+          "sell": 0.533
+        },
+        "GTQ": {
+          "buy": 0.202,
+          "sell": 0.1685
+        },
+        "HKD": {
+          "buy": 0.1938,
+          "sell": 0.1679
+        },
+        "HUF": {
+          "buy": 0.004984,
+          "sell": 0.00388
+        },
+        "ISK": {
+          "buy": 0.01307,
+          "sell": 0.01073
+        },
+        "IDR": {
+          "buy": 0.000093,
+          "sell": 0.000067
+        },
+        "ILS": {
+          "buy": 0.5052,
+          "sell": 0.4247
+        },
+        "JMD": {
+          "buy": 0.0099,
+          "sell": 0.008
+        },
+        "JPY": {
+          "buy": 0.009353,
+          "sell": 0.008645
+        },
+        "JOD": {
+          "buy": 2.1554,
+          "sell": 1.8102
+        },
+        "KES": {
+          "buy": 0.012581,
+          "sell": 0.009679
+        },
+        "KWD": {
+          "buy": 5.0002,
+          "sell": 4.0411
+        },
+        "MYR": {
+          "buy": 0.3864,
+          "sell": 0.3097
+        },
+        "MXN": {
+          "buy": 0.08447,
+          "sell": 0.07554
+        },
+        "NZD": {
+          "buy": 0.8609,
+          "sell": 0.7519
+        },
+        "INP": {
+          "buy": 1.9406,
+          "sell": 1.8131
+        },
+        "OMR": {
+          "buy": 4.0045,
+          "sell": 3.358
+        },
+        "PEN": {
+          "buy": 0.4681,
+          "sell": 0.3678
+        },
+        "PHP": {
+          "buy": 0.0257,
+          "sell": 0.0201
+        },
+        "PLN": {
+          "buy": 0.4173,
+          "sell": 0.3245
+        },
+        "QAR": {
+          "buy": 0.4401,
+          "sell": 0.3353
+        },
+        "RON": {
+          "buy": 0.3373,
+          "sell": 0.2769
+        },
+        "KRW": {
+          "buy": 0.001151,
+          "sell": 0.000938
+        },
+        "SAR": {
+          "buy": 0.4146,
+          "sell": 0.3414
+        },
+        "SCO": {
+          "buy": 1.9435,
+          "sell": 1.8131
+        },
+        "SGD": {
+          "buy": 1.1808,
+          "sell": 1.0386
+        },
+        "ZAR": {
+          "buy": 0.0982,
+          "sell": 0.0764
+        },
+        "CHF": {
+          "buy": 1.7569,
+          "sell": 1.6602
+        },
+        "XPF": {
+          "buy": 0.01547,
+          "sell": 0.0118
+        },
+        "TWD": {
+          "buy": 0.04999,
+          "sell": 0.03953
+        },
+        "THB": {
+          "buy": 0.0463,
+          "sell": 0.0392
+        },
+        "TRY": {
+          "buy": 0.0338,
+          "sell": 0.025
+        },
+        "AED": {
+          "buy": 0.4226,
+          "sell": 0.35
+        },
+        "UYU": {
+          "buy": 0.039,
+          "sell": 0.0316
+        },
+        "VND": {
+          "buy": 0.000061,
+          "sell": 0.000048
+        }
+      },
+      "fetchedAt": "2026-09-27T18:16:28.462Z",
+      "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
       "name": "Scotiabank",
-      "type": "direct",
-      "rateType": "non-cash",
-      "rates": {
-        "USD": {
-          "buy": 1.4611,
-          "sell": 1.3641
-        },
-        "GBP": {
-          "buy": 1.9514,
-          "sell": 1.7938
-        },
-        "AUD": {
-          "buy": 1.0338,
-          "sell": 0.9529
-        },
-        "CHF": {
-          "buy": 1.773,
-          "sell": 1.6389
-        },
-        "EUR": {
-          "buy": 1.6783,
-          "sell": 1.5433
-        },
-        "SAR": {
-          "buy": 0.1877,
-          "sell": 0.1725
-        },
-        "JPY": {
-          "buy": 0.009389,
-          "sell": 0.008594
-        },
-        "DKK": {
-          "buy": 0.224,
-          "sell": 0.2069
-        },
-        "MXN": {
-          "buy": 0.08303,
-          "sell": 0.07665
-        },
-        "NOK": {
-          "buy": 0.1547,
-          "sell": 0.1427
-        },
-        "NZD": {
-          "buy": 0.8328,
-          "sell": 0.7689
-        },
-        "SEK": {
-          "buy": 0.1483,
-          "sell": 0.1369
-        },
-        "SGD": {
-          "buy": 1.1481,
-          "sell": 1.0646
-        },
-        "ZAR": {
-          "buy": 0.0901,
-          "sell": 0.0831
-        }
-      },
-      "fetchedAt": "2026-09-27T18:15:20.440Z",
-      "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
+      "error": "Scotiabank: only parsed 0 currencies"
     }
   },
   "bankCapture": {
