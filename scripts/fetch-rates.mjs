@@ -127,18 +127,25 @@ async function fetchRBC(codes) {
       });
       const out = {};
       for (const c of codes) {
-        const b = await conv('CAD', c, 'sell');
-        const s = await conv(c, 'CAD', 'buy');
-        out[c] = { toForeign: parseFloat(b?.amount), toCAD: parseFloat(s?.amount) };
+        // RBC's buy/sell flags don't map simply to direction, so ask every combination
+        // and turn each answer into "CAD per unit".
+        const implied = [];
+        for (const trade of ['buy', 'sell']) {
+          const a = parseFloat((await conv('CAD', c, trade))?.amount);   // foreign received for 100 CAD
+          const b = parseFloat((await conv(c, 'CAD', trade))?.amount);   // CAD for 100 foreign
+          if (a > 0) implied.push(100 / a);
+          if (b > 0) implied.push(b / 100);
+        }
+        out[c] = { implied };
       }
       return out;
     }, codes);
 
     const rates = {};
     for (const [c, v] of Object.entries(results)) {
-      if (!(v.toForeign > 0 && v.toCAD > 0)) continue;
-      const buy = 100 / v.toForeign;   // CAD you pay per unit
-      const sell = v.toCAD / 100;      // CAD you receive per unit
+      if (!v.implied?.length) continue;
+      const buy = Math.max(...v.implied);    // CAD you pay per unit
+      const sell = Math.min(...v.implied);   // CAD you receive per unit
       if (buy > sell) rates[c] = { buy: +buy.toPrecision(6), sell: +sell.toPrecision(6) };
     }
     if (Object.keys(rates).length < 3) throw new Error(`RBC: only ${Object.keys(rates).length} currencies (${JSON.stringify(results).slice(0, 300)})`);
