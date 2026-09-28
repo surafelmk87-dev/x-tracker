@@ -1126,37 +1126,6 @@
     }
   },
   {
-    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
-    "method": "POST",
-    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"11e41ce5-e5e4-4b6b-8fb0-ab759295b689\",\"dtm\":\"1790617192596\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790617192\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"73986213.1790617192\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"8b22d3f2-5c6d-4c32-ad98-d6dc3a762419\",\"duid\":\"ddfea6ff-6046-4425-9256-5afff574085f\",\"stm\":\"1790617192598\"}]}",
-    "status": 200,
-    "body": "ok"
-  },
-  {
-    "url": "https://bat.bing.com/p/insights/c/k",
-    "method": "POST",
-    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�@\u0010��e�\u0012\u0018�;�]]RJIL۔$}ȅ\u0016�0+y\u0015+�%�K��6�^FrJ\u001f\u000bE\bfϜ���s~���\u0004�,��\u0012�P��\u001a���}��U�\u0006\u0004��O����V��?LD�`����l>��]7k���2[ofy�\u001d�yѴ�|�=��׶~t^n�|�lߴ�\"X8K\u0012�\u0018!�H\"�R���A�\t\t��\u0000\u0015!���t�FX,��\u0001&@<���\b������8�d\u0010j�e�OTP�\u0015R\u0019)Ʌ!\u0015�ꍾ�聡�\u0015��Lh��s��8\bs/[\u0005:�E�\u0000��ƕ;.Z�]��\u0017#FGQ\u0010�\tX��_�O����\u001f7��楬*;73)N�\u0013�\u0013�e=��>\n��>\u0015�]徹����\u000fg~ N�.�o�QT�Ɖ�.�4�b�n�������\u0016�-�dH�0��������!>\u001e\u0019b1����X4��k{�\nO�^,�-�\u0017\u0017��@�1&�j��\u00071�\u000em\u0014ڂO���\u0014��\u0004F�|И�����uݤ�T\f\b_�������֫�\b\u0010�d9l�t�*\u0018}���\u0012�\u001c����\u000f�\u000b\u000e�\u001b�F��^تs6Ö�0�\u0001�\u0014��и+�\u0002\f\u0012�>�ذoY�Ҩ8�\u0002$T!J����8�q�rĽ屃f\u000e!���O�Sۜ\u0003\u0000\u0000",
-    "status": 204,
-    "body": ""
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790617192074",
-    "method": "GET",
-    "postData": null,
-    "status": 200,
-    "body": "!function(u){var f,h,n,b=u(window),a={},g=[],v=[],m=null,p=\"_open\",y=\"_close\",k=[],w=null,l=/(iPad|iPhone|iPod)/.test(navigator.userAgent),_={_init:function(t){var o=u(t),e=o.data(\"popupoptions\");v[t.id]=!1,g[t.id]=0,o.data(\"popup-initialized\")||(o.attr(\"data-popup-initialized\",\"true\"),_._initonce(t)),e.autoopen&&setTimeout(function(){_.show(t,0)},0)},_initonce:function(e){var t,o,i=u(e),n=u(\"body\"),a=i.data(\"popupoptions\"),s=(m=parseInt(n.css(\"margin-right\"),10),w=void 0!==document.body.style.webkitTransition||void 0!==document.body.style.MozTransition||void 0!==document.body.style.msTransition||void 0!==document.body.style.OTransition||void 0!==document.body.style.transition,a.scrolllock&&void 0===f&&(t=(s=u('<div style=\"width:50px;height:50px;overflow:auto\"><div/></div>').appendTo(\"body\")).children(),f=t.innerWidth()-t.height(99).innerWidth(),s.remove()),i.attr(\"id\")||i.attr(\"id\",\"j-popup-\"+parseInt(1e8*Math.random(),10)),i.addClass(\"popup_content\"),a.background&&!u(\"#\"+e.id+\"_background\").length&&(n.append('<div id=\"'+e.id+'_background\" class=\"popup_background\"></div>'),(o=u(\"#\"+e.id+\"_background\")).css({opacity:0,visibility:\"hidden\",backgroundColor:a.color,position:\"fixed\",top:0,right:0,bottom:0,left:0}),a.setzindex&&!a.autozindex&&o.css(\"z-index\",\"100000\"),a.transition&&o.css(\"transition\",a.transition)),n.append(e),i.wrap('<div id=\"'+e.id+'_wrapper\" class=\"popup_wrapper\" />'),(t=u(\"#\"+e.id+\"_wrapper\")).css({opacity:0,visibility:\"hidden\",position:\"absolute\"}),l&&((o=u(\"#\"+e.id+\"_background\")).css(\"cursor\",\"pointer\"),u(a.pagecontainer).css(\"cursor\",\"pointer\")),\"overlay\"==a.type&&!a.absolute&&a.background&&(t.css(\"overflow\",\"auto\"),t[0].style.WebkitOverflowScrolling=\"touch\"),i.css({opacity:0,visibility:\"hidden\",\"pointer-events\":\"auto\",display:\"inline-block\"}),a.setzindex&&!a.autozindex&&t.css(\"z-index\",\"100001\"),a.outline||i.css(\"outline\",\"none\"),a.transition&&(i.css(\"transition\",a.transition),t.css(\"transition\",a.transition)),i.attr(\"aria-hidden\",!0),\"overlay\"==a.type&&(i.css({textAlign:\"left\",position:\"relative\",verticalAlign:\"middle\"}),t.css({position:\"fixed\",width:\"100%\",height:\"100%\",top:0,left:0,textAlign:\"center\"}),t.append('<div class=\"popup_align\" />'),u(\".popup_align\").css({display:\"inline-block\",verticalAlign:\"middle\",height:\"100%\"})),i.attr(\"role\",\"dialog\"),a.openelement||\".\"+e.id+p);u(s).each(function(t,o){u(o).attr(\"data-popup-ordinal\",t),o.id||u(o).attr(\"id\",\"open_\"+parseInt(1e8*Math.random(),10))}),i.attr(\"aria-labelledby\")||i.attr(\"aria-label\")||i.attr(\"aria-labelledby\",u(s).attr(\"id\")),\"hover\"==a.action?(a.keepfocus=!1,u(s).on(\"mouseenter\",function(){_.show(e,u(this).data(\"popup-ordinal\"))}),u(s).on(\"mouseleave\",function(){_.hide(e)})):u(document).on(\"click.jqp\",s,function(t){t.preventDefault();var o=u(this).data(\"popup-ordinal\");setTimeout(function(){_.show(e,o)},0)}),a.closebutton&&_.addclosebutton(e),a.detach?i.detach():i.hide()},show:function(t,o){var e=u(t);if(!e.data(\"popup-visible\")){e.data(\"popup-initialized\")||_._init(t),e.attr(\"data-popup-initialized\",\"true\");var i=u(\"body\"),n=e.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\");if(x(t,o,n.beforeopen),v[t.id]=o,setTimeout(function(){k.push(t.id)},0),n.autozindex){for(var p=document.getElementsByTagName(\"*\"),l=p.length,d=0,r=0;r<l;r++){var c=u(p[r]).css(\"z-index\");\"auto\"!==c&&d<(c=parseInt(c,10))&&(d=c)}g[t.id]=d,n.background&&0<=g[t.id]&&u(\"#\"+t.id+\"_background\").css({zIndex:g[t.id]+1}),0<=g[t.id]&&a.css({zIndex:g[t.id]+2})}n.detach&&a.prepend(t),e.show(),h=setTimeout(function(){a.css({visibility:\"visible\",opacity:1}),u(\"html\").addClass(\"popup_visible\").addClass(\"popup_visible_\"+t.id),a.addClass(\"popup_wrapper_visible\")},20),n.scrolllock&&(i.css(\"overflow\",\"hidden\"),i.height()>b.height()&&i.css(\"margin-right\",m+f)),e.css({visibility:\"visible\",opacity:1}),n.background&&(s.css({visibility:\"visible\",opacity:n.opacity}),setTimeout(function(){s.css({opacity:n.opacity})},0)),e.data(\"popup-visible\",!0),_.reposition(t,o),e.data(\"focusedelementbeforepopup\",document.activeElement),e.attr(\"tabindex\",-1),setTimeout(function(){\"closebutton\"===n.focuselement?u(\"#\"+t.id+\" .\"+t.id+y+\":first\").focus():n.focuselement?u(n.focuselement).focus():!0!==n.focuselement&&!n.keepfocus||e.focus()},n.focusdelay),n.keepfocus&&u(n.pagecontainer).attr(\"aria-hidden\",!0),e.attr(\"aria-hidden\",!1),x(t,o,n.onopen),w?a.one(\"transitionend\",function(){x(t,o,n.opentransitionend)}):x(t,o,n.opentransitionend),\"tooltip\"==n.type&&u(window).on(\"resize.\"+t.id,function(){_.reposition(t,o)})}},hide:function(t,o){var e,i,n,a,s,p=u.inArray(t.id,k);-1!==p&&(h&&clearTimeout(h),e=u(\"body\"),i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\"),i.data(\"popup-visible\",!1),1===k.length?u(\"html\").removeClass(\"popup_visible\").removeClass(\"popup_visible_\"+t.id):u(\"html\").hasClass(\"popup_visible_\"+t.id)&&u(\"html\").removeClass(\"popup_visible_\"+t.id),k.splice(p,1),a.hasClass(\"popup_wrapper_visible\")&&a.removeClass(\"popup_wrapper_visible\"),n.keepfocus&&!o&&setTimeout(function(){u(i.data(\"focusedelementbeforepopup\")).is(\":visible\")&&i.data(\"focusedelementbeforepopup\").focus()},0),a.css({visibility:\"hidden\",opacity:0}),i.css({visibility:\"hidden\",opacity:0}),n.background&&s.css({visibility:\"hidden\",opacity:0}),u(n.pagecontainer).attr(\"aria-hidden\",!1),i.attr(\"aria-hidden\",!0),x(t,v[t.id],n.onclose),w&&\"0s\"!==i.css(\"transition-duration\")?i.one(\"transitionend\",function(){i.data(\"popup-visible\")||(n.detach?i.detach():i.hide()),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)}):(n.detach?i.detach():i.hide(),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)),\"tooltip\"==n.type&&u(window).off(\"resize.\"+t.id))},toggle:function(t,o){u(t).data(\"popup-visible\")?_.hide(t):setTimeout(function(){_.show(t,o)},0)},reposition:function(t,o){var e,i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\");o=o||0,\"tooltip\"==n.type?(a.css({position:\"absolute\"}),e=(o=n.tooltipanchor?u(n.tooltipanchor):n.openelement?u(n.openelement).filter('[data-popup-ordinal=\"'+o+'\"]'):u(\".\"+t.id+p+'[data-popup-ordinal=\"'+o+'\"]')).offset()||{left:0,top:0},\"right\"==n.horizontal?a.css(\"left\",e.left+o.outerWidth()+n.offsetleft):\"leftedge\"==n.horizontal?a.css(\"left\",e.left+n.offsetleft):\"left\"==n.horizontal?a.css(\"right\",b.width()-e.left-n.offsetleft):\"rightedge\"==n.horizontal?a.css(\"right\",b.width()-e.left-o.outerWidth()-n.offsetleft):a.css(\"left\",e.left+o.outerWidth()/2-i.outerWidth()/2-parseFloat(i.css(\"marginLeft\"))+n.offsetleft),\"bottom\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()+n.offsettop):\"bottomedge\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()-i.outerHeight()+n.offsettop):\"top\"==n.vertical?a.css(\"bottom\",b.height()-e.top-n.offsettop):\"topedge\"==n.vertical?a.css(\"bottom\",b.height()-e.top-i.outerHeight()-n.offsettop):a.css(\"top\",e.top+o.outerHeight()/2-i.outerHeight()/2-parseFloat(i.css(\"marginTop\"))+n.offsettop)):\"overlay\"==n.type&&(n.horizontal?a.css(\"text-align\",n.horizontal):a.css(\"text-align\",\"center\"),n.vertical?i.css(\"vertical-align\",n.vertical):i.css(\"vertical-align\",\"middle\"),n.absolute&&a.css({position:\"absolute\",top:window.scrollY}),n.background||(a.css({\"pointer-events\":\"none\"}),n.absolute||s(t)||(i.css(\"overflow\",\"auto\"),i[0].style.WebkitOverflowScrolling=\"touch\",i.css(\"max-height\",\"calc(100% - \"+i.css(\"margin-top\")+\" - \"+i.css(\"margin-bottom\")+\")\"))))},addclosebutton:function(t){var o=u(t).data(\"popupoptions\").closebuttonmarkup?u(a.closebuttonmarkup).addClass(t.id+\"_close\"):'<button class=\"popup_close '+t.id+'_close\" title=\"Close\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></button>';u(t).data(\"popup-initialized\")&&u(t).append(o)}},x=function(t,o,e){var i=u(t).data(\"popupoptions\");void 0!==i&&(i=i.openelement||\".\"+t.id+p,i=u(i+'[data-popup-ordinal=\"'+o+'\"]'),\"function\"==typeof e&&e.call(u(t),t,i))},s=function(t){t=t.getBoundingClientRect();return 0<=t.top&&0<=t.left&&t.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&t.right<=(window.innerWidth||document.documentElement.clientWidth)};u(document).on(\"keydown\",function(t){var o;k.length&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").escape&&27==t.keyCode&&_.hide(o))}),u(document).on(\"mousedown\",function(t){n=t.target}),u(document).on(\"click\",function(t){var o,e,i;k.length&&(o=k[k.length-1],e=document.getElementById(o),i=u(e).data(\"popupoptions\").closeelement?u(e).data(\"popupoptions\").closeelement:\".\"+e.id+y,u(t.target).closest(i).length&&(t.preventDefault(),_.hide(e)),u(e).data(\"popupoptions\")&&u(e).data(\"popupoptions\").blur&&!u(t.target).closest(u(e).data(\"popupoptions\").blurignore).length&&!u(t.target).closest(\"#\"+o).length&&!u(n).closest(\"#\"+o).length&&2!==t.which&&u(t.target).is(\":visible\")&&(u(e).data(\"popupoptions\").background?(_.hide(e),t.preventDefault()):_.hide(e,!0)))}),u(document).on(\"keydown\",function(t){var o,e,i,n;k.length&&9==t.which&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").keepfocus&&(e=u(o).find(\"*\").filter(\"a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]\").filter(\":visible\"),n=u(\":focus\"),i=e.length,n=e.index(n),0===i?(u(o).focus(),t.preventDefault()):t.shiftKey?0===n&&(e.get(i-1).focus(),t.preventDefault()):n==i-1&&(e.get(0).focus(),t.preventDefault())))}),u.fn.popup=function(i){return this.each(function(){var t,o=u(this),e=u.extend(!0,{},u.fn.popup.defaults);i&&\"tooltip\"===i.type&&(e.background=!1),\"object\"==typeof i?(t=u.extend({},e,o.data(\"popupoptions\"),i),o.data(\"popupoptions\",t),a=o.data(\"popupoptions\"),_._init(this)):\"string\"==typeof i?(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_[i].call(this,this)):(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_._init(this))})},u.fn.popup.destroyall=function(){for(var t=0;t<k.length;t++)u(\"#\"+k[t]).popup(\"hide\");u(\".popup_wrapper\").remove(),u(\".popup_background\").remove(),u(document).off(\"click.jqp\")},u.fn.popup.defaults={type:\"overlay\",absolute:!1,autoopen:!1,background:!0,color:\"black\",opacity:\"0.5\",horizontal:\"center\",vertical:\"middle\",offsettop:0,offsetleft:0,escape:!0,blur:!0,blurignore:null,setzindex:!0,autozindex:!1,scrolllock:!1,closebutton:!1,closebuttonmarkup:null,keepfocus:!0,focuselement:null,focusdelay:50,outline:!1,pagecontainer:null,detach:!1,openelement:null,closeelement:null,transition:null,tooltipanchor:null,beforeopen:null,onclose:null,onopen:null,opentransitionend:null,closetransitionend:null}}(jQuery);"
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"updated\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "updated": "20260928 13:35:11"
-    }
-  },
-  {
     "url": "https://cdn.cookielaw.org/consent/233e8ad3-37e0-427e-8695-012e6ec65ee9/233e8ad3-37e0-427e-8695-012e6ec65ee9.json",
     "method": "GET",
     "postData": null,
@@ -1616,65 +1585,18 @@
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"currencies\"}",
+    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790635213064",
+    "method": "GET",
+    "postData": null,
     "status": 200,
-    "body": {
-      "status": "success",
-      "buy": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ],
-      "sell": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "BBD",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KES",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ]
-    }
+    "body": "!function(u){var f,h,n,b=u(window),a={},g=[],v=[],m=null,p=\"_open\",y=\"_close\",k=[],w=null,l=/(iPad|iPhone|iPod)/.test(navigator.userAgent),_={_init:function(t){var o=u(t),e=o.data(\"popupoptions\");v[t.id]=!1,g[t.id]=0,o.data(\"popup-initialized\")||(o.attr(\"data-popup-initialized\",\"true\"),_._initonce(t)),e.autoopen&&setTimeout(function(){_.show(t,0)},0)},_initonce:function(e){var t,o,i=u(e),n=u(\"body\"),a=i.data(\"popupoptions\"),s=(m=parseInt(n.css(\"margin-right\"),10),w=void 0!==document.body.style.webkitTransition||void 0!==document.body.style.MozTransition||void 0!==document.body.style.msTransition||void 0!==document.body.style.OTransition||void 0!==document.body.style.transition,a.scrolllock&&void 0===f&&(t=(s=u('<div style=\"width:50px;height:50px;overflow:auto\"><div/></div>').appendTo(\"body\")).children(),f=t.innerWidth()-t.height(99).innerWidth(),s.remove()),i.attr(\"id\")||i.attr(\"id\",\"j-popup-\"+parseInt(1e8*Math.random(),10)),i.addClass(\"popup_content\"),a.background&&!u(\"#\"+e.id+\"_background\").length&&(n.append('<div id=\"'+e.id+'_background\" class=\"popup_background\"></div>'),(o=u(\"#\"+e.id+\"_background\")).css({opacity:0,visibility:\"hidden\",backgroundColor:a.color,position:\"fixed\",top:0,right:0,bottom:0,left:0}),a.setzindex&&!a.autozindex&&o.css(\"z-index\",\"100000\"),a.transition&&o.css(\"transition\",a.transition)),n.append(e),i.wrap('<div id=\"'+e.id+'_wrapper\" class=\"popup_wrapper\" />'),(t=u(\"#\"+e.id+\"_wrapper\")).css({opacity:0,visibility:\"hidden\",position:\"absolute\"}),l&&((o=u(\"#\"+e.id+\"_background\")).css(\"cursor\",\"pointer\"),u(a.pagecontainer).css(\"cursor\",\"pointer\")),\"overlay\"==a.type&&!a.absolute&&a.background&&(t.css(\"overflow\",\"auto\"),t[0].style.WebkitOverflowScrolling=\"touch\"),i.css({opacity:0,visibility:\"hidden\",\"pointer-events\":\"auto\",display:\"inline-block\"}),a.setzindex&&!a.autozindex&&t.css(\"z-index\",\"100001\"),a.outline||i.css(\"outline\",\"none\"),a.transition&&(i.css(\"transition\",a.transition),t.css(\"transition\",a.transition)),i.attr(\"aria-hidden\",!0),\"overlay\"==a.type&&(i.css({textAlign:\"left\",position:\"relative\",verticalAlign:\"middle\"}),t.css({position:\"fixed\",width:\"100%\",height:\"100%\",top:0,left:0,textAlign:\"center\"}),t.append('<div class=\"popup_align\" />'),u(\".popup_align\").css({display:\"inline-block\",verticalAlign:\"middle\",height:\"100%\"})),i.attr(\"role\",\"dialog\"),a.openelement||\".\"+e.id+p);u(s).each(function(t,o){u(o).attr(\"data-popup-ordinal\",t),o.id||u(o).attr(\"id\",\"open_\"+parseInt(1e8*Math.random(),10))}),i.attr(\"aria-labelledby\")||i.attr(\"aria-label\")||i.attr(\"aria-labelledby\",u(s).attr(\"id\")),\"hover\"==a.action?(a.keepfocus=!1,u(s).on(\"mouseenter\",function(){_.show(e,u(this).data(\"popup-ordinal\"))}),u(s).on(\"mouseleave\",function(){_.hide(e)})):u(document).on(\"click.jqp\",s,function(t){t.preventDefault();var o=u(this).data(\"popup-ordinal\");setTimeout(function(){_.show(e,o)},0)}),a.closebutton&&_.addclosebutton(e),a.detach?i.detach():i.hide()},show:function(t,o){var e=u(t);if(!e.data(\"popup-visible\")){e.data(\"popup-initialized\")||_._init(t),e.attr(\"data-popup-initialized\",\"true\");var i=u(\"body\"),n=e.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\");if(x(t,o,n.beforeopen),v[t.id]=o,setTimeout(function(){k.push(t.id)},0),n.autozindex){for(var p=document.getElementsByTagName(\"*\"),l=p.length,d=0,r=0;r<l;r++){var c=u(p[r]).css(\"z-index\");\"auto\"!==c&&d<(c=parseInt(c,10))&&(d=c)}g[t.id]=d,n.background&&0<=g[t.id]&&u(\"#\"+t.id+\"_background\").css({zIndex:g[t.id]+1}),0<=g[t.id]&&a.css({zIndex:g[t.id]+2})}n.detach&&a.prepend(t),e.show(),h=setTimeout(function(){a.css({visibility:\"visible\",opacity:1}),u(\"html\").addClass(\"popup_visible\").addClass(\"popup_visible_\"+t.id),a.addClass(\"popup_wrapper_visible\")},20),n.scrolllock&&(i.css(\"overflow\",\"hidden\"),i.height()>b.height()&&i.css(\"margin-right\",m+f)),e.css({visibility:\"visible\",opacity:1}),n.background&&(s.css({visibility:\"visible\",opacity:n.opacity}),setTimeout(function(){s.css({opacity:n.opacity})},0)),e.data(\"popup-visible\",!0),_.reposition(t,o),e.data(\"focusedelementbeforepopup\",document.activeElement),e.attr(\"tabindex\",-1),setTimeout(function(){\"closebutton\"===n.focuselement?u(\"#\"+t.id+\" .\"+t.id+y+\":first\").focus():n.focuselement?u(n.focuselement).focus():!0!==n.focuselement&&!n.keepfocus||e.focus()},n.focusdelay),n.keepfocus&&u(n.pagecontainer).attr(\"aria-hidden\",!0),e.attr(\"aria-hidden\",!1),x(t,o,n.onopen),w?a.one(\"transitionend\",function(){x(t,o,n.opentransitionend)}):x(t,o,n.opentransitionend),\"tooltip\"==n.type&&u(window).on(\"resize.\"+t.id,function(){_.reposition(t,o)})}},hide:function(t,o){var e,i,n,a,s,p=u.inArray(t.id,k);-1!==p&&(h&&clearTimeout(h),e=u(\"body\"),i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\"),s=u(\"#\"+t.id+\"_background\"),i.data(\"popup-visible\",!1),1===k.length?u(\"html\").removeClass(\"popup_visible\").removeClass(\"popup_visible_\"+t.id):u(\"html\").hasClass(\"popup_visible_\"+t.id)&&u(\"html\").removeClass(\"popup_visible_\"+t.id),k.splice(p,1),a.hasClass(\"popup_wrapper_visible\")&&a.removeClass(\"popup_wrapper_visible\"),n.keepfocus&&!o&&setTimeout(function(){u(i.data(\"focusedelementbeforepopup\")).is(\":visible\")&&i.data(\"focusedelementbeforepopup\").focus()},0),a.css({visibility:\"hidden\",opacity:0}),i.css({visibility:\"hidden\",opacity:0}),n.background&&s.css({visibility:\"hidden\",opacity:0}),u(n.pagecontainer).attr(\"aria-hidden\",!1),i.attr(\"aria-hidden\",!0),x(t,v[t.id],n.onclose),w&&\"0s\"!==i.css(\"transition-duration\")?i.one(\"transitionend\",function(){i.data(\"popup-visible\")||(n.detach?i.detach():i.hide()),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)}):(n.detach?i.detach():i.hide(),n.scrolllock&&setTimeout(function(){u.grep(k,function(t){return u(\"#\"+t).data(\"popupoptions\").scrolllock}).length||e.css({overflow:\"visible\",\"margin-right\":m})},10),x(t,v[t.id],n.closetransitionend)),\"tooltip\"==n.type&&u(window).off(\"resize.\"+t.id))},toggle:function(t,o){u(t).data(\"popup-visible\")?_.hide(t):setTimeout(function(){_.show(t,o)},0)},reposition:function(t,o){var e,i=u(t),n=i.data(\"popupoptions\"),a=u(\"#\"+t.id+\"_wrapper\");o=o||0,\"tooltip\"==n.type?(a.css({position:\"absolute\"}),e=(o=n.tooltipanchor?u(n.tooltipanchor):n.openelement?u(n.openelement).filter('[data-popup-ordinal=\"'+o+'\"]'):u(\".\"+t.id+p+'[data-popup-ordinal=\"'+o+'\"]')).offset()||{left:0,top:0},\"right\"==n.horizontal?a.css(\"left\",e.left+o.outerWidth()+n.offsetleft):\"leftedge\"==n.horizontal?a.css(\"left\",e.left+n.offsetleft):\"left\"==n.horizontal?a.css(\"right\",b.width()-e.left-n.offsetleft):\"rightedge\"==n.horizontal?a.css(\"right\",b.width()-e.left-o.outerWidth()-n.offsetleft):a.css(\"left\",e.left+o.outerWidth()/2-i.outerWidth()/2-parseFloat(i.css(\"marginLeft\"))+n.offsetleft),\"bottom\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()+n.offsettop):\"bottomedge\"==n.vertical?a.css(\"top\",e.top+o.outerHeight()-i.outerHeight()+n.offsettop):\"top\"==n.vertical?a.css(\"bottom\",b.height()-e.top-n.offsettop):\"topedge\"==n.vertical?a.css(\"bottom\",b.height()-e.top-i.outerHeight()-n.offsettop):a.css(\"top\",e.top+o.outerHeight()/2-i.outerHeight()/2-parseFloat(i.css(\"marginTop\"))+n.offsettop)):\"overlay\"==n.type&&(n.horizontal?a.css(\"text-align\",n.horizontal):a.css(\"text-align\",\"center\"),n.vertical?i.css(\"vertical-align\",n.vertical):i.css(\"vertical-align\",\"middle\"),n.absolute&&a.css({position:\"absolute\",top:window.scrollY}),n.background||(a.css({\"pointer-events\":\"none\"}),n.absolute||s(t)||(i.css(\"overflow\",\"auto\"),i[0].style.WebkitOverflowScrolling=\"touch\",i.css(\"max-height\",\"calc(100% - \"+i.css(\"margin-top\")+\" - \"+i.css(\"margin-bottom\")+\")\"))))},addclosebutton:function(t){var o=u(t).data(\"popupoptions\").closebuttonmarkup?u(a.closebuttonmarkup).addClass(t.id+\"_close\"):'<button class=\"popup_close '+t.id+'_close\" title=\"Close\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></button>';u(t).data(\"popup-initialized\")&&u(t).append(o)}},x=function(t,o,e){var i=u(t).data(\"popupoptions\");void 0!==i&&(i=i.openelement||\".\"+t.id+p,i=u(i+'[data-popup-ordinal=\"'+o+'\"]'),\"function\"==typeof e&&e.call(u(t),t,i))},s=function(t){t=t.getBoundingClientRect();return 0<=t.top&&0<=t.left&&t.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&t.right<=(window.innerWidth||document.documentElement.clientWidth)};u(document).on(\"keydown\",function(t){var o;k.length&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").escape&&27==t.keyCode&&_.hide(o))}),u(document).on(\"mousedown\",function(t){n=t.target}),u(document).on(\"click\",function(t){var o,e,i;k.length&&(o=k[k.length-1],e=document.getElementById(o),i=u(e).data(\"popupoptions\").closeelement?u(e).data(\"popupoptions\").closeelement:\".\"+e.id+y,u(t.target).closest(i).length&&(t.preventDefault(),_.hide(e)),u(e).data(\"popupoptions\")&&u(e).data(\"popupoptions\").blur&&!u(t.target).closest(u(e).data(\"popupoptions\").blurignore).length&&!u(t.target).closest(\"#\"+o).length&&!u(n).closest(\"#\"+o).length&&2!==t.which&&u(t.target).is(\":visible\")&&(u(e).data(\"popupoptions\").background?(_.hide(e),t.preventDefault()):_.hide(e,!0)))}),u(document).on(\"keydown\",function(t){var o,e,i,n;k.length&&9==t.which&&(o=k[k.length-1],o=document.getElementById(o),u(o).data(\"popupoptions\").keepfocus&&(e=u(o).find(\"*\").filter(\"a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]\").filter(\":visible\"),n=u(\":focus\"),i=e.length,n=e.index(n),0===i?(u(o).focus(),t.preventDefault()):t.shiftKey?0===n&&(e.get(i-1).focus(),t.preventDefault()):n==i-1&&(e.get(0).focus(),t.preventDefault())))}),u.fn.popup=function(i){return this.each(function(){var t,o=u(this),e=u.extend(!0,{},u.fn.popup.defaults);i&&\"tooltip\"===i.type&&(e.background=!1),\"object\"==typeof i?(t=u.extend({},e,o.data(\"popupoptions\"),i),o.data(\"popupoptions\",t),a=o.data(\"popupoptions\"),_._init(this)):\"string\"==typeof i?(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_[i].call(this,this)):(o.data(\"popupoptions\")||(o.data(\"popupoptions\",e),a=o.data(\"popupoptions\")),_._init(this))})},u.fn.popup.destroyall=function(){for(var t=0;t<k.length;t++)u(\"#\"+k[t]).popup(\"hide\");u(\".popup_wrapper\").remove(),u(\".popup_background\").remove(),u(document).off(\"click.jqp\")},u.fn.popup.defaults={type:\"overlay\",absolute:!1,autoopen:!1,background:!0,color:\"black\",opacity:\"0.5\",horizontal:\"center\",vertical:\"middle\",offsettop:0,offsetleft:0,escape:!0,blur:!0,blurignore:null,setzindex:!0,autozindex:!1,scrolllock:!1,closebutton:!1,closebuttonmarkup:null,keepfocus:!0,focuselement:null,focusdelay:50,outline:!1,pagecontainer:null,detach:!1,openelement:null,closeelement:null,transition:null,tooltipanchor:null,beforeopen:null,onclose:null,onopen:null,opentransitionend:null,closetransitionend:null}}(jQuery);"
+  },
+  {
+    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "method": "POST",
+    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"2267ca98-9884-4911-a2c0-290248606d69\",\"dtm\":\"1790635213913\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790635213\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"1396741325.1790635213\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"b2373f54-18ba-4fd1-ac55-4420d330925f\",\"duid\":\"522576b0-9d1b-4c85-93ca-f4c32601e9ee\",\"stm\":\"1790635213915\"}]}",
+    "status": 200,
+    "body": "ok"
   },
   {
     "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
@@ -1683,9 +1605,19 @@
     "status": 200,
     "body": {
       "country": "US",
-      "state": "WY",
-      "stateName": "Wyoming",
+      "state": "AZ",
+      "stateName": "Arizona",
       "continent": "NA"
+    }
+  },
+  {
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
+    "method": "POST",
+    "postData": "{\"do\":\"updated\"}",
+    "status": 200,
+    "body": {
+      "status": "success",
+      "updated": "20260928 18:35:02"
     }
   },
   {
@@ -2641,14 +2573,73 @@
   {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
+    "postData": "{\"do\":\"currencies\"}",
     "status": 200,
     "body": {
-      "amount": "69.060773480662983425414364641",
       "status": "success",
-      "frate": "1",
-      "trate": "1.4480"
+      "buy": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ],
+      "sell": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "BSD",
+        "BBD",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KES",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ]
     }
+  },
+  {
+    "url": "https://bat.bing.com/p/insights/c/a",
+    "method": "POST",
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�0\u0010�\u00151O\t�w=�lK)�$K۔&}ȅ\u0016�Y���5�7�7lzɷ��7���\"\u0004Gg\u000esќ\u001f��,�pffI\bH\u0018\"�A����Y7�_\u0003B��<=\u001b@�(�<�ݤ�\u0003�a��g����Y�>�z��,o�#5/��W\u000fM�\u000f��5\u000f>�]��k7�\u001dd\b\u000e�Ҕ4\u001a$iB$\u001b�\f� ��D�\u0013!\r\u0012#2�4�b��\u00160\u0005�ƛ!,�~x�\n�-�&.�p�2\u0005QI��׶4���RR�ʷ�\\�0��uA\u0012�\"��P`h�\n�\n˂JiL�\u0001�Mƙ{NZ5}��\u001e��\u00163�6&6�D,��/�'Av��?7���{U�n\u001e�Bq�荸���A\u001cL����8��j�կ>W�<R�L�������\u0015���x����T,�]��s�Zܺ�u�Q\f\u0019\u0012���?�)|�\u0014��Q!\u0016���M�,\u0016m���w\"\u00107\u0017\u000bq��Ņk6���\u0014|\u0013��r#\u0011�P<F}o�\u0015�!�PJLa��\u001f\u001aS����}�OS�����\u001dޞ���\\S��K�`�ߎ�\fe<�$c\u000b�\u00102�G�8��݂a�ʽ�\u0015�KW���f���0V�$MF���<@������\u0011��\u0007�\u001a%�d��2�\u0010\u0015!���\u0014j��p��XA������o@��\u0003\u0000\u0000",
+    "status": 204,
+    "body": ""
   },
   {
     "url": "https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otFlat.json",
@@ -2685,5 +2676,17 @@
     "postData": null,
     "status": 200,
     "body": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path class=\"ot-floating-button__svg-fill\" d=\"M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z\" fill=\"#FFF\" fill-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
+    "method": "POST",
+    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
+    "status": 200,
+    "body": {
+      "amount": "69.060773480662983425414364641",
+      "status": "success",
+      "frate": "1",
+      "trate": "1.4480"
+    }
   }
 ]
