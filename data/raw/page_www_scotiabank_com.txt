@@ -1179,9 +1179,6 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/camp
 _satellite["_runScript47"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/dC6qCIO7r7wZEIHV374D"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
-_satellite["_runScript48"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/american-express-gold-card.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/cc_ax0+standard"})}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}
-});
 By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1222,6 +1219,9 @@ checkbox label
 label
 Reject All
 Confirm My Choices
+_satellite["_runScript48"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/american-express-gold-card.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/cc_ax0+standard"})}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}
+});
 _satellite["_runScript49"](function(event, target, Promise) {
 try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/mpsa-interest-rate-boost.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/mpsa-interest-rate-boost-start-saving-now.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-with-a-banking-package.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-with-a-banking-package.html#chequing-accounts")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/campagnes/momentumplus-de-la-banque-scotia.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/campagnes/momentumplus-de-la-banque-scotia-commencer-a-economiser.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/campagnes/dplp-avec-les-forfaits-bancaires-de-la-banque-scotia.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/campagnes/dplp-avec-les-forfaits-bancaires-de-la-banque-scotia.html#forfaits")>-1)&&(!function(a){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var e=window.pintrk;e.queue=[],e.version="3.0";var t=document.createElement("script");t.async=!0,t.src=a;var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2614232848233",{em:"<user_email_address>"}),pintrk("page"),pintrk("track","pagevisit"))}catch(a){_satellite.logger.error("Error: Pinterest Pixel ",a.message)}
 });
