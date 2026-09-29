@@ -58,7 +58,7 @@
         </div>
         
         <footer class="mt-6 text-center text-xs text-slate-500">
-            * Market rate is from open.er-api.com, which updates about once a day. Global Currency Services, TD and VBCE cash rates come from their own websites, refreshed every 15 minutes. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
+            * Market rate is from open.er-api.com, which updates about once a day. Global Currency Services, TD and VBCE cash rates come from their own websites, refreshed once a day. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
         </footer>
     </div>
 
@@ -101,7 +101,7 @@
             return h < 48 ? `${h} h ago` : `${Math.round(h / 24)} days ago`;
         };
         const stamp = ms => `${ago(ms)} (${new Date(ms).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })})`;
-        const STALE_MS = 3 * 60 * 60 * 1000;
+        const STALE_MS = 26 * 60 * 60 * 1000;
 
         async function fetchLiveRatesAndCalculate() {
             setBadge('amber', 'Fetching market data...');
