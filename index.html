@@ -58,7 +58,7 @@
         </div>
         
         <footer class="mt-6 text-center text-xs text-slate-500">
-            * Market rate is live. Global Currency Services, TD and VBCE cash rates come from their own websites, refreshed every 15 minutes. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
+            * Market rate is from open.er-api.com, which updates about once a day. Global Currency Services, TD and VBCE cash rates come from their own websites, refreshed every 15 minutes. Scotiabank and RBC figures are their published non-cash rates (wires/transfers), shown for reference and not ranked against cash. Providers marked (est.) are estimates until their live feeds are connected. $0.00 transfer fees assumed.
         </footer>
     </div>
 
@@ -93,6 +93,16 @@
             badge.innerText = text;
         };
 
+        const ago = ms => {
+            const m = Math.max(0, Math.round((Date.now() - ms) / 60000));
+            if (m < 1) return 'just now';
+            if (m < 60) return `${m} min ago`;
+            const h = Math.round(m / 60);
+            return h < 48 ? `${h} h ago` : `${Math.round(h / 24)} days ago`;
+        };
+        const stamp = ms => `${ago(ms)} (${new Date(ms).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })})`;
+        const STALE_MS = 3 * 60 * 60 * 1000;
+
         async function fetchLiveRatesAndCalculate() {
             setBadge('amber', 'Fetching market data...');
             try {
@@ -103,17 +113,20 @@
 
                 if (marketRes.status !== 'fulfilled' || !marketRes.value?.rates) throw new Error('Market rate API failed');
                 cachedLiveRates = marketRes.value.rates;
+                const marketMs = marketRes.value.time_last_update_unix * 1000;
+                const marketNote = marketMs ? `Market rate updated ${stamp(marketMs)}` : 'Market rate live';
                 providerData = providerRes.status === 'fulfilled' ? providerRes.value : null;
 
                 const provs = Object.values(providerData?.providers || {});
                 const ok = provs.filter(p => p.margins || p.rates);
                 const failed = provs.filter(p => p.error).map(p => p.name);
                 if (ok.length) {
-                    const t = new Date(Math.min(...ok.map(p => Date.parse(p.fetchedAt)))).toLocaleTimeString();
+                    const oldest = Math.min(...ok.map(p => Date.parse(p.fetchedAt)));
                     const note = failed.length ? ` · unavailable: ${failed.join(', ')}` : '';
-                    setBadge(failed.length ? 'amber' : 'emerald', `Market live · provider rates checked ${t}${note}`);
+                    const stale = Date.now() - oldest > STALE_MS;
+                    setBadge(failed.length || stale ? 'amber' : 'emerald', `Provider rates updated ${stamp(oldest)} · ${marketNote}${note}`);
                 } else {
-                    setBadge('rose', 'Market live · provider rates unavailable');
+                    setBadge('rose', `Provider rates unavailable · ${marketNote}`);
                 }
                 calculateProfits();
             } catch (error) {
