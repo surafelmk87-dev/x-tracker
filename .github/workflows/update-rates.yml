@@ -2,7 +2,7 @@ name: Update rates
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # every 15 min (GitHub may delay scheduled runs a few minutes)
+    - cron: '17 13 * * *'    # once a day, 13:17 UTC (about 9:17 AM Toronto time; GitHub may delay it a little)
   workflow_dispatch:          # manual "Run workflow" button
 
 permissions:
