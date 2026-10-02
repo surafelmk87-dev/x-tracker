@@ -361,7 +361,7 @@ with Scotia Travel Insurance​
 Learn more
 about Scotia Travel Insurance
 Effective
-October 1, 2026
+October 2, 2026
 Country
 Currency/Code
 Client Buys (Pays Canadian)
@@ -371,162 +371,162 @@ Dollar
  (
 USD
 )
-1.461100
-1.384100
+1.459500
+1.382500
 Great Britain
 British Pound
  (
 GBP
 )
-1.948200
-1.816900
+1.944900
+1.813700
 Australia
 Dollar
  (
 AUD
 )
-1.022600
-0.956000
+1.022400
+0.955700
 Switzerland
 Franc
  (
 CHF
 )
-1.757400
-1.648100
+1.776000
+1.665300
 Euro
 Euro
  (
 EUR
 )
-1.661900
-1.550300
+1.654100
+1.542700
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.187600
-0.175000
+0.187400
+0.174800
 Japan
 Yen
  (
 JPY
 )
-0.009340
-0.008671
+0.009374
+0.008704
 Barbados
 Dollar
  (
 BBD
 )
-0.748400
+0.747600
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.498100
+1.496400
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.498100
+1.496400
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.221800
-0.207800
+0.220900
+0.206900
 Guyana
 Dollar
  (
 GYD
 )
-0.007128
+0.007120
 N/A
 India
 Rupee
  (
 INR
 )
-0.015243
+0.015226
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009450
+0.009440
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.825400
+1.823400
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.080860
-0.075740
+0.080450
+0.075360
 Norway
 Kroner
  (
 NOK
 )
-0.152600
-0.142900
+0.152300
+0.142700
 New Zealand
 Dollar
  (
 NZD
 )
-0.824800
-0.772700
+0.825200
+0.773100
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.393300
-0.364700
+0.392900
+0.364300
 Sweden
 Krona
  (
 SEK
 )
-0.146400
-0.137100
+0.146300
+0.137000
 Singapore
 Dollar
  (
 SGD
 )
-1.145300
-1.077300
+1.145800
+1.077700
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.221500
+0.221300
 N/A
 South Africa
 Rand
  (
 ZAR
 )
-0.088800
-0.083100
+0.088000
+0.082400
 						Terms and conditions
 Although up-to-the-minute rates may be obtained by contacting a local Scotiabank branch, rates can only be guaranteed at the time the purchase or sale is conducted.
 Rates and dollar limits are provided for information purposes only and are subject to change at any time.
@@ -1108,46 +1108,6 @@ try{(window.location.href.indexOf("personal/small-business-campaigns/merchant-se
 _satellite["_runScript27"](function(event, target, Promise) {
 try{(window.location.href.indexOf("healthcare-plus")>-1||window.location.href.indexOf("pro-sante-plus")>-1)&&window.location.href.indexOf("dentist-banking")<0&&window.location.href.indexOf("programme-bancaire-pour-dentistes")<0&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-9051783/scoti0/scoti000+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
-By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
-Policy
-Manage Preferences
-Accept All
-Privacy Preference Centre
-When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
-Policy
-Allow All
- Manage Consent Preferences
-Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
-Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Performance Cookies
-Performance Cookies
-These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
-Targeting Cookies
-Targeting Cookies
-These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label
-label
-Apply
-Cancel
-Consent
-Leg.Interest
-checkbox label
-label
-checkbox label
-label
-checkbox label
-label
-Reject All
-Confirm My Choices
 _satellite["_runScript28"](function(event, target, Promise) {
 try{window.location.href.indexOf("medicuspensionplan")>-1&&window.location.href.indexOf("dentist-banking")<0&&window.location.href.indexOf("programme-bancaire-pour-dentistes")<0&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-9051783/medic0/medic0+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
@@ -1198,6 +1158,46 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/stud
 _satellite["_runScript40"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/nevermisshockey.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/sport0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/hockeyaumax.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/sport00+standard"})}catch(t){_satellite.logger.error("Error: gtag Pixel ",t.message)}
 });
+By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
+Policy
+Manage Preferences
+Accept All
+Privacy Preference Centre
+When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
+Policy
+Allow All
+ Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Performance Cookies
+These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
+Targeting Cookies
+Targeting Cookies
+These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Reject All
+Confirm My Choices
 _satellite["_runScript41"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/pvx7CKOtwakZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/WJseCJGUnLoZEIHV374D"}):window.location.href.indexOf("ca/en/commercial-banking/professionals/accountants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/bns_s000+standard"}):window.location.href.indexOf("ca/fr/commercial-banking/professionnels/comptables.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/bns_s001+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/scene-student-card.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/0vp_CInju6kZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/bank-accounts/students/student-banking-advantage-plan.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/iIWqCJ-ewqkZEIHV374D"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/bns20001+standard"})):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/zt5CCIT2u6kZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-etudiants/plan-privileges-bancaires-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/bns20001+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/international-student-bundle.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/fuxxCMXPvKkZEIHV374D"}):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle/campaigns/sv-ph1.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants/campagnes/sv-ph1.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/bnsow0+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/RyzNCMib0e8ZEIHV374D"}))}catch(t){_satellite.logger.error("Error: gtag Pixel ",t.message)}
 });
@@ -2025,6 +2025,29 @@ try {
 	if (studentPageUrls.some((url) => document.URL.includes(url))) {
 		window.initializeTikTok('CN53V0BC77UF9CBTOSGG', true);
 	}
+  var d2dPages = [
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--so.html?habit',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov6--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov7--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov6--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--so.html?habit',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov7--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov3--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov3--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov2--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--au.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov2--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--au.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/banking-basics/why-switch-banks.html?switch-easier',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/banking-basics/why-switch-banks.html?switch-debut',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/services-bancaires-lessentiel/pourquoi-changer-de-banque.html?switch-easier',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/services-bancaires-lessentiel/pourquoi-changer-de-banque.html?switch-debut',
+    ];
+  if (d2dPages.some((url) => window.location.href.includes(url))) {
+    window.initializeTikTok('D9R117RC77U5M57USEUG', true);
+  }
 } catch (e) {
 	_satellite.logger.error('Error in TikTok Action', e.message);
 }
@@ -2774,6 +2797,29 @@ try {
 	if (studentPageUrls.some((url) => document.URL.includes(url))) {
 		window.initializeTikTok('CN53V0BC77UF9CBTOSGG', true);
 	}
+  var d2dPages = [
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--so.html?habit',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov6--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov7--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov6--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--so.html?habit',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov7--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov3--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov3--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov2--au--so.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/campaigns/ov1--au.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov2--au--so.html',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-cheques/campagnes/ov1--au.html',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/banking-basics/why-switch-banks.html?switch-easier',
+      'https://www.scotiabank.com/ca/en/personal/bank-accounts/banking-basics/why-switch-banks.html?switch-debut',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/services-bancaires-lessentiel/pourquoi-changer-de-banque.html?switch-easier',
+      'https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/services-bancaires-lessentiel/pourquoi-changer-de-banque.html?switch-debut',
+    ];
+  if (d2dPages.some((url) => window.location.href.includes(url))) {
+    window.initializeTikTok('D9R117RC77U5M57USEUG', true);
+  }
 } catch (e) {
 	_satellite.logger.error('Error in TikTok Action', e.message);
 }
