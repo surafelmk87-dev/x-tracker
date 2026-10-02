@@ -1126,21 +1126,18 @@
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"updated\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "updated": "20261001 20:50:01"
-    }
-  },
-  {
     "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
     "method": "POST",
-    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"2abac411-2020-4025-b81e-459b76bba58f\",\"dtm\":\"1790903688488\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790903687\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"326595859.1790903688\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"62e04ebd-2103-46fa-9b39-7d123c622463\",\"duid\":\"88abc54d-47c8-470e-bda1-df5ad311c0a3\",\"stm\":\"1790903688491\"}]}",
+    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"2e62ae9d-9294-4b16-8afa-3a00f0450441\",\"dtm\":\"1790924506257\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1790924505\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"1731213926.1790924506\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"cb432581-4ad8-4fa9-b6dc-b16a553163aa\",\"duid\":\"10c058cb-d50e-4ccc-947d-0b334832719c\",\"stm\":\"1790924506259\"}]}",
     "status": 200,
     "body": "ok"
+  },
+  {
+    "url": "https://bat.bing.com/p/insights/c/z",
+    "method": "POST",
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003���j�@\u0010�_e��\u0004F��juJ)%1mS��\"\u0007Z\u0010¬�U,,�\\\u001d���y�2�SzY(�`��Osؙ\u001f`�,\u0005��\u0017�\u0004$�H:@h�xp\u001b��\r <[\u0013:\u001f\u0010��\u000f~�}���f\u0018���ri��~ѵO�ɍ�.�v7I˪�l��<{(6�=X�0M16fh;�\u0010\f���/1FR�DJ��0�\t�f%Rr\u0016T��a���\u001aa��t\u000b�\u0002qUӗ!�G;<�%늒��\u0013�[U\u0011U��2�J_�ĆDd^�݌Sd\n[$��\n\u001bx:׹\u0017WTzeU%���RS���q䞃֮�\u001f6C?�b%�q\u001c��,���/�'Av�\u001f7����n\u001a�\f\u0016R�|#z#�j7\u001e�!\u000eס>\u0015��}c���s=,\u0003?Z��8�|yw}����V|�Ŷ=\u0015�M��쒔\u0016��2]}�!C��?��c\n\u001ffB�?\u0012b5v�uœX���v��'n.V�Ë\u000b㶐a�)X���r!\u0001�`�����5�|��R���6_4�piM�ؾ��z!�\u0000vx{��3�|�\u0001ar��nrg��iQ2ޡ\u0014$\u001b���9��݊��U{�}�+����hx�)Jd�t C�DӰ4��<7��=\u000exq�\u0011�Q\u0005\u0018p\r�*B�(�����O�1��\f�\u0019Bʲ_�\u0001ӷaޜ\u0003\u0000\u0000",
+    "status": 204,
+    "body": ""
   },
   {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
@@ -1207,11 +1204,14 @@
     }
   },
   {
-    "url": "https://bat.bing.com/p/insights/c/r",
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�k�0\u0010�W�}j��dI�;�hö����\u001fl L�\u001d�����vڴ���\u000f�����\u0010�ӻ��=�{\u0001\u0007'\u0006�,�E\u001c��#i�P��C��E�\u0006�G�=4+@x�χ���\u0007�}��N�s��u��y�Uf��,o�\u00034/�֕�u�\u000e����.�m��+�7-�\b\u0016N�\u0011!�H\"�H\t�)\u001a!�hD\"�G@�H)\u001a�\u0012C��X~�\u00014@��M\u0011�{�?�+��Dd$\u0005�V�#*(sJ%+\u0011�,����\u001b};ҋª$�t���\u0003�I\u00056�x�tA�\u0017:��W�O4_��E˺+��}7��q�c5\u0002˲�\u000b�I�N���\u001a�j�˪�s5���;�;vY��\u0003;�z��1;��*��e\u0017e?Wa4\u000b5;�8���DV�\u001b�>�|�\u001c�źm�nNB�\u001b[ض�Ȑ\"�����h���`\u001f'\u0006[�����\u0013[4��k{ײ�]�-ص/��l��\u0014\u00134�����\u000f����<yT��!\u0005)\n�\u0006\u0006��!������uݨ�D\u0002\b_���釳�֫�\u0018\u0010�d��\u000e�\u0014�\u001e|�z\u000b\u0019�>H� �5�n\u0017>To�\u001b=���V���\u0019oy�\u0012��PǱTѰ+�gSHHr����B�q\u0015*?\u0003���cHH\u0018\n\u001f�8x9����Az\u000e!��ߴS���\u0003\u0000\u0000",
-    "status": 204,
-    "body": ""
+    "postData": "{\"do\":\"updated\"}",
+    "status": 200,
+    "body": {
+      "status": "success",
+      "updated": "20261001 20:50:01"
+    }
   },
   {
     "url": "https://cdn.cookielaw.org/consent/233e8ad3-37e0-427e-8695-012e6ec65ee9/233e8ad3-37e0-427e-8695-012e6ec65ee9.json",
@@ -1685,7 +1685,7 @@
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790903687465",
+    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1790924505276",
     "method": "GET",
     "postData": null,
     "status": 200,
