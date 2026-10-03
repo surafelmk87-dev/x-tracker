@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T19:14:49.226Z",
+  "generatedAt": "2026-10-03T22:08:46.647Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.6562
         }
       },
-      "fetchedAt": "2026-10-03T19:14:57.075Z",
+      "fetchedAt": "2026-10-03T22:08:53.824Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000049
         }
       },
-      "fetchedAt": "2026-10-03T19:15:03.390Z",
+      "fetchedAt": "2026-10-03T22:08:59.598Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.082
         }
       },
-      "fetchedAt": "2026-10-03T19:15:13.033Z",
+      "fetchedAt": "2026-10-03T22:09:07.634Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -534,7 +534,7 @@
           "sell": 0.08126
         }
       },
-      "fetchedAt": "2026-10-03T19:15:26.024Z",
+      "fetchedAt": "2026-10-03T22:09:20.708Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -579,7 +579,7 @@
           "sell": 1.6744
         }
       },
-      "fetchedAt": "2026-10-03T19:15:39.253Z",
+      "fetchedAt": "2026-10-03T22:09:29.779Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
