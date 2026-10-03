@@ -569,9 +569,9 @@ Switzerland (CHF)
 Currency Code
 CHF
 We Buy
-1.65624
+1.65620
 We Sell
-1.78179
+1.78175
 Reserve Funds
 Name
 *
@@ -601,27 +601,27 @@ Captcha
 Submit Draft
 Submit
 	$(function() {
-		var webform = $("#webForm-920555735");
+		var webform = $("#webForm-484204795");
 		var submissionToken = "";
 		var isDraft = 0;
-				$("#webForm-920555735").find(".rule").each(function(){
+				$("#webForm-484204795").find(".rule").each(function(){
 			$(this).change(function(){
-				$("#webForm-920555735 .required").removeClass("required");
-				$("#webForm-920555735 :input").prop('required',false);
-				$("#webForm-920555735").find("button[name='action'][type='submit'][value='submitWebForm']").click();
+				$("#webForm-484204795 .required").removeClass("required");
+				$("#webForm-484204795 :input").prop('required',false);
+				$("#webForm-484204795").find("button[name='action'][type='submit'][value='submitWebForm']").click();
 			});
 		});	
 		var validator = sandInitializeWebForm(webform, "en", 2, 107, submissionToken, isDraft);		
 		webform.find(".ui-spinner-input").spinner("destroy");
 		webform.find("input[type='file']:not(.form-control)").addClass("form-control");
-				if( !$("#webForm-920555735").find("#WebFormItem_5175_0").val() ) {
-			$("#webForm-920555735").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
+				if( !$("#webForm-484204795").find("#WebFormItem_5175_0").val() ) {
+			$("#webForm-484204795").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
 		}
-		if( !$("#webForm-920555735").find("#WebFormItem_5201_0").val() ) {
+		if( !$("#webForm-484204795").find("#WebFormItem_5201_0").val() ) {
 			var AmPm = moment().format('hh:mma');
-			$("#webForm-920555735").find("#WebFormItem_5201_0").attr({'value': AmPm});
+			$("#webForm-484204795").find("#WebFormItem_5201_0").attr({'value': AmPm});
 		}
-				$("#webForm-920555735").find(".WebFormOtherOption").each(function() {			
+				$("#webForm-484204795").find(".WebFormOtherOption").each(function() {			
 			$(this).change(function(){
 				if($(this).prop('checked') || $(this).prop('selected')) {
 					$(this).parent().next(".WebFormItemOptionOther").show();
@@ -631,8 +631,8 @@ Submit
 				}	
 			});
 		});
-				$("#submit-webForm-920555735").click(function(){
-			var form = $("#webForm-920555735");
+				$("#submit-webForm-484204795").click(function(){
+			var form = $("#webForm-484204795");
 			if (form.valid()) {
 				uiConfirm("Are you sure you are ready to submit?", function(){
 					form.find("input[name='isDraft']").val(0);
@@ -640,7 +640,7 @@ Submit
 				});
 			}
 		});
-				$("#webForm-920555735 .toggleContainer").each(function(){
+				$("#webForm-484204795 .toggleContainer").each(function(){
 			$(this).find("> a").click(function(){
 				$(this).parent().find("> div").slideToggle();
 			})
