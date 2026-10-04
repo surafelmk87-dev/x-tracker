@@ -1137,6 +1137,46 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mort
 _satellite["_runScript33"](function(event, target, Promise) {
 try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
+By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
+Policy
+Manage Preferences
+Accept All
+Privacy Preference Centre
+When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
+Policy
+Allow All
+ Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Performance Cookies
+These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
+Targeting Cookies
+Targeting Cookies
+These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Reject All
+Confirm My Choices
 _satellite["_runScript34"](function(event, target, Promise) {
 try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
@@ -1203,46 +1243,6 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-busines
 _satellite["_runScript55"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://locator.scotiabank.com/advisors/home-financing-advisor")>-1&&(!function(e,n,t,o,a,i,c){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=n.createElement(t)).async=!0,i.src=o,(c=n.getElementsByTagName(t)[0]).parentNode.insertBefore(i,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1209176003688432"),fbq("track","InitiateCheckout",{content_ids:"Pageload_HFA"},{content_category:"RESL"})),(window.location.href.indexOf("personal/investing/guaranteed-investment-certificates1")>-1||window.location.href.indexOf("home/portfolio-solutions/campaign/mutual-funds")>-1||window.location.href.indexOf("personal/investing/campaigns/investment-offer")>-1)&&(!function(e,n,t,o,a,i,c){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=n.createElement(t)).async=!0,i.src=o,(c=n.getElementsByTagName(t)[0]).parentNode.insertBefore(i,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1184842023466869"),fbq("track","PageView"))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
-By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
-Policy
-Manage Preferences
-Accept All
-Privacy Preference Centre
-When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
-Policy
-Allow All
- Manage Consent Preferences
-Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
-Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Performance Cookies
-Performance Cookies
-These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
-Targeting Cookies
-Targeting Cookies
-These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label
-label
-Apply
-Cancel
-Consent
-Leg.Interest
-checkbox label
-label
-checkbox label
-label
-checkbox label
-label
-Reject All
-Confirm My Choices
 _satellite["_runScript56"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/banking-solutions/payments.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/KifACKanv94ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/banking-solutions/payments/receiving-customer-payments/interac-e-transfer.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/m1iYCNaW7t4ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/banking-solutions/payments/paying-vendors-suppliers-and-taxes/wire-payments.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/U4oZCN6R5t4ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/banking-solutions/payments/paying-employees-contractors/scotiaconnect-host-to-host.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/sfXuCPSt5t4ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/banking-solutions/payments/paying-vendors-suppliers-and-taxes/electronic-funds-transfer-eft.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/CIxACP285t4ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/ways-to-bank/digital-token-digital-banking-for-business.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/1mcnCOr97t4ZEPKykMsC"}):window.location.href.indexOf("https://developer.scotiabank.com/en.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/RWvdCLjw7t4ZEPKykMsC"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-513366599/6tuTCNji8d4ZEMe05fQB"})}catch(n){_satellite.logger.error("Error: gtag Pixel ",n.message)}
 });
