@@ -710,6 +710,9 @@ window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = fa
 };
 });
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
+English
+English
+Français
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1051,9 +1054,6 @@ function getCookieValue(name){
   return cookiesMatched && cookiesMatched.pop() || '';
 }
 });
-English
-English
-Français
 _satellite["_runScript10"](function(event, target, Promise) {
 try{window.location.href.indexOf("/en/personal/small-business-campaigns/business-account-offers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy0+standard"}):window.location.href.indexOf("/fr/particuliers/campagnes-petites-entreprises/offres-comptes-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy00+standard"}):window.location.href.indexOf("/ca/fr/particuliers/programmes-et-offres/avantages-scotia.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml0+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-10.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/10-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-20.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/20-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml000+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-25.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/25-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml001+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-30.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/30-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml002+standard"}):window.location.href.indexOf("/ca/en/personal/credit-cards/visa/scene-student-card.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/2357/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/personal-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/contact-us.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti00+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/communiquer-avec-nous.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti000+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-particuliers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti001+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/business-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti002+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti003+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/form.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti004+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/formulaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti005+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti006+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti007+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti008+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti009+standard"}):window.location.href.indexOf("-----")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:""}),window.location.href.indexOf("scotiabank.com/ca/en/small-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbho0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/select-account-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/compte-de-base-dentreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbse0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/savings-gics/right-size-savings-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/pargne-et-cpg/compte-dpargne-sur-mesure-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbri0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-momentum-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-crdit/carte-visa-momentum-scotia-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbmo0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html")>-1||window.location.href.indexOf("/ca/en/personal/credit-cards/campaigns/american-express-gold-card.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o0+standard"}):window.location.href.indexOf("scotiabank.com/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o00+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/preferred.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp000+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/ultimate-package.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp002+standard"})}catch(e){_satellite.logger.error("Error: Marketing Pixel- Floodlight",e.message)}
 });
@@ -1084,6 +1084,46 @@ _satellite["_runScript18"](function(event, target, Promise) {
 _satellite["_runScript19"](function(event, target, Promise) {
 try{if(window.location.href.indexOf("scotiafunds.com/en/home.html")>-1){function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-11144021152")}if(window.location.href.indexOf("brands-affiliates.html")>-1){function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-11144021152")}if(window.location.href.indexOf("/home/insights.html")>-1){function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-11144021152")}}catch(a){_satellite.logger.error("Error: GTAG Pixel ",a.message)}
 });
+By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
+Policy
+Manage Preferences
+Accept All
+Privacy Preference Centre
+When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
+Policy
+Allow All
+ Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Performance Cookies
+These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
+Targeting Cookies
+Targeting Cookies
+These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Reject All
+Confirm My Choices
 _satellite["_runScript20"](function(event, target, Promise) {
 try{window.location.href.indexOf("careers/en/careers.html")>-1&&(!function(e,t,n,r,o,a,c){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src=r,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","ViewContent",{content_type:"EvpCareers"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}
 });
@@ -1266,46 +1306,6 @@ _satellite["_runScript60"](function(event, target, Promise) {
     }
 })();
 });
-By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
-Policy
-Manage Preferences
-Accept All
-Privacy Preference Centre
-When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
-Policy
-Allow All
- Manage Consent Preferences
-Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
-Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Performance Cookies
-Performance Cookies
-These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
-Targeting Cookies
-Targeting Cookies
-These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label
-label
-Apply
-Cancel
-Consent
-Leg.Interest
-checkbox label
-label
-checkbox label
-label
-checkbox label
-label
-Reject All
-Confirm My Choices
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
