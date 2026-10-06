@@ -25,167 +25,6 @@
                 "isProduct": "false"
             }
         });
-_satellite["_runScript1"](function(event, target, Promise) {
-window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-        n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', pixelId);
-    if (isPageView) {
-        fbq('trackSingle', pixelId, 'PageView');
-    }
-};
-});
-_satellite["_runScript2"](function(event, target, Promise) {
-window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
-	!(function (w, d) {
-		if (!w.rdt) {
-			var p = (w.rdt = function () {
-				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
-			});
-			p.callQueue = [];
-			var t = d.createElement('script');
-			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
-			var s = d.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(t, s);
-		}
-	})(window, document);
-	rdt('init', pixelId);
-	if (isPageView) {
-		rdt('track', 'PageVisit');
-	}
-};
-});
-_satellite["_runScript3"](function(event, target, Promise) {
-window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
-	!function (w, d, t) {
-		w.TiktokAnalyticsObject = t;
-		var ttq = (w[t] = w[t] || []);
-		((ttq.methods = [
-			'page',
-			'track',
-			'identify',
-			'instances',
-			'debug',
-			'on',
-			'off',
-			'once',
-			'ready',
-			'alias',
-			'group',
-			'enableCookie',
-			'disableCookie',
-			'holdConsent',
-			'revokeConsent',
-			'grantConsent',
-		]),
-			(ttq.setAndDefer = function (t, e) {
-				t[e] = function () {
-					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-				};
-			}));
-		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-		((ttq.instance = function (t) {
-			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
-			return e;
-		}),
-			(ttq.load = function (e, n) {
-				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
-					o = n && n.partner;
-				((ttq._i = ttq._i || {}),
-					(ttq._i[e] = []),
-					(ttq._i[e]._u = r),
-					(ttq._t = ttq._t || {}),
-					(ttq._t[e] = +new Date()),
-					(ttq._o = ttq._o || {}),
-					(ttq._o[e] = n || {}));
-				n = document.createElement('script');
-				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
-				e = document.getElementsByTagName('script')[0];
-				e.parentNode.insertBefore(n, e);
-			}));
-		ttq.load(pixelId);
-		if (isPageView) {
-			ttq.page();
-		}
-	}(window, document, 'ttq');
-};
-});
-_satellite["_runScript4"](function(event, target, Promise) {
-window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
-	_linkedin_partner_id = pixelId;
-	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-	(function (l) {
-		if (!l) {
-			window.lintrk = function (a, b) {
-				window.lintrk.q.push([a, b]);
-			};
-			window.lintrk.q = [];
-		}
-		var s = document.getElementsByTagName('script')[0];
-		var b = document.createElement('script');
-		b.type = 'text/javascript';
-		b.async = true;
-		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
-		s.parentNode.insertBefore(b, s);
-	})(window.lintrk);
-};
-});
-_satellite["_runScript5"](function(event, target, Promise) {
-window.initializeGoogle = function (advertiserId = "DC-6104928") {
-  try {
-    window.googleAdvertiserId = advertiserId;
-    if (!window.gtag) {
-      var script = document.createElement("script");
-      script.async = true;
-      script.src =
-        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
-      document.head.appendChild(script);
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function () {
-        dataLayer.push(arguments);
-      };
-      gtag("js", new Date());
-      gtag("config", advertiserId);
-    }
-    if (!window.trackFloodlight) {
-      window.trackFloodlight = function (activityPath, params) {
-        gtag("event", "conversion", {
-          allow_custom_scripts: true,
-          send_to: window.googleAdvertiserId + "/" + activityPath,
-          ...params,
-        });
-      };
-    }
-  } catch (error) {
-    console.error("Error initializing Google", error);
-  }
-};
-});
-_satellite["_runScript6"](function(event, target, Promise) {
-window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
-    (function (e, t, n) {
-        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
-        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
-        r.src = n; var u = t.getElementsByTagName(s)[0];
-        u.parentNode.insertBefore(r, u);
-    })(window, document,
-        'https://sc-static.net/scevent.min.js');
-    snaptr('init', pixelId);
-    if(isPageView){
-        snaptr('track', 'PAGE_VIEW');
-    }
-};
-});
 Skip to content
                             Personal
                             Business
@@ -522,7 +361,7 @@ with Scotia Travel Insurance​
 Learn more
 about Scotia Travel Insurance
 Effective
-October 5, 2026
+October 6, 2026
 Country
 Currency/Code
 Client Buys (Pays Canadian)
@@ -532,162 +371,162 @@ Dollar
  (
 USD
 )
-1.461800
-1.384800
+1.458100
+1.381100
 Great Britain
 British Pound
  (
 GBP
 )
-1.946800
-1.815600
+1.952000
+1.820600
 Australia
 Dollar
  (
 AUD
 )
-1.023700
-0.957000
+1.025000
+0.958400
 Switzerland
 Franc
  (
 CHF
 )
-1.767800
-1.658000
+1.765000
+1.655200
 Euro
 Euro
  (
 EUR
 )
-1.650600
-1.539600
+1.655900
+1.544500
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.187700
-0.175000
+0.187200
+0.174600
 Japan
 Yen
  (
 JPY
 )
-0.009328
-0.008661
+0.009317
+0.008652
 Barbados
 Dollar
  (
 BBD
 )
-0.748800
+0.746800
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.498800
+1.495000
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.498800
+1.495000
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.220300
-0.206400
+0.221100
+0.207000
 Guyana
 Dollar
  (
 GYD
 )
-0.007131
+0.007113
 N/A
 India
 Rupee
  (
 INR
 )
-0.015250
+0.015190
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009460
+0.009440
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.826300
+1.821600
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.081030
-0.075900
+0.081600
+0.076450
 Norway
 Kroner
  (
 NOK
 )
-0.153200
-0.143500
+0.153500
+0.143600
 New Zealand
 Dollar
  (
 NZD
 )
-0.820900
-0.769200
+0.825100
+0.773000
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.393500
-0.365000
+0.392500
+0.364100
 Sweden
 Krona
  (
 SEK
 )
-0.146200
-0.137000
+0.147000
+0.137700
 Singapore
 Dollar
  (
 SGD
 )
-1.145500
-1.077600
+1.145700
+1.077800
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.221600
+0.221400
 N/A
 South Africa
 Rand
  (
 ZAR
 )
-0.088200
-0.082600
+0.088800
+0.083100
 						Terms and conditions
 Although up-to-the-minute rates may be obtained by contacting a local Scotiabank branch, rates can only be guaranteed at the time the purchase or sale is conducted.
 Rates and dollar limits are provided for information purposes only and are subject to change at any time.
@@ -709,7 +548,171 @@ Privacy
 Accessibility
 Cookie Settings
                     © Scotiabank.com All Rights Reserved
+_satellite["_runScript1"](function(event, target, Promise) {
+window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', pixelId);
+    if (isPageView) {
+        fbq('trackSingle', pixelId, 'PageView');
+    }
+};
+});
+_satellite["_runScript2"](function(event, target, Promise) {
+window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
+	!(function (w, d) {
+		if (!w.rdt) {
+			var p = (w.rdt = function () {
+				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
+			});
+			p.callQueue = [];
+			var t = d.createElement('script');
+			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
+			var s = d.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		}
+	})(window, document);
+	rdt('init', pixelId);
+	if (isPageView) {
+		rdt('track', 'PageVisit');
+	}
+};
+});
+_satellite["_runScript3"](function(event, target, Promise) {
+window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
+	!function (w, d, t) {
+		w.TiktokAnalyticsObject = t;
+		var ttq = (w[t] = w[t] || []);
+		((ttq.methods = [
+			'page',
+			'track',
+			'identify',
+			'instances',
+			'debug',
+			'on',
+			'off',
+			'once',
+			'ready',
+			'alias',
+			'group',
+			'enableCookie',
+			'disableCookie',
+			'holdConsent',
+			'revokeConsent',
+			'grantConsent',
+		]),
+			(ttq.setAndDefer = function (t, e) {
+				t[e] = function () {
+					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+				};
+			}));
+		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+		((ttq.instance = function (t) {
+			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+			return e;
+		}),
+			(ttq.load = function (e, n) {
+				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
+					o = n && n.partner;
+				((ttq._i = ttq._i || {}),
+					(ttq._i[e] = []),
+					(ttq._i[e]._u = r),
+					(ttq._t = ttq._t || {}),
+					(ttq._t[e] = +new Date()),
+					(ttq._o = ttq._o || {}),
+					(ttq._o[e] = n || {}));
+				n = document.createElement('script');
+				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
+				e = document.getElementsByTagName('script')[0];
+				e.parentNode.insertBefore(n, e);
+			}));
+		ttq.load(pixelId);
+		if (isPageView) {
+			ttq.page();
+		}
+	}(window, document, 'ttq');
+};
+});
+_satellite["_runScript4"](function(event, target, Promise) {
+window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
+	_linkedin_partner_id = pixelId;
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+	(function (l) {
+		if (!l) {
+			window.lintrk = function (a, b) {
+				window.lintrk.q.push([a, b]);
+			};
+			window.lintrk.q = [];
+		}
+		var s = document.getElementsByTagName('script')[0];
+		var b = document.createElement('script');
+		b.type = 'text/javascript';
+		b.async = true;
+		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+		s.parentNode.insertBefore(b, s);
+	})(window.lintrk);
+};
+});
+_satellite["_runScript5"](function(event, target, Promise) {
+window.initializeGoogle = function (advertiserId = "DC-6104928") {
+  try {
+    window.googleAdvertiserId = advertiserId;
+    if (!window.gtag) {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
+      document.head.appendChild(script);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        dataLayer.push(arguments);
+      };
+      gtag("js", new Date());
+      gtag("config", advertiserId);
+    }
+    if (!window.trackFloodlight) {
+      window.trackFloodlight = function (activityPath, params) {
+        gtag("event", "conversion", {
+          allow_custom_scripts: true,
+          send_to: window.googleAdvertiserId + "/" + activityPath,
+          ...params,
+        });
+      };
+    }
+  } catch (error) {
+    console.error("Error initializing Google", error);
+  }
+};
+});
+_satellite["_runScript6"](function(event, target, Promise) {
+window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
+    (function (e, t, n) {
+        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
+        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
+        r.src = n; var u = t.getElementsByTagName(s)[0];
+        u.parentNode.insertBefore(r, u);
+    })(window, document,
+        'https://sc-static.net/scevent.min.js');
+    snaptr('init', pixelId);
+    if(isPageView){
+        snaptr('track', 'PAGE_VIEW');
+    }
+};
+});
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
+English
+English
+Français
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1084,9 +1087,6 @@ try{if(window.location.href.indexOf("scotiafunds.com/en/home.html")>-1){function
 _satellite["_runScript20"](function(event, target, Promise) {
 try{window.location.href.indexOf("careers/en/careers.html")>-1&&(!function(e,t,n,r,o,a,c){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src=r,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","ViewContent",{content_type:"EvpCareers"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}
 });
-English
-English
-Français
 _satellite["_runScript21"](function(event, target, Promise) {
 try{window.location.href.indexOf("careers/how-to-apply.html")>-1&&(!function(e,t,n,o,a,c,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(c=t.createElement(n)).async=!0,c.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(c,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_type:"EvpApply"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}
 });
@@ -2091,46 +2091,6 @@ try {
   console.log("Error occurred in Snapchat action:", err);
 }
 });
-By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
-Policy
-Manage Preferences
-Accept All
-Privacy Preference Centre
-When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
-Policy
-Allow All
- Manage Consent Preferences
-Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
-Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Performance Cookies
-Performance Cookies
-These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
-Targeting Cookies
-Targeting Cookies
-These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label
-label
-Apply
-Cancel
-Consent
-Leg.Interest
-checkbox label
-label
-checkbox label
-label
-checkbox label
-label
-Reject All
-Confirm My Choices
 _satellite["_runScript79"](function(event, target, Promise) {
 function normalizeQueryString(n){return(n||"").replace(/&amp;amp;amp;/gi,"&").replace(/&amp;amp;/gi,"&").replace(/&amp;/gi,"&")}function getParamCI(n){const e=normalizeQueryString(location.search),t=new URLSearchParams(e),r=String(n).toLowerCase();let i=null;for(const[n,e]of t.entries())String(n).toLowerCase()===r&&(i=e);return i}function setSessionCookie(n,e){document.cookie=[encodeURIComponent(n)+"="+encodeURIComponent(e),"Domain=scotiabank.com","Path=/","Secure","SameSite=Lax"].join("; ")}function getCookie(n){const e=encodeURIComponent(n)+"=",t=(document.cookie||"").split("; ").find((n=>n.startsWith(e)));return t?decodeURIComponent(t.slice(e.length)):null}function isValidCid(n){if(!n)return!1;const e=String(n).trim();return!!e&&(!e.toLowerCase().includes("_cbcom")&&("null"!==e&&"undefined"!==e))}function isValidParam(n){if(!n)return!1;const e=String(n).trim();return!!e&&"null"!==e&&"undefined"!==e}function readAttrCookie(){const n=getCookie(ATTR_COOKIE);if(!n)return{cid:null,bannerId:null,entryId:null};try{const e=JSON.parse(n);return{cid:e&&e.cid?String(e.cid):null,bannerId:e&&e.bannerId?String(e.bannerId):null,entryId:e&&e.entryId?String(e.entryId):null}}catch{return{cid:null,bannerId:null,entryId:null}}}function writeAttrCookie(n){const e=JSON.stringify({cid:n.cid||"",bannerId:n.bannerId||"",entryId:n.entryId||""});setSessionCookie(ATTR_COOKIE,e)}function upsertParamInHref(n,e,t){if(!n)return n;const r=(n=normalizeQueryString(n)).indexOf("#"),i=r>=0?n.slice(0,r):n,o=r>=0?n.slice(r):"",a=i.indexOf("?"),c=a>=0?i.slice(0,a):i,d=a>=0?i.slice(a+1):"",l=String(e).toLowerCase(),s=d?d.split("&"):[];let u=!1;const I=s.map((n=>{if(!n)return n;const r=n.indexOf("="),i=r>=0?n.slice(0,r):n;return String(i).toLowerCase()===l?(u=!0,e+"="+encodeURIComponent(String(t??""))):n}));u||I.push(e+"="+encodeURIComponent(String(t??"")));const m=I.filter(Boolean).join("&");return c+(m?"?"+m:"")+o}const ATTR_COOKIE="bnsAttr";!function(){const n=getParamCI("cid"),e=getParamCI("bannerId"),t=getParamCI("entryId"),r=readAttrCookie(),i=isValidCid(n)?n:isValidCid(r.cid)?r.cid:null,o=isValidParam(e)?e:isValidParam(r.bannerId)?r.bannerId:null,a=isValidParam(t)?t:isValidParam(r.entryId)?r.entryId:null;(i||o||a)&&writeAttrCookie({cid:i||"",bannerId:o||"",entryId:a||""}),document.querySelectorAll("a[href*='hello.scotiabank.com']").forEach((n=>{let e=n.getAttribute("href")||"";i&&(e=upsertParamInHref(e,"cid",i)),o&&(e=upsertParamInHref(e,"bannerId",o)),a&&(e=upsertParamInHref(e,"entryId",a)),n.setAttribute("href",e)}))}();
 });
@@ -3116,3 +3076,43 @@ window.location.href.indexOf("ca/en/personal/bank-accounts/chequing-accounts/pre
 _satellite["_runScript148"](function(event, target, Promise) {
 try{(window.location.href.indexOf("banking-solutions/partnership-hub/chase-merchant-services")>-1||window.location.href.indexOf("services-bancaires-aux-entreprises/solutions-bancaires/nos-partenariats/services-aux-commercant-de-chase")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/services-bancaires-aux-entreprises/campagne/services-aux-commercants.html")>-1)&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/phd_s0+standard"}),!function(e,s){if(!e.rdt){var t=e.rdt=function(){t.sendEvent?t.sendEvent.apply(t,arguments):t.callQueue.push(arguments)};t.callQueue=[];var a=s.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var r=s.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r)}}(window,document),rdt("init","t2_d9t3i9dsx"),rdt("track","PageVisit")}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
+By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
+Policy
+Manage Preferences
+Accept All
+Privacy Preference Centre
+When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
+Policy
+Allow All
+ Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Performance Cookies
+These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
+Targeting Cookies
+Targeting Cookies
+These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Reject All
+Confirm My Choices
