@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T03:00:55.029Z",
+  "generatedAt": "2026-10-06T10:12:49.148Z",
   "currencies": [
     "USD",
     "EUR",
@@ -61,47 +61,47 @@
       },
       "rates": {
         "USD": {
-          "buy": 1.44943,
-          "sell": 1.4052
+          "buy": 1.44954,
+          "sell": 1.40532
         },
         "EUR": {
-          "buy": 1.64977,
-          "sell": 1.55666
+          "buy": 1.65475,
+          "sell": 1.56136
         },
         "GBP": {
-          "buy": 1.9361,
-          "sell": 1.83053
+          "buy": 1.9409,
+          "sell": 1.83507
         },
         "MXN": {
-          "buy": 0.08445,
-          "sell": 0.07458
+          "buy": 0.08463,
+          "sell": 0.07474
         },
         "AUD": {
-          "buy": 1.05182,
-          "sell": 0.94843
+          "buy": 1.05218,
+          "sell": 0.94875
         },
         "CNY": {
-          "buy": 0.23299,
-          "sell": 0.19682
+          "buy": 0.23301,
+          "sell": 0.19683
         },
         "JPY": {
-          "buy": 0.00944,
-          "sell": 0.00876
+          "buy": 0.00943,
+          "sell": 0.00875
         },
         "NZD": {
-          "buy": 0.84611,
-          "sell": 0.76708
+          "buy": 0.84827,
+          "sell": 0.76904
         },
         "ZAR": {
-          "buy": 0.09426,
-          "sell": 0.07884
+          "buy": 0.09472,
+          "sell": 0.07922
         },
         "CHF": {
-          "buy": 1.77702,
-          "sell": 1.6518
+          "buy": 1.77848,
+          "sell": 1.65316
         }
       },
-      "fetchedAt": "2026-10-06T03:01:02.493Z",
+      "fetchedAt": "2026-10-06T10:12:57.211Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -109,8 +109,8 @@
       "type": "direct",
       "rates": {
         "USD": {
-          "buy": 1.4729,
-          "sell": 1.3771
+          "buy": 1.4733,
+          "sell": 1.3775
         },
         "GBP": {
           "buy": 1.9507,
@@ -309,7 +309,7 @@
           "sell": 0.000049
         }
       },
-      "fetchedAt": "2026-10-06T03:01:09.444Z",
+      "fetchedAt": "2026-10-06T10:13:03.288Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.0826
         }
       },
-      "fetchedAt": "2026-10-06T03:01:17.299Z",
+      "fetchedAt": "2026-10-06T10:13:25.903Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -534,7 +534,7 @@
           "sell": 0.08121
         }
       },
-      "fetchedAt": "2026-10-06T03:01:30.656Z",
+      "fetchedAt": "2026-10-06T10:13:39.947Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -543,19 +543,19 @@
       "rateType": "non-cash",
       "rates": {
         "USD": {
-          "buy": 1.4581,
-          "sell": 1.3827
+          "buy": 1.458,
+          "sell": 1.3826
         },
         "EUR": {
-          "buy": 1.6499,
-          "sell": 1.5516
+          "buy": 1.6498,
+          "sell": 1.5518
         },
         "GBP": {
-          "buy": 1.9435,
-          "sell": 1.8436
+          "buy": 1.9453,
+          "sell": 1.8456
         },
         "MXN": {
-          "buy": 0.0811,
+          "buy": 0.0812,
           "sell": 0.0768
         },
         "AUD": {
@@ -563,23 +563,23 @@
           "sell": 0.964
         },
         "JPY": {
-          "buy": 0.009302,
-          "sell": 0.008744
+          "buy": 0.009312,
+          "sell": 0.008753
         },
         "NZD": {
-          "buy": 0.8188,
-          "sell": 0.7753
+          "buy": 0.8196,
+          "sell": 0.776
         },
         "ZAR": {
           "buy": 0.0882,
           "sell": 0.0832
         },
         "CHF": {
-          "buy": 1.7623,
-          "sell": 1.6698
+          "buy": 1.7641,
+          "sell": 1.6716
         }
       },
-      "fetchedAt": "2026-10-06T03:01:41.531Z",
+      "fetchedAt": "2026-10-06T10:13:54.834Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
