@@ -361,7 +361,7 @@ with Scotia Travel Insurance​
 Learn more
 about Scotia Travel Insurance
 Effective
-October 8, 2026
+October 9, 2026
 Country
 Currency/Code
 Client Buys (Pays Canadian)
@@ -371,162 +371,162 @@ Dollar
  (
 USD
 )
-1.459800
-1.382800
+1.464800
+1.387800
 Great Britain
 British Pound
  (
 GBP
 )
-1.945000
-1.814000
+1.950200
+1.819000
 Australia
 Dollar
  (
 AUD
 )
-1.023200
-0.956600
+1.028000
+0.961300
 Switzerland
 Franc
  (
 CHF
 )
-1.760700
-1.651200
+1.770600
+1.660800
 Euro
 Euro
  (
 EUR
 )
-1.648200
-1.537200
+1.653000
+1.541800
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.187500
-0.174800
+0.188100
+0.175400
 Japan
 Yen
  (
 JPY
 )
-0.009324
-0.008658
+0.009348
+0.008681
 Barbados
 Dollar
  (
 BBD
 )
-0.747700
+0.750300
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.496800
+1.501900
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.496800
+1.501900
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.220000
-0.206100
+0.220600
+0.206700
 Guyana
 Dollar
  (
 GYD
 )
-0.007121
+0.007146
 N/A
 India
 Rupee
  (
 INR
 )
-0.015151
+0.015211
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009450
+0.009480
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.823700
+1.830000
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.081650
-0.076500
+0.080750
+0.075650
 Norway
 Kroner
  (
 NOK
 )
-0.153500
-0.143700
+0.153800
+0.144100
 New Zealand
 Dollar
  (
 NZD
 )
-0.822400
-0.770500
+0.825500
+0.773600
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.393000
-0.364400
+0.394200
+0.365500
 Sweden
 Krona
  (
 SEK
 )
-0.147100
-0.137800
+0.147400
+0.138100
 Singapore
 Dollar
  (
 SGD
 )
-1.143300
-1.075500
+1.147600
+1.079600
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.221600
+0.222000
 N/A
 South Africa
 Rand
  (
 ZAR
 )
-0.088400
-0.082800
+0.089100
+0.083400
 						Terms and conditions
 Although up-to-the-minute rates may be obtained by contacting a local Scotiabank branch, rates can only be guaranteed at the time the purchase or sale is conducted.
 Rates and dollar limits are provided for information purposes only and are subject to change at any time.
@@ -1120,6 +1120,23 @@ try{(window.location.href.indexOf("scotiabank.com/ca/en/small-business")>-1||win
 _satellite["_runScript31"](function(event, target, Promise) {
 try{"https://www.scotiabank.com/ca/en/small-business/business-banking/contact-scotiabank.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}try{"https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/communiquez-avec-la-banque-scotia.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
 });
+_linkedin_partner_id = "67976";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+_satellite["_runScript32"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript33"](function(event, target, Promise) {
+try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
 By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1160,23 +1177,6 @@ checkbox label
 label
 Reject All
 Confirm My Choices
-_linkedin_partner_id = "67976";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-_satellite["_runScript32"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript33"](function(event, target, Promise) {
-try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
 _satellite["_runScript34"](function(event, target, Promise) {
 try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
