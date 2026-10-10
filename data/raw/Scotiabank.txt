@@ -709,10 +709,10 @@ window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = fa
     }
 };
 });
+AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 English
 English
 Français
-AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1209,6 +1209,46 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-ba
 _satellite["_runScript57"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle.html?pagevariation=parentsDomBundle")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants.html?pagevariation=parentsDomBundle")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle/parents.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants/parents.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s00+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle/campaigns/sv-ph1.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants/campagnes/sv-ph1.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s000+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/students/student-bundle/international.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s001+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/etudiants-carte-momentum-sans-frais.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s002+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-momentum-cash-back-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/etudiant-carte-momentum.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s003+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/student-scotiabank-american-express-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/american-express/etudiant-carte-amex-sans-frais.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s004+standard"}):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-value-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/etudiant-carte-minima.html")>-1)&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/phd_s005+standard"})}catch(t){_satellite.logger.error("Error: gtag Pixel ",t.message)}
 });
+By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
+Policy
+Manage Preferences
+Accept All
+Privacy Preference Centre
+When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
+Policy
+Allow All
+ Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Performance Cookies
+These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
+Targeting Cookies
+Targeting Cookies
+These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Reject All
+Confirm My Choices
 _satellite["_runScript58"](function(event, target, Promise) {
 window.location.href.indexOf("ca/en/personal/bank-accounts/chequing-accounts/preferred-student-youth-bank-account.html?pagevariation=freeb")>-1&&(!function(e,n){if(!e.rdt){var t=e.rdt=function(){t.sendEvent?t.sendEvent.apply(t,arguments):t.callQueue.push(arguments)};t.callQueue=[];var a=n.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var i=n.getElementsByTagName("script")[0];i.parentNode.insertBefore(a,i)}}(window,document),rdt("init","t2_cuxrly2xb"),rdt("track","PageVisit")),(window.location.href.indexOf("ca/en/personal/investing/campaigns/investment-offer.html")>-1||window.location.href.indexOf("ca/en/personal/investing.html")>-1||window.location.href.indexOf("ca/en/personal/investing/scotia-smart-investor.html")>-1||window.location.href.indexOf("ca/en/personal/investing/tax-free-savings-account.html")>-1||window.location.href.indexOf("ca/en/personal/investing/retirement-savings-plans.html")>-1||window.location.href.indexOf("ca/en/personal/investing/first-home-savings-account.html")>-1||window.location.href.indexOf("ca/en/personal/investing/campaigns/transfer-in-offer.html")>-1||window.location.href.indexOf("ca/en/personal/investing/guaranteed-investment-certificates.html")>-1||window.location.href.indexOf("scotiafunds.com/en/home/portfolio-solutions/scotia-essentials-portfolios.html")>-1)&&(!function(e,n){if(!e.rdt){var t=e.rdt=function(){t.sendEvent?t.sendEvent.apply(t,arguments):t.callQueue.push(arguments)};t.callQueue=[];var a=n.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var i=n.getElementsByTagName("script")[0];i.parentNode.insertBefore(a,i)}}(window,document),rdt("init","a2_dvwm54dd3zut"),rdt("track","PageVisit"),function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var n=window.pintrk;n.queue=[],n.version="3.0";var t=document.createElement("script");t.async=!0,t.src=e;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2613203756483",{em:"<user_email_address>"}),pintrk("page")),(window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.gics-and-mutual-funds-101-what-you-need-to-know-as-an-investor.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.understanding-gics.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.an-introduction-to-mutual-funds-and-etfs.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.what-you-need-to-know-about-mutual-funds.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.how-you-could-use-the-new-tax-free-first-home-savings-account.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.your-guide-to-rrsp-withdrawals.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.your-guide-to-rrsps.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.tfsa-withdrawal-rules.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.tfsa-guide.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.understanding-fhsa-contribution-limits.html")>-1)&&(!function(e,n){if(!e.rdt){var t=e.rdt=function(){t.sendEvent?t.sendEvent.apply(t,arguments):t.callQueue.push(arguments)};t.callQueue=[];var a=n.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var i=n.getElementsByTagName("script")[0];i.parentNode.insertBefore(a,i)}}(window,document),rdt("init","a2_dvwm54dd3zut"),rdt("track","PageVisit")),(window.location.pathname.includes("/ca/en/personal/students")||window.location.pathname.includes("ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")||window.location.pathname.includes("ca/en/personal/credit-cards/visa/scene-student-card.html")||window.location.pathname.includes("ca/fr/particuliers/etudiants/trio-pour-etudiants.html")||window.location.pathname.includes("ca/en/personal/students/student-bundle.html")||window.location.pathname.includes("ca/en/personal/bank-accounts/chequing-accounts/preferred-student-youth-bank-account.html")||window.location.pathname.includes("ca/fr/particuliers/comptes-bancaires/comptes-cheques/compte-bancaire-essentiel-pour-les-etudiants-et-les-jeunes.html"))&&(!function(e,n,t){e.TiktokAnalyticsObject=t;var a=e[t]=e[t]||[];a.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],a.setAndDefer=function(e,n){e[n]=function(){e.push([n].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<a.methods.length;i++)a.setAndDefer(a,a.methods[i]);a.instance=function(e){for(var n=a._i[e]||[],t=0;t<a.methods.length;t++)a.setAndDefer(n,a.methods[t]);return n},a.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";n&&n.partner;a._i=a._i||{},a._i[e]=[],a._i[e]._u=i,a._t=a._t||{},a._t[e]=+new Date,a._o=a._o||{},a._o[e]=n||{},(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t,(e=document.getElementsByTagName("script")[0]).parentNode.insertBefore(n,e)},a.load("CN53V0BC77UF9CBTOSGG"),a.page()}(window,document,"ttq"),ttq.track("ViewContent",{contents:[{content_id:"<content_identifier>",content_type:"<content_type>",content_name:"<content_name>"}],value:"<content_value>",currency:"<content_currency>"}));
 });
@@ -2863,46 +2903,6 @@ try {
   console.log("Error occurred in Snapchat action:", err);
 }
 });
-By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
-Policy
-Manage Preferences
-Accept All
-Privacy Preference Centre
-When you visit any website, it may store or retrieve information on your browser, in the form of cookies or other similar technologies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. You can choose not to allow some types of cookies and other similar technologies. Click on the different category headings to find out more and change your settings; however, blocking some of these technologies may impact your site experience and the services we are able to offer.
-Policy
-Allow All
- Manage Consent Preferences
-Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function, or are used for security and fraud prevention, and cannot be switched off. They are usually only set in response to your actions that amount to a request for services, such as setting your privacy preferences, logging in, filling in forms or browsing our site. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
-Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Performance Cookies
-Performance Cookies
-These cookies allow us to count site visits and web-traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies, we will not know when you have visited our site, will not be able to monitor its performance, and may not be able to assist you with specific issues you may encounter.
-Targeting Cookies
-Targeting Cookies
-These cookies and similar technologies may be set through our site by us and our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. They also allow us to measure the effectiveness of our online advertising and to share information related to applications, or acquisition of our products or services, with these companies. This type of data is, in turn, provided back to us in an aggregated form. These technologies do not store directly identifiable personal information but are based on uniquely identifying your browser and internet device. If you do not allow these technologies, you will experience less targeted advertising.
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label
-label
-Apply
-Cancel
-Consent
-Leg.Interest
-checkbox label
-label
-checkbox label
-label
-checkbox label
-label
-Reject All
-Confirm My Choices
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 _satellite["_runScript98"](function(event, target, Promise) {
 (function () {
