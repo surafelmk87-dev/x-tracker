@@ -497,81 +497,81 @@ United States (USD)
 Currency Code
 USD
 We Buy
-1.40683
+1.40531
 We Sell
-1.45110
+1.44954
 Country Name
 Euro Member Countries (EUR) 
 Currency Code
 EUR
 We Buy
-1.55056
+1.55133
 We Sell
-1.64330
+1.64412
 Country Name
 United Kingdom (GBP) 
 Currency Code
 GBP
 We Buy
-1.83170
+1.83150
 We Sell
-1.93733
+1.93713
 Country Name
 Mexico (MXN) 
 Currency Code
 MXN
 We Buy
-0.07391
+0.07385
 We Sell
-0.08368
+0.08362
 Country Name
 Australia (AUD) 
 Currency Code
 AUD
 We Buy
-0.94800
+0.94711
 We Sell
-1.05135
+1.05036
 Country Name
 China (CNY) 
 Currency Code
 CNY
 We Buy
-0.19741
+0.19710
 We Sell
-0.23370
+0.23332
 Country Name
 Japan (JPY) 
 Currency Code
 JPY
 We Buy
-0.00873
+0.00874
 We Sell
-0.00941
+0.00942
 Country Name
 New Zealand (NZD) 
 Currency Code
 NZD
 We Buy
-0.76685
+0.76665
 We Sell
-0.84585
+0.84563
 Country Name
 South Africa (ZAR) 
 Currency Code
 ZAR
 We Buy
-0.07941
+0.07935
 We Sell
-0.09494
+0.09488
 Country Name
 Switzerland (CHF) 
 Currency Code
 CHF
 We Buy
-1.64817
+1.64920
 We Sell
-1.77311
+1.77422
 Reserve Funds
 Name
 *
@@ -601,27 +601,27 @@ Captcha
 Submit Draft
 Submit
 	$(function() {
-		var webform = $("#webForm-163983773");
+		var webform = $("#webForm-1471192121");
 		var submissionToken = "";
 		var isDraft = 0;
-				$("#webForm-163983773").find(".rule").each(function(){
+				$("#webForm-1471192121").find(".rule").each(function(){
 			$(this).change(function(){
-				$("#webForm-163983773 .required").removeClass("required");
-				$("#webForm-163983773 :input").prop('required',false);
-				$("#webForm-163983773").find("button[name='action'][type='submit'][value='submitWebForm']").click();
+				$("#webForm-1471192121 .required").removeClass("required");
+				$("#webForm-1471192121 :input").prop('required',false);
+				$("#webForm-1471192121").find("button[name='action'][type='submit'][value='submitWebForm']").click();
 			});
 		});	
 		var validator = sandInitializeWebForm(webform, "en", 2, 107, submissionToken, isDraft);		
 		webform.find(".ui-spinner-input").spinner("destroy");
 		webform.find("input[type='file']:not(.form-control)").addClass("form-control");
-				if( !$("#webForm-163983773").find("#WebFormItem_5175_0").val() ) {
-			$("#webForm-163983773").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
+				if( !$("#webForm-1471192121").find("#WebFormItem_5175_0").val() ) {
+			$("#webForm-1471192121").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
 		}
-		if( !$("#webForm-163983773").find("#WebFormItem_5201_0").val() ) {
+		if( !$("#webForm-1471192121").find("#WebFormItem_5201_0").val() ) {
 			var AmPm = moment().format('hh:mma');
-			$("#webForm-163983773").find("#WebFormItem_5201_0").attr({'value': AmPm});
+			$("#webForm-1471192121").find("#WebFormItem_5201_0").attr({'value': AmPm});
 		}
-				$("#webForm-163983773").find(".WebFormOtherOption").each(function() {			
+				$("#webForm-1471192121").find(".WebFormOtherOption").each(function() {			
 			$(this).change(function(){
 				if($(this).prop('checked') || $(this).prop('selected')) {
 					$(this).parent().next(".WebFormItemOptionOther").show();
@@ -631,8 +631,8 @@ Submit
 				}	
 			});
 		});
-				$("#submit-webForm-163983773").click(function(){
-			var form = $("#webForm-163983773");
+				$("#submit-webForm-1471192121").click(function(){
+			var form = $("#webForm-1471192121");
 			if (form.valid()) {
 				uiConfirm("Are you sure you are ready to submit?", function(){
 					form.find("input[name='isDraft']").val(0);
@@ -640,7 +640,7 @@ Submit
 				});
 			}
 		});
-				$("#webForm-163983773 .toggleContainer").each(function(){
+				$("#webForm-1471192121 .toggleContainer").each(function(){
 			$(this).find("> a").click(function(){
 				$(this).parent().find("> div").slideToggle();
 			})
