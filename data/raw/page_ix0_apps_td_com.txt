@@ -33,7 +33,7 @@ Amount
 $
 CAD
  $1 CAD = 
-0.6848
+0.6849
 Currency I want
 CANADIAN DOLLAR
 US DOLLAR
@@ -64,11 +64,11 @@ Amount
 $
 USD
  $1 USD = 
-1.4602
+1.4600
 Exchange rate: 
-0.6848
+0.6849
  as of 
-Tue Oct 13 2026 1:45 PM Eastern Daylight Time
+Tue Oct 13 2026 6:00 PM Eastern Daylight Time
 Note:
  The rates provided are illustrative only. Rates fluctuate throughout the day, and the rate for a particular transaction is set at the time of that transaction. We are not responsible for any reliance that you might place on, or use you might make of, the rates provided on this page or the calculator.
 Transactions using non-cash-rates
@@ -99,64 +99,64 @@ CANADIAN DOLLAR
 1.0000
 USD
 US DOLLAR
-1.4685
-1.3727
+1.4686
+1.3728
 GBP
 BRITISH POUND
-1.9494
-1.8240
+1.9498
+1.8249
 EUR
 EURO
-1.6557
-1.5310
+1.6560
+1.5315
 AUD
 AUSTRALIAN DOLLAR
-1.0416
-0.9508
+1.0411
+0.9507
 BHD
 BAHRAIN CASH
-4.0617
-3.4555
+4.0615
+3.4544
 BBD
 BARBADOS DOLLAR
-0.7736
-0.6539
+0.7738
+0.6540
 BMD
 BERMUDIAN DOLLAR
 N/A
 N/A
 BRL
 BRAZILIAN CASH
-0.3342
-0.2452
+0.3339
+0.2449
 BND
 BRUNEI DOLLAR
-1.2125
-1.0083
+1.2128
+1.0086
 BGN
 BULGARIAN CASH
 N/A
 N/A
 KYD
 CAYMAN ISL CASH
-1.8573
-1.5453
+1.8577
+1.5456
 CLP
 CHILEAN CASH
-0.001663
-0.001244
+0.001662
+0.001239
 CNY
 CHINESE CASH
 0.2265
 0.1944
 COP
 COLOMBIAN CASH
-0.000512
-0.000392
+0.000513
+0.000393
 CRC
 COSTA RICAN CASH
-0.003399
-0.002838
+0.003400
+0.002839
 CZK
 CZECH KORUNA
 0.0731
@@ -172,118 +172,118 @@ DOMINICAN CASH
 XCD
 E CARIBBEAN CASH
 N/A
-0.4798
+0.4799
 FJD
 FIJI CASH
-0.7368
-0.5375
+0.7370
+0.5376
 GTQ
 GUATEMALAN CASH
-0.2027
-0.1690
+0.2029
+0.1691
 HKD
 HONG KONG DOLLAR
 0.1945
 0.1686
 HUF
 HUNGARIAN FORINT
-0.004942
-0.003838
+0.004947
+0.003840
 ISK
 ICELANDIC CASH
 0.012950
-0.010650
+0.010660
 IDR
 INDONESIAN CASH
-0.000093
+0.000094
 0.000067
 ILS
 ISRAELI SHEKEL
-0.5028
-0.4230
+0.5033
+0.4234
 JMD
 JAMAICAN DOLLAR
 0.0099
 0.0080
 JPY
 JAPANESE YEN
-0.009326
-0.008619
+0.009330
+0.008622
 JOD
 JORDAN CASH
-2.1762
-1.8181
+2.1766
+1.8185
 KES
 KENYAN CASH
 0.012621
-0.009699
+0.009709
 KWD
 KUWAIT CASH
-5.0117
-4.0507
+5.0127
+4.0516
 MYR
 MALAYSIAN CASH
-0.3863
+0.3864
 0.3103
 MXN
 MEXICAN CASH
-0.082050
-0.073250
+0.081910
+0.073080
 NZD
 NEW ZEALAND DOLLAR
-0.8571
-0.7484
+0.8573
+0.7485
 INP
 NORTH IRISH CASH
-1.9493
-1.8211
+1.9497
+1.8221
 NOK
 NORWEGIAN KRONE
 N/A
 N/A
 OMR
 OMAN CASH
-4.0213
-3.3769
+4.0222
+3.3776
 PEN
 PERU CASH
-0.4678
-0.3675
+0.4677
+0.3673
 PHP
 PHILIPPINE PESO
 0.0260
 0.0201
 PLN
 POLISH ZLOTY
-0.4120
+0.4121
 0.3200
 QAR
 QATAR CASH
-0.4415
-0.3368
+0.4416
+0.3369
 RON
 ROMANIAN CASH
-0.3289
-0.2695
+0.3291
+0.2694
 KRW
 S. KOREAN CASH
-0.001168
+0.001169
 0.000953
 SAR
 SAUDI ARABIAN RIYAL
-0.4162
-0.3416
+0.4163
+0.3417
 SCO
 SCOTTISH CASH
-1.9506
-1.8213
+1.9510
+1.8222
 SGD
 SINGAPORE DOLLAR
-1.1837
-1.0409
+1.1839
+1.0412
 ZAR
 SOUTH AFRICAN RAND
-0.0974
+0.0975
 0.0759
 SEK
 SWEDISH KRONA
@@ -291,8 +291,8 @@ N/A
 N/A
 CHF
 SWISS FRANC
-1.7569
-1.6600
+1.7564
+1.6596
 XPF
 TAHITI CFP CASH
 0.015320
@@ -304,15 +304,15 @@ TAIWANESE CASH
 THB
 THAI BAHT
 0.0463
-0.0391
+0.0392
 TRY
 TURKISH LIRA
 0.0337
 0.0249
 AED
 UNITED ARAB CASH
-0.4243
-0.3516
+0.4244
+0.3517
 UYU
 URUGUAY CASH
 0.0391
@@ -331,45 +331,45 @@ Client sells at:
 US DOLLAR (USD)
 Client buys at:
 (Pays Canadian $)
-1.4685
+1.4686
 Client sells at:
 (Receives Canadian $)
-1.3727
+1.3728
 BRITISH POUND (GBP)
 Client buys at:
 (Pays Canadian $)
-1.9494
+1.9498
 Client sells at:
 (Receives Canadian $)
-1.8240
+1.8249
 EURO (EUR)
 Client buys at:
 (Pays Canadian $)
-1.6557
+1.6560
 Client sells at:
 (Receives Canadian $)
-1.5310
+1.5315
 AUSTRALIAN DOLLAR (AUD)
 Client buys at:
 (Pays Canadian $)
-1.0416
+1.0411
 Client sells at:
 (Receives Canadian $)
-0.9508
+0.9507
 BAHRAIN CASH (BHD)
 Client buys at:
 (Pays Canadian $)
-4.0617
+4.0615
 Client sells at:
 (Receives Canadian $)
-3.4555
+3.4544
 BARBADOS DOLLAR (BBD)
 Client buys at:
 (Pays Canadian $)
-0.7736
+0.7738
 Client sells at:
 (Receives Canadian $)
-0.6539
+0.6540
 BERMUDIAN DOLLAR (BMD)
 Client buys at:
 (Pays Canadian $)
@@ -380,17 +380,17 @@ N/A
 BRAZILIAN CASH (BRL)
 Client buys at:
 (Pays Canadian $)
-0.3342
+0.3339
 Client sells at:
 (Receives Canadian $)
-0.2452
+0.2449
 BRUNEI DOLLAR (BND)
 Client buys at:
 (Pays Canadian $)
-1.2125
+1.2128
 Client sells at:
 (Receives Canadian $)
-1.0083
+1.0086
 BULGARIAN CASH (BGN)
 Client buys at:
 (Pays Canadian $)
@@ -401,17 +401,17 @@ N/A
 CAYMAN ISL CASH (KYD)
 Client buys at:
 (Pays Canadian $)
-1.8573
+1.8577
 Client sells at:
 (Receives Canadian $)
-1.5453
+1.5456
 CHILEAN CASH (CLP)
 Client buys at:
 (Pays Canadian $)
-0.001663
+0.001662
 Client sells at:
 (Receives Canadian $)
-0.001244
+0.001239
 CHINESE CASH (CNY)
 Client buys at:
 (Pays Canadian $)
@@ -422,17 +422,17 @@ Client sells at:
 COLOMBIAN CASH (COP)
 Client buys at:
 (Pays Canadian $)
-0.000512
+0.000513
 Client sells at:
 (Receives Canadian $)
-0.000392
+0.000393
 COSTA RICAN CASH (CRC)
 Client buys at:
 (Pays Canadian $)
-0.003399
+0.003400
 Client sells at:
 (Receives Canadian $)
-0.002838
+0.002839
 CZECH KORUNA (CZK)
 Client buys at:
 (Pays Canadian $)
@@ -460,21 +460,21 @@ Client buys at:
 N/A
 Client sells at:
 (Receives Canadian $)
-0.4798
+0.4799
 FIJI CASH (FJD)
 Client buys at:
 (Pays Canadian $)
-0.7368
+0.7370
 Client sells at:
 (Receives Canadian $)
-0.5375
+0.5376
 GUATEMALAN CASH (GTQ)
 Client buys at:
 (Pays Canadian $)
-0.2027
+0.2029
 Client sells at:
 (Receives Canadian $)
-0.1690
+0.1691
 HONG KONG DOLLAR (HKD)
 Client buys at:
 (Pays Canadian $)
@@ -485,31 +485,31 @@ Client sells at:
 HUNGARIAN FORINT (HUF)
 Client buys at:
 (Pays Canadian $)
-0.004942
+0.004947
 Client sells at:
 (Receives Canadian $)
-0.003838
+0.003840
 ICELANDIC CASH (ISK)
 Client buys at:
 (Pays Canadian $)
 0.012950
 Client sells at:
 (Receives Canadian $)
-0.010650
+0.010660
 INDONESIAN CASH (IDR)
 Client buys at:
 (Pays Canadian $)
-0.000093
+0.000094
 Client sells at:
 (Receives Canadian $)
 0.000067
 ISRAELI SHEKEL (ILS)
 Client buys at:
 (Pays Canadian $)
-0.5028
+0.5033
 Client sells at:
 (Receives Canadian $)
-0.4230
+0.4234
 JAMAICAN DOLLAR (JMD)
 Client buys at:
 (Pays Canadian $)
@@ -520,59 +520,59 @@ Client sells at:
 JAPANESE YEN (JPY)
 Client buys at:
 (Pays Canadian $)
-0.009326
+0.009330
 Client sells at:
 (Receives Canadian $)
-0.008619
+0.008622
 JORDAN CASH (JOD)
 Client buys at:
 (Pays Canadian $)
-2.1762
+2.1766
 Client sells at:
 (Receives Canadian $)
-1.8181
+1.8185
 KENYAN CASH (KES)
 Client buys at:
 (Pays Canadian $)
 0.012621
 Client sells at:
 (Receives Canadian $)
-0.009699
+0.009709
 KUWAIT CASH (KWD)
 Client buys at:
 (Pays Canadian $)
-5.0117
+5.0127
 Client sells at:
 (Receives Canadian $)
-4.0507
+4.0516
 MALAYSIAN CASH (MYR)
 Client buys at:
 (Pays Canadian $)
-0.3863
+0.3864
 Client sells at:
 (Receives Canadian $)
 0.3103
 MEXICAN CASH (MXN)
 Client buys at:
 (Pays Canadian $)
-0.082050
+0.081910
 Client sells at:
 (Receives Canadian $)
-0.073250
+0.073080
 NEW ZEALAND DOLLAR (NZD)
 Client buys at:
 (Pays Canadian $)
-0.8571
+0.8573
 Client sells at:
 (Receives Canadian $)
-0.7484
+0.7485
 NORTH IRISH CASH (INP)
 Client buys at:
 (Pays Canadian $)
-1.9493
+1.9497
 Client sells at:
 (Receives Canadian $)
-1.8211
+1.8221
 NORWEGIAN KRONE (NOK)
 Client buys at:
 (Pays Canadian $)
@@ -583,17 +583,17 @@ N/A
 OMAN CASH (OMR)
 Client buys at:
 (Pays Canadian $)
-4.0213
+4.0222
 Client sells at:
 (Receives Canadian $)
-3.3769
+3.3776
 PERU CASH (PEN)
 Client buys at:
 (Pays Canadian $)
-0.4678
+0.4677
 Client sells at:
 (Receives Canadian $)
-0.3675
+0.3673
 PHILIPPINE PESO (PHP)
 Client buys at:
 (Pays Canadian $)
@@ -604,56 +604,56 @@ Client sells at:
 POLISH ZLOTY (PLN)
 Client buys at:
 (Pays Canadian $)
-0.4120
+0.4121
 Client sells at:
 (Receives Canadian $)
 0.3200
 QATAR CASH (QAR)
 Client buys at:
 (Pays Canadian $)
-0.4415
+0.4416
 Client sells at:
 (Receives Canadian $)
-0.3368
+0.3369
 ROMANIAN CASH (RON)
 Client buys at:
 (Pays Canadian $)
-0.3289
+0.3291
 Client sells at:
 (Receives Canadian $)
-0.2695
+0.2694
 S. KOREAN CASH (KRW)
 Client buys at:
 (Pays Canadian $)
-0.001168
+0.001169
 Client sells at:
 (Receives Canadian $)
 0.000953
 SAUDI ARABIAN RIYAL (SAR)
 Client buys at:
 (Pays Canadian $)
-0.4162
+0.4163
 Client sells at:
 (Receives Canadian $)
-0.3416
+0.3417
 SCOTTISH CASH (SCO)
 Client buys at:
 (Pays Canadian $)
-1.9506
+1.9510
 Client sells at:
 (Receives Canadian $)
-1.8213
+1.8222
 SINGAPORE DOLLAR (SGD)
 Client buys at:
 (Pays Canadian $)
-1.1837
+1.1839
 Client sells at:
 (Receives Canadian $)
-1.0409
+1.0412
 SOUTH AFRICAN RAND (ZAR)
 Client buys at:
 (Pays Canadian $)
-0.0974
+0.0975
 Client sells at:
 (Receives Canadian $)
 0.0759
@@ -667,10 +667,10 @@ N/A
 SWISS FRANC (CHF)
 Client buys at:
 (Pays Canadian $)
-1.7569
+1.7564
 Client sells at:
 (Receives Canadian $)
-1.6600
+1.6596
 TAHITI CFP CASH (XPF)
 Client buys at:
 (Pays Canadian $)
@@ -691,7 +691,7 @@ Client buys at:
 0.0463
 Client sells at:
 (Receives Canadian $)
-0.0391
+0.0392
 TURKISH LIRA (TRY)
 Client buys at:
 (Pays Canadian $)
@@ -702,10 +702,10 @@ Client sells at:
 UNITED ARAB CASH (AED)
 Client buys at:
 (Pays Canadian $)
-0.4243
+0.4244
 Client sells at:
 (Receives Canadian $)
-0.3516
+0.3517
 URUGUAY CASH (UYU)
 Client buys at:
 (Pays Canadian $)
@@ -733,92 +733,92 @@ CANADIAN DOLLAR
 1.0000
 USD
 US DOLLAR
-1.4602
-1.3812
+1.46
+1.3807
 USB
 US BORDERLESS
-1.4545
-1.3872
+1.4543
+1.3867
 GBP
 BRITISH POUND STERLING
-1.9377
-1.8356
+1.9389
+1.8348
 EUR
 EURO
-1.6386
-1.5411
+1.6394
+1.5413
 AUD
 AUSTRALIAN DOLLAR
-1.0227
-0.9621
+1.0231
+0.9618
 CZK
 CZECH REPUBLIC KORUNA
-0.0681
-0.0626
+0.0682
+0.0625
 DKK
 DANISH KRONE
-0.2201
-0.2056
+0.2202
+0.2057
 HKD
 HONG KONG DOLLAR
 0.1864
-0.176
+0.1759
 HUF
 HUNGARIAN FORINT
-0.004622
-0.004123
+0.004628
+0.00412
 INR
 INDIAN RUPEE
-0.015458
-0.014449
+0.015455
+0.014385
 ILS
 ISRAELI NEW SHEQEL
-0.4779
-0.4477
+0.4796
+0.4449
 JPY
 JAPANESE YEN
-0.009311
-0.008644
+0.009315
+0.008642
 MXN
 MEXICAN PESO
-0.080399
-0.074332
+0.080443
+0.074257
 NZD
 NEW ZEALAND DOLLAR
 0.8333
-0.7628
+0.762
 NOK
 NORWEGIAN KRONE
-0.1552
-0.1432
+0.1556
+0.1423
 PLN
 POLISH ZLOTY
-0.3832
-0.3448
+0.3837
+0.3445
 SAR
 SAUDI ARABIAN RIYAL
-0.3948
-0.3624
+0.3949
+0.362
 SGD
 SINGAPORE DOLLAR
-1.1389
-1.0828
+1.1391
+1.0817
 ZAR
 SOUTH AFRICAN RAND
-0.0893
-0.0831
+0.0895
+0.0828
 SEK
 SWEDISH KRONA
-0.1483
-0.1369
+0.1485
+0.1368
 CHF
 SWISS FRANC
-1.7459
-1.6677
+1.7471
+1.668
 THB
 THAI BAHT
-0.043703
-0.041015
+0.043768
+0.04097
 TRY
 TURKISH LIRA
 0.0304
@@ -826,7 +826,7 @@ TURKISH LIRA
 AED
 UNITED ARAB EMIRATES DIRHAM
 0.4005
-0.3738
+0.3737
 CANADIAN DOLLAR (CAD)
 Client buys at:
 (Pays Canadian $)
@@ -837,157 +837,157 @@ Client sells at:
 US DOLLAR (USD)
 Client buys at:
 (Pays Canadian $)
-1.4602
+1.46
 Client sells at:
 (Receives Canadian $)
-1.3812
+1.3807
 US BORDERLESS (USB)
 Client buys at:
 (Pays Canadian $)
-1.4545
+1.4543
 Client sells at:
 (Receives Canadian $)
-1.3872
+1.3867
 BRITISH POUND STERLING (GBP)
 Client buys at:
 (Pays Canadian $)
-1.9377
+1.9389
 Client sells at:
 (Receives Canadian $)
-1.8356
+1.8348
 EURO (EUR)
 Client buys at:
 (Pays Canadian $)
-1.6386
+1.6394
 Client sells at:
 (Receives Canadian $)
-1.5411
+1.5413
 AUSTRALIAN DOLLAR (AUD)
 Client buys at:
 (Pays Canadian $)
-1.0227
+1.0231
 Client sells at:
 (Receives Canadian $)
-0.9621
+0.9618
 CZECH REPUBLIC KORUNA (CZK)
 Client buys at:
 (Pays Canadian $)
-0.0681
+0.0682
 Client sells at:
 (Receives Canadian $)
-0.0626
+0.0625
 DANISH KRONE (DKK)
 Client buys at:
 (Pays Canadian $)
-0.2201
+0.2202
 Client sells at:
 (Receives Canadian $)
-0.2056
+0.2057
 HONG KONG DOLLAR (HKD)
 Client buys at:
 (Pays Canadian $)
 0.1864
 Client sells at:
 (Receives Canadian $)
-0.176
+0.1759
 HUNGARIAN FORINT (HUF)
 Client buys at:
 (Pays Canadian $)
-0.004622
+0.004628
 Client sells at:
 (Receives Canadian $)
-0.004123
+0.00412
 INDIAN RUPEE (INR)
 Client buys at:
 (Pays Canadian $)
-0.015458
+0.015455
 Client sells at:
 (Receives Canadian $)
-0.014449
+0.014385
 ISRAELI NEW SHEQEL (ILS)
 Client buys at:
 (Pays Canadian $)
-0.4779
+0.4796
 Client sells at:
 (Receives Canadian $)
-0.4477
+0.4449
 JAPANESE YEN (JPY)
 Client buys at:
 (Pays Canadian $)
-0.009311
+0.009315
 Client sells at:
 (Receives Canadian $)
-0.008644
+0.008642
 MEXICAN PESO (MXN)
 Client buys at:
 (Pays Canadian $)
-0.080399
+0.080443
 Client sells at:
 (Receives Canadian $)
-0.074332
+0.074257
 NEW ZEALAND DOLLAR (NZD)
 Client buys at:
 (Pays Canadian $)
 0.8333
 Client sells at:
 (Receives Canadian $)
-0.7628
+0.762
 NORWEGIAN KRONE (NOK)
 Client buys at:
 (Pays Canadian $)
-0.1552
+0.1556
 Client sells at:
 (Receives Canadian $)
-0.1432
+0.1423
 POLISH ZLOTY (PLN)
 Client buys at:
 (Pays Canadian $)
-0.3832
+0.3837
 Client sells at:
 (Receives Canadian $)
-0.3448
+0.3445
 SAUDI ARABIAN RIYAL (SAR)
 Client buys at:
 (Pays Canadian $)
-0.3948
+0.3949
 Client sells at:
 (Receives Canadian $)
-0.3624
+0.362
 SINGAPORE DOLLAR (SGD)
 Client buys at:
 (Pays Canadian $)
-1.1389
+1.1391
 Client sells at:
 (Receives Canadian $)
-1.0828
+1.0817
 SOUTH AFRICAN RAND (ZAR)
 Client buys at:
 (Pays Canadian $)
-0.0893
+0.0895
 Client sells at:
 (Receives Canadian $)
-0.0831
+0.0828
 SWEDISH KRONA (SEK)
 Client buys at:
 (Pays Canadian $)
-0.1483
+0.1485
 Client sells at:
 (Receives Canadian $)
-0.1369
+0.1368
 SWISS FRANC (CHF)
 Client buys at:
 (Pays Canadian $)
-1.7459
+1.7471
 Client sells at:
 (Receives Canadian $)
-1.6677
+1.668
 THAI BAHT (THB)
 Client buys at:
 (Pays Canadian $)
-0.043703
+0.043768
 Client sells at:
 (Receives Canadian $)
-0.041015
+0.04097
 TURKISH LIRA (TRY)
 Client buys at:
 (Pays Canadian $)
@@ -1001,5 +1001,5 @@ Client buys at:
 0.4005
 Client sells at:
 (Receives Canadian $)
-0.3738
-{"environment":"prod","wcmurl":"https://www.wcmcaas.td.com","data":{"lang":"en","routes":{"fxcal":"fxcal"},"app-text":{"placeholder":"0.00","header":"Currency converter & live exchange rates","cash-tab":"Cash","non-cash-tab":"Non-Cash","non-cash-p":"Use our currency converter to convert some of the most popular transactions including EURO to CAD, CAD to USD, CAD to HKD, and more. Use this tab for transfers, payments, cheques, drafts etc., where no physical foreign cash is exchanged. Non-Cash Rates are generally more favourable to you than Cash Rates. This reflects the costs and risks associated with shipping, handling and holding foreign currency in cash.","cash-p":"Use our currency converter to convert some of the most popular transactions including EURO to CAD, CAD to USD, CAD to HKD, and more. Use this tab for buying and selling physical foreign currency cash. Non-Cash Rates are generally more favourable to you than Cash Rates. This reflects the costs and risks associated with shipping, handling and holding foreign currency in cash.","have-label":"Currency I Have","amount":"Amount","want-label":"Currency I want","non-cash-transactions":"Transactions using non-cash-rates","between-accounts":"Transfer between accounts","transfer-now":"Transfer now","transfer-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=FXT","send-money":"Send money","send-now":"Send now","send-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=IRM","pay-usd":"Pay TD U.S. Dollar Credit Card","pay-now":"Pay now","pay-now-link":"https://easyweb.td.com/waw/idp/login.htm?startpage=BPY","ways-to-order":"Ways to exchange cash using cash rates","order-easyweb":"Order through EasyWeb","order-now":"Order now","pay-now-2":"Find a branch","order-now-branch":"Order through TD branch","order-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=FOC","order-now-link2":"https://www.td.com/ca/en/personal-banking/branch-locator/","order-phone":"Order by phone","call-easy-line":"Call EasyLine","call-easy-line-link":"https://www.tdcanadatrust.com/customer-service/contact-us/phone/contactus-phone.jsp","branch":"Order from a TD Canada Trust Branch","n-a-abbreviation":"N/A","n-a-abbreviation-table":"N/A","non-cash-gfx-error":"The calculator is unavailable at this time due to system issues. Please try again later.","api-error-header":"\u003Cspan aria-hidden=\"true\" class=\"td-icon icon-regular td-icon-error\">\u003C/span>\u003Cspan class=\"visually-hidden\">Error\u003C/span> Error","conversion-info":"Currency conversion information","cash-exchange-rates":"Cash exchange rates","non-cash-exchange-rates":"Non-cash exchange rates","rate":"\u003Cp>Exchange rate: \u003Cstrong>{{rate}}\u003C/strong> as of \u003Cstrong>{{terms}}\u003C/strong>\u003C/p>","note":"\u003Cstrong>Note:\u003C/strong> The rates provided are illustrative only. Rates fluctuate throughout the day, and the rate for a particular transaction is set at the time of that transaction. We are not responsible for any reliance that you might place on, or use you might make of, the rates provided on this page or the calculator.","error1":"This amount exceeds the calculator's non-cash limit. Please enter a lower amount.","error2":"The specified rate is not available.","error3":"Please re-enter using only 0-9 and a decimal","error4":"This amount exceeds the calculator's cash limit. Please enter a lower amount."},"table-headers":{"code":"Code","currency":"Currency","clientPays":"Client buys at:\u003Cbr/>(Pays Canadian $)","clientReceives":"Client sells at:\u003Cbr/>(Receives Canadian $)"},"cashCurrencyList":[{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencySign":"$"},{"currencyCode":"USD","currencyName":"US DOLLAR","currencySign":"$"},{"currencyCode":"GBP","currencyName":"BRITISH POUND","currencySign":"£"},{"currencyCode":"EUR","currencyName":"EURO","currencySign":"€"},{"currencyCode":"AED","currencyName":"UNITED ARAB CASH","currencySign":"د.إ"},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencySign":"$"},{"currencyCode":"BBD","currencyName":"BARBADOS DOLLAR","currencySign":"$"},{"currencyCode":"BGN","currencyName":"BULGARIAN CASH","currencySign":"лв","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"BHD","currencyName":"BAHRAIN CASH","currencySign":"BD"},{"currencyCode":"BMD","currencyName":"BERMUDIAN DOLLAR","currencySign":"$","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"BND","currencyName":"BRUNEI DOLLAR","currencySign":"$"},{"currencyCode":"BRL","currencyName":"BRAZILIAN CASH","currencySign":"R$"},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencySign":"CHF"},{"currencyCode":"CLP","currencyName":"CHILEAN CASH","currencySign":"$"},{"currencyCode":"CNY","currencyName":"CHINESE CASH","currencySign":"¥"},{"currencyCode":"COP","currencyName":"COLOMBIAN CASH","currencySign":"$"},{"currencyCode":"CRC","currencyName":"COSTA RICAN CASH","currencySign":"₡"},{"currencyCode":"CZK","currencyName":"CZECH KORUNA","currencySign":"Kč"},{"currencyCode":"DKK","currencyName":"DANISH KRONER","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"DOP","currencyName":"DOMINICAN CASH","currencySign":"RD$"},{"currencyCode":"FJD","currencyName":"FIJI CASH","currencySign":"$"},{"currencyCode":"GTQ","currencyName":"GUATEMALAN CASH","currencySign":"Q"},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencySign":"$"},{"currencyCode":"HRK","currencyName":"CROATIAN KUNA","currencySign":"kn"},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencySign":"Ft"},{"currencyCode":"IDR","currencyName":"INDONESIAN CASH","currencySign":"Rp"},{"currencyCode":"ILS","currencyName":"ISRAELI SHEKEL","currencySign":"₪"},{"currencyCode":"INP","currencyName":"NORTH IRISH CASH","currencySign":"£"},{"currencyCode":"ISK","currencyName":"ICELANDIC CASH","currencySign":"kr"},{"currencyCode":"JMD","currencyName":"JAMAICAN DOLLAR","currencySign":"J$"},{"currencyCode":"JOD","currencyName":"JORDAN CASH","currencySign":""},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencySign":"¥"},{"currencyCode":"KES","currencyName":"KENYAN CASH","currencySign":"KSh"},{"currencyCode":"KRW","currencyName":"S. KOREAN CASH","currencySign":"₩"},{"currencyCode":"KWD","currencyName":"KUWAIT CASH","currencySign":"ك"},{"currencyCode":"KYD","currencyName":"CAYMAN ISL CASH","currencySign":"$"},{"currencyCode":"MXN","currencyName":"MEXICAN CASH","currencySign":"$"},{"currencyCode":"MYR","currencyName":"MALAYSIAN CASH","currencySign":"RM"},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencySign":"$"},{"currencyCode":"OMR","currencyName":"OMAN CASH","currencySign":"﷼"},{"currencyCode":"PEN","currencyName":"PERU CASH","currencySign":"S/."},{"currencyCode":"PHP","currencyName":"PHILIPPINE PESO","currencySign":"₱"},{"currencyCode":"PKR","currencyName":"PAKISTANI RUPEE","currencySign":"₨"},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencySign":"zł"},{"currencyCode":"QAR","currencyName":"QATAR CASH","currencySign":"﷼"},{"currencyCode":"RON","currencyName":"ROMANIAN CASH","currencySign":"lei"},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencySign":"﷼"},{"currencyCode":"SCO","currencyName":"SCOTTISH CASH","currencySign":"£"},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencySign":"S$"},{"currencyCode":"THB","currencyName":"THAI BAHT","currencySign":"฿"},{"currencyCode":"TRY","currencyName":"TURKISH LIRA","currencySign":"TL"},{"currencyCode":"TWD","currencyName":"TAIWANESE CASH","currencySign":"NT$"},{"currencyCode":"UYU","currencyName":"URUGUAY CASH","currencySign":"$U"},{"currencyCode":"VND","currencyName":"VIETNAMESE CASH","currencySign":"₫"},{"currencyCode":"XCD","currencyName":"E CARIBBEAN CASH","currencySign":"$","wantDisabledCAD":"true","wantDisabledUSD":"true"},{"currencyCode":"XPF","currencyName":"TAHITI CFP CASH","currencySign":"CFPF"},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencySign":"R"}],"nonCashCurrencyList":[{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencySign":"$"},{"currencyCode":"USD","currencyName":"US DOLLAR","currencySign":"$"},{"currencyCode":"USB","currencyName":"US BORDERLESS PLAN","currencySign":"$"},{"currencyCode":"GBP","currencyName":"BRITISH POUND","currencySign":"£"},{"currencyCode":"EUR","currencyName":"EURO","currencySign":"€"},{"currencyCode":"AED","currencyName":"EMIRATI DIRHAM","currencySign":"د.إ"},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencySign":"$"},{"currencyCode":"BBD","currencyName":"BARBADOS DOLLAR","currencySign":"$"},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencySign":"CHF"},{"currencyCode":"CZK","currencyName":"CZECH KORUNA","currencySign":"Kč"},{"currencyCode":"DKK","currencyName":"DANISH KRONER","currencySign":"kr"},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencySign":"$"},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencySign":"Ft"},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencySign":"¥"},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencySign":"$"},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencySign":"kr"},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencySign":"$"},{"currencyCode":"PHP","currencyName":"PHILIPPINE PESO","currencySign":"₱"},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencySign":"zł"},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencySign":"﷼"},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencySign":"kr"},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencySign":"S$"},{"currencyCode":"XCD","currencyName":"EAST CARIBBEAN DOLLAR","currencySign":"$"},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencySign":"R"}],"format":{"currency-no-decimal":">left>0>,>.>3","currency-decimal":">left>2>,>.>3"}},"G.text./api/fxcal/cash-ts?":{"body":"Tue Oct 13 13:30:00 EST 2026","headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["text/html; charset=utf-8"],"content-length":["28"],"etag":["W/\"1c-OJXjE1lLm64K+5MqfPz0MqcQF6o\""],"date":["Tue, 13 Oct 2026 17:53:32 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/cash-ts","responseType":"text"},"G.json./api/fxcal/non-cash-gfx-rates/en?":{"body":{"conversionTableFXCAL":[{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"999.99","currencyRateRec":"1.3812","currencyRatePay":"1.4602","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"4999.99","currencyRateRec":"1.3819","currencyRatePay":"1.4596","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"9999.99","currencyRateRec":"1.3819","currencyRatePay":"1.4596","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"24999.99","currencyRateRec":"1.39","currencyRatePay":"1.452","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"34999.99","currencyRateRec":"1.3944","currencyRatePay":"1.4478","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"999.99","currencyRateRec":"1.3872","currencyRatePay":"1.4545","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"4999.99","currencyRateRec":"1.3876","currencyRatePay":"1.4542","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"9999.99","currencyRateRec":"1.3876","currencyRatePay":"1.4542","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"24999.99","currencyRateRec":"1.3938","currencyRatePay":"1.4484","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"34999.99","currencyRateRec":"1.3945","currencyRatePay":"1.4478","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"2899.99","currencyRateRec":"1.8356","currencyRatePay":"1.9377","currencyRateRecUSD":"1.2866","currencyRatePayUSD":"1.3681","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"4999.99","currencyRateRec":"1.8442","currencyRatePay":"1.9279","currencyRateRecUSD":"1.2936","currencyRatePayUSD":"1.3602","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"12499.99","currencyRateRec":"1.8538","currencyRatePay":"1.9195","currencyRateRecUSD":"1.3009","currencyRatePayUSD":"1.3535","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"24999.99","currencyRateRec":"1.8563","currencyRatePay":"1.9164","currencyRateRecUSD":"1.3029","currencyRatePayUSD":"1.351","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"34999.99","currencyRateRec":"1.8606","currencyRatePay":"1.9112","currencyRateRecUSD":"1.3087","currencyRatePayUSD":"1.3441","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"79999.99","currencyRateRec":"1.8672","currencyRatePay":"1.9033","currencyRateRecUSD":"1.3116","currencyRatePayUSD":"1.3405","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"119999.99","currencyRateRec":"1.8685","currencyRatePay":"1.9019","currencyRateRecUSD":"1.3133","currencyRatePayUSD":"1.3386","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"199999.99","currencyRateRec":"1.8705","currencyRatePay":"1.8993","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"4199.99","currencyRateRec":"1.5411","currencyRatePay":"1.6386","currencyRateRecUSD":"1.0793","currencyRatePayUSD":"1.157","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"6799.99","currencyRateRec":"1.5478","currencyRatePay":"1.6323","currencyRateRecUSD":"1.093","currencyRatePayUSD":"1.1454","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"16999.99","currencyRateRec":"1.5586","currencyRatePay":"1.6241","currencyRateRecUSD":"1.0958","currencyRatePayUSD":"1.1426","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"34499.99","currencyRateRec":"1.5621","currencyRatePay":"1.6206","currencyRateRecUSD":"1.1005","currencyRatePayUSD":"1.1379","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"49999.99","currencyRateRec":"1.565","currencyRatePay":"1.6177","currencyRateRecUSD":"1.1041","currencyRatePayUSD":"1.1343","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"84999.99","currencyRateRec":"1.5705","currencyRatePay":"1.6122","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"169999.99","currencyRateRec":"1.5745","currencyRatePay":"1.6082","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"11499.99","currencyRateRec":"0.9621","currencyRatePay":"1.0227","currencyRateRecUSD":"0.6737","currencyRatePayUSD":"0.7222","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"28499.99","currencyRateRec":"0.9696","currencyRatePay":"1.0152","currencyRateRecUSD":"0.6797","currencyRatePayUSD":"0.7162","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"65999.99","currencyRateRec":"0.9762","currencyRatePay":"1.0086","currencyRateRecUSD":"0.685","currencyRatePayUSD":"0.7109","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"149999.99","currencyRateRec":"0.9801","currencyRatePay":"1.0047","currencyRateRecUSD":"0.6891","currencyRatePayUSD":"0.7068","CNO":false},{"currencyCode":"CZK","currencyName":"CZECH REPUBLIC KORUNA","currencyTier":"239999.99","currencyRateRec":"0.0626","currencyRatePay":"0.0681","currencyRateRecUSD":"0.0437","currencyRatePayUSD":"0.0482","CNO":false},{"currencyCode":"DKK","currencyName":"DANISH KRONE","currencyTier":"62499.99","currencyRateRec":"0.2056","currencyRatePay":"0.2201","currencyRateRecUSD":"0.1439","currencyRatePayUSD":"0.1555","CNO":false},{"currencyCode":"DKK","currencyName":"DANISH KRONE","currencyTier":"331999.99","currencyRateRec":"0.2085","currencyRatePay":"0.2172","currencyRateRecUSD":"0.1468","currencyRatePayUSD":"0.1526","CNO":false},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencyTier":"77499.99","currencyRateRec":"0.176","currencyRatePay":"0.1864","currencyRateRecUSD":"0.1232","currencyRatePayUSD":"0.1316","CNO":false},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencyTier":"595999.99","currencyRateRec":"0.1787","currencyRatePay":"0.1837","CNO":false},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencyTier":"1699999.99","currencyRateRec":"0.004123","currencyRatePay":"0.004622","currencyRateRecUSD":"0.002883","currencyRatePayUSD":"0.003267","CNO":false},{"currencyCode":"ILS","currencyName":"ISRAELI NEW SHEQEL","currencyTier":"41999.99","currencyRateRec":"0.4477","currencyRatePay":"0.4779","currencyRateRecUSD":"0.3134","currencyRatePayUSD":"0.3376","CNO":false},{"currencyCode":"ILS","currencyName":"ISRAELI NEW SHEQEL","currencyTier":"188999.99","currencyRateRec":"0.4544","currencyRatePay":"0.4712","currencyRateRecUSD":"0.3188","currencyRatePayUSD":"0.3322","CNO":false},{"currencyCode":"INR","currencyName":"INDIAN RUPEE","currencyTier":"444499.99","currencyRateRec":"0.014449","currencyRatePay":"0.015458","currencyRateRecUSD":"0.010071","currencyRatePayUSD":"0.010919","CNO":false},{"currencyCode":"INR","currencyName":"INDIAN RUPEE","currencyTier":"29999999.99","currencyRateRec":"0.014769","currencyRatePay":"0.015138","CNO":false},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencyTier":"1174999.99","currencyRateRec":"0.008644","currencyRatePay":"0.009311","currencyRateRecUSD":"0.006047","currencyRatePayUSD":"0.00658","CNO":false},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencyTier":"106999.99","currencyRateRec":"0.074332","currencyRatePay":"0.080399","currencyRateRecUSD":"0.051992","currencyRatePayUSD":"0.056832","CNO":false},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencyTier":"1428999.99","currencyRateRec":"0.076132","currencyRatePay":"0.078599","CNO":false},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencyTier":"54999.99","currencyRateRec":"0.1432","currencyRatePay":"0.1552","currencyRateRecUSD":"0.1002","currencyRatePayUSD":"0.1098","CNO":false},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencyTier":"412999.99","currencyRateRec":"0.1457","currencyRatePay":"0.1527","currencyRateRecUSD":"0.1027","currencyRatePayUSD":"0.1073","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"13499.99","currencyRateRec":"0.7628","currencyRatePay":"0.8333","currencyRateRecUSD":"0.533","currencyRatePayUSD":"0.5895","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"37999.99","currencyRateRec":"0.7742","currencyRatePay":"0.8219","currencyRateRecUSD":"0.5421","currencyRatePayUSD":"0.5804","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"68999.99","currencyRateRec":"0.7827","currencyRatePay":"0.8134","currencyRateRecUSD":"0.5498","currencyRatePayUSD":"0.5727","CNO":false},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencyTier":"26399.99","currencyRateRec":"0.3448","currencyRatePay":"0.3832","currencyRateRecUSD":"0.2407","currencyRatePayUSD":"0.2713","CNO":false},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencyTier":"193999.99","currencyRateRec":"0.356","currencyRatePay":"0.372","currencyRateRecUSD":"0.2496","currencyRatePayUSD":"0.2624","CNO":false},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencyTier":"37499.99","currencyRateRec":"0.3624","currencyRatePay":"0.3948","currencyRateRecUSD":"0.2533","currencyRatePayUSD":"0.2792","CNO":false},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencyTier":"186999.99","currencyRateRec":"0.3701","currencyRatePay":"0.3871","currencyRateRecUSD":"0.2594","currencyRatePayUSD":"0.2731","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"14499.99","currencyRateRec":"1.0828","currencyRatePay":"1.1389","currencyRateRecUSD":"0.7589","currencyRatePayUSD":"0.8036","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"35999.99","currencyRateRec":"1.0917","currencyRatePay":"1.13","currencyRateRecUSD":"0.766","currencyRatePayUSD":"0.7965","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"67999.99","currencyRateRec":"1.0952","currencyRatePay":"1.1264","currencyRateRecUSD":"0.7688","currencyRatePayUSD":"0.7937","CNO":false},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencyTier":"62899.99","currencyRateRec":"0.0831","currencyRatePay":"0.0893","currencyRateRecUSD":"0.0581","currencyRatePayUSD":"0.0631","CNO":false},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencyTier":"1106999.99","currencyRateRec":"0.0853","currencyRatePay":"0.0871","currencyRateRecUSD":"0.0599","currencyRatePayUSD":"0.0613","CNO":false},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencyTier":"64999.99","currencyRateRec":"0.1369","currencyRatePay":"0.1483","currencyRateRecUSD":"0.0957","currencyRatePayUSD":"0.1048","CNO":false},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencyTier":"649999.99","currencyRateRec":"0.1396","currencyRatePay":"0.1456","currencyRateRecUSD":"0.0979","currencyRatePayUSD":"0.1026","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"11499.99","currencyRateRec":"1.6677","currencyRatePay":"1.7459","currencyRateRecUSD":"1.1694","currencyRatePayUSD":"1.2313","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"27999.99","currencyRateRec":"1.6784","currencyRatePay":"1.7353","currencyRateRecUSD":"1.1779","currencyRatePayUSD":"1.2228","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"48999.99","currencyRateRec":"1.6852","currencyRatePay":"1.7284","currencyRateRecUSD":"1.1834","currencyRatePayUSD":"1.2173","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"74999.99","currencyRateRec":"1.6866","currencyRatePay":"1.7269","CNO":false},{"currencyCode":"THB","currencyName":"THAI BAHT","currencyTier":"312499.99","currencyRateRec":"0.041015","currencyRatePay":"0.043703","currencyRateRecUSD":"0.028722","currencyRatePayUSD":"0.030861","CNO":false},{"currencyCode":"TRY","currencyName":"TURKISH LIRA","currencyTier":"149999.99","currencyRateRec":"0.0272","currencyRatePay":"0.0304","currencyRateRecUSD":"0.0189","currencyRatePayUSD":"0.0216","CNO":false},{"currencyCode":"AED","currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyTier":"36749.99","currencyRateRec":"0.3738","currencyRatePay":"0.4005","currencyRateRecUSD":"0.2616","currencyRatePayUSD":"0.2829","CNO":false},{"currencyCode":"AED","currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyTier":"182999.99","currencyRateRec":"0.3798","currencyRatePay":"0.3945","currencyRateRecUSD":"0.2664","currencyRatePayUSD":"0.2781","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6848","currencyRatePayUSD":"0.7241","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"4999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6851","currencyRatePayUSD":"0.7237","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"9999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6851","currencyRatePayUSD":"0.7237","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"24999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6887","currencyRatePayUSD":"0.7195","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"49999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6917","currencyRatePayUSD":"0.716","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"99999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6966","currencyRatePayUSD":"0.7105","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"199999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6979","currencyRatePayUSD":"0.709","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"499999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6992","currencyRatePayUSD":"0.7076","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"999999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.7005","currencyRatePayUSD":"0.7063","CNO":false}],"timestamp":"Tue Oct 13 2026 1:45 PM Eastern Daylight Time","currencyList":[{"currencyName":"CANADIAN DOLLAR","currencyCode":"CAD","currencySign":"$"},{"currencyName":"US DOLLAR","currencyCode":"USD","currencySign":"$"},{"currencyName":"US BORDERLESS","currencyCode":"USB","currencySign":"$"},{"currencyName":"BRITISH POUND STERLING","currencyCode":"GBP","currencySign":"£"},{"currencyName":"EURO","currencyCode":"EUR","currencySign":"€"},{"currencyName":"AUSTRALIAN DOLLAR","currencyCode":"AUD","currencySign":"$"},{"currencyName":"CZECH REPUBLIC KORUNA","currencyCode":"CZK","currencySign":"Kč"},{"currencyName":"DANISH KRONE","currencyCode":"DKK","currencySign":"kr"},{"currencyName":"HONG KONG DOLLAR","currencyCode":"HKD","currencySign":"$"},{"currencyName":"HUNGARIAN FORINT","currencyCode":"HUF","currencySign":"Ft"},{"currencyName":"ISRAELI NEW SHEQEL","currencyCode":"ILS","currencySign":"₪"},{"currencyName":"INDIAN RUPEE","currencyCode":"INR","currencySign":"₹"},{"currencyName":"JAPANESE YEN","currencyCode":"JPY","currencySign":"¥"},{"currencyName":"MEXICAN PESO","currencyCode":"MXN","currencySign":"$"},{"currencyName":"NORWEGIAN KRONE","currencyCode":"NOK","currencySign":"kr"},{"currencyName":"NEW ZEALAND DOLLAR","currencyCode":"NZD","currencySign":"$"},{"currencyName":"POLISH ZLOTY","currencyCode":"PLN","currencySign":"zł"},{"currencyName":"SAUDI ARABIAN RIYAL","currencyCode":"SAR","currencySign":"﷼"},{"currencyName":"SINGAPORE DOLLAR","currencyCode":"SGD","currencySign":"$"},{"currencyName":"SOUTH AFRICAN RAND","currencyCode":"ZAR","currencySign":"R"},{"currencyName":"SWEDISH KRONA","currencyCode":"SEK","currencySign":"kr"},{"currencyName":"SWISS FRANC","currencyCode":"CHF","currencySign":"CHF"},{"currencyName":"THAI BAHT","currencyCode":"THB","currencySign":"฿"},{"currencyName":"TURKISH LIRA","currencyCode":"TRY","currencySign":"₺"},{"currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyCode":"AED","currencySign":"د.إ"}]},"headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["application/json; charset=utf-8"],"content-length":["16581"],"etag":["W/\"40c5-nL6Bffel8aGIL7aegxv9q4wXBzc\""],"date":["Tue, 13 Oct 2026 17:53:32 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/non-cash-gfx-rates/en","responseType":"json"},"G.json./api/fxcal/cash-rates?":{"body":[{"tagName":"?xml","attributes":{"version":"1.0","encoding":"utf-8"},"children":[]},{"tagName":"RateCategory","attributes":{"ID":"Foreign Exchange Cash Rates"},"children":[{"tagName":"RateSubCategory","attributes":{"ID":"RecC CAD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3727"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8240"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.9508"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6539"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2452"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001244"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1944"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0583"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0206"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4798"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5310"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5375"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1686"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003838"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000067"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4230"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0080"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008619"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.073250"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7484"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8211"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3675"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0201"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3200"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0759"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000953"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3416"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8213"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0409"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.6600"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.011630"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0391"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0249"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3516"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000049"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.010650"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002838"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000392"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3103"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.039700"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009699"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1690"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.4555"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0083"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8181"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0507"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5453"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.3769"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3368"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2695"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0316"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"PayC CAD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.4685"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9494"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0416"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7736"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3342"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001663"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2265"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0731"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0258"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.6557"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7368"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1945"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.004942"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000093"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5028"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0099"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009326"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.082050"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8571"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9493"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4678"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0260"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4120"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0974"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001168"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4162"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9506"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1837"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.7569"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.015320"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0463"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0337"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4243"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000062"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.012950"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003399"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000512"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3863"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.049170"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.012621"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2027"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0617"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2125"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.1762"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["5.0117"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8573"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0213"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4415"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3289"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0391"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"RecC USD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6809"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2828"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6687"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4599"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1724"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000875"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1367"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0410"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0144"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3374"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0768"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3780"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1185"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002699"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000047"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2975"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0056"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006062"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.051519"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5263"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2808"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2584"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0141"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2250"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0533"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000670"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2402"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2809"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7321"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1675"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008180"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0275"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0175"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2472"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000034"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.007491"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001996"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000276"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2182"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.027922"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006822"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1188"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.4303"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7091"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2787"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8489"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0868"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.3750"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2368"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1895"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0222"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"PayC USD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7284"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3710"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7325"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5440"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2350"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001170"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1593"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0514"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0181"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1645"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5182"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1367"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003476"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000065"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3536"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0069"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006559"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.057709"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6028"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3710"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3290"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0182"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2897"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0685"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000821"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2927"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3719"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8325"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2356"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.010775"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0325"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0237"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2984"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000044"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009108"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002391"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000360"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2716"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.034583"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008877"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1425"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8567"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8527"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5305"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.5248"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3063"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8283"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3105"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2313"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0275"]}]}]}]}],"headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["application/json; charset=utf-8"],"content-length":["63920"],"etag":["W/\"f9b0-kVLbYgf2s8la3TzZ8mQNUEgKzRg\""],"date":["Tue, 13 Oct 2026 17:53:32 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/cash-rates","responseType":"json"}}
+0.3737
+{"environment":"prod","wcmurl":"https://www.wcmcaas.td.com","data":{"lang":"en","routes":{"fxcal":"fxcal"},"app-text":{"placeholder":"0.00","header":"Currency converter & live exchange rates","cash-tab":"Cash","non-cash-tab":"Non-Cash","non-cash-p":"Use our currency converter to convert some of the most popular transactions including EURO to CAD, CAD to USD, CAD to HKD, and more. Use this tab for transfers, payments, cheques, drafts etc., where no physical foreign cash is exchanged. Non-Cash Rates are generally more favourable to you than Cash Rates. This reflects the costs and risks associated with shipping, handling and holding foreign currency in cash.","cash-p":"Use our currency converter to convert some of the most popular transactions including EURO to CAD, CAD to USD, CAD to HKD, and more. Use this tab for buying and selling physical foreign currency cash. Non-Cash Rates are generally more favourable to you than Cash Rates. This reflects the costs and risks associated with shipping, handling and holding foreign currency in cash.","have-label":"Currency I Have","amount":"Amount","want-label":"Currency I want","non-cash-transactions":"Transactions using non-cash-rates","between-accounts":"Transfer between accounts","transfer-now":"Transfer now","transfer-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=FXT","send-money":"Send money","send-now":"Send now","send-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=IRM","pay-usd":"Pay TD U.S. Dollar Credit Card","pay-now":"Pay now","pay-now-link":"https://easyweb.td.com/waw/idp/login.htm?startpage=BPY","ways-to-order":"Ways to exchange cash using cash rates","order-easyweb":"Order through EasyWeb","order-now":"Order now","pay-now-2":"Find a branch","order-now-branch":"Order through TD branch","order-now-link":"https://easyweb.td.com/waw/ezw/main.jsp?startpage=FOC","order-now-link2":"https://www.td.com/ca/en/personal-banking/branch-locator/","order-phone":"Order by phone","call-easy-line":"Call EasyLine","call-easy-line-link":"https://www.tdcanadatrust.com/customer-service/contact-us/phone/contactus-phone.jsp","branch":"Order from a TD Canada Trust Branch","n-a-abbreviation":"N/A","n-a-abbreviation-table":"N/A","non-cash-gfx-error":"The calculator is unavailable at this time due to system issues. Please try again later.","api-error-header":"\u003Cspan aria-hidden=\"true\" class=\"td-icon icon-regular td-icon-error\">\u003C/span>\u003Cspan class=\"visually-hidden\">Error\u003C/span> Error","conversion-info":"Currency conversion information","cash-exchange-rates":"Cash exchange rates","non-cash-exchange-rates":"Non-cash exchange rates","rate":"\u003Cp>Exchange rate: \u003Cstrong>{{rate}}\u003C/strong> as of \u003Cstrong>{{terms}}\u003C/strong>\u003C/p>","note":"\u003Cstrong>Note:\u003C/strong> The rates provided are illustrative only. Rates fluctuate throughout the day, and the rate for a particular transaction is set at the time of that transaction. We are not responsible for any reliance that you might place on, or use you might make of, the rates provided on this page or the calculator.","error1":"This amount exceeds the calculator's non-cash limit. Please enter a lower amount.","error2":"The specified rate is not available.","error3":"Please re-enter using only 0-9 and a decimal","error4":"This amount exceeds the calculator's cash limit. Please enter a lower amount."},"table-headers":{"code":"Code","currency":"Currency","clientPays":"Client buys at:\u003Cbr/>(Pays Canadian $)","clientReceives":"Client sells at:\u003Cbr/>(Receives Canadian $)"},"cashCurrencyList":[{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencySign":"$"},{"currencyCode":"USD","currencyName":"US DOLLAR","currencySign":"$"},{"currencyCode":"GBP","currencyName":"BRITISH POUND","currencySign":"£"},{"currencyCode":"EUR","currencyName":"EURO","currencySign":"€"},{"currencyCode":"AED","currencyName":"UNITED ARAB CASH","currencySign":"د.إ"},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencySign":"$"},{"currencyCode":"BBD","currencyName":"BARBADOS DOLLAR","currencySign":"$"},{"currencyCode":"BGN","currencyName":"BULGARIAN CASH","currencySign":"лв","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"BHD","currencyName":"BAHRAIN CASH","currencySign":"BD"},{"currencyCode":"BMD","currencyName":"BERMUDIAN DOLLAR","currencySign":"$","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"BND","currencyName":"BRUNEI DOLLAR","currencySign":"$"},{"currencyCode":"BRL","currencyName":"BRAZILIAN CASH","currencySign":"R$"},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencySign":"CHF"},{"currencyCode":"CLP","currencyName":"CHILEAN CASH","currencySign":"$"},{"currencyCode":"CNY","currencyName":"CHINESE CASH","currencySign":"¥"},{"currencyCode":"COP","currencyName":"COLOMBIAN CASH","currencySign":"$"},{"currencyCode":"CRC","currencyName":"COSTA RICAN CASH","currencySign":"₡"},{"currencyCode":"CZK","currencyName":"CZECH KORUNA","currencySign":"Kč"},{"currencyCode":"DKK","currencyName":"DANISH KRONER","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"DOP","currencyName":"DOMINICAN CASH","currencySign":"RD$"},{"currencyCode":"FJD","currencyName":"FIJI CASH","currencySign":"$"},{"currencyCode":"GTQ","currencyName":"GUATEMALAN CASH","currencySign":"Q"},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencySign":"$"},{"currencyCode":"HRK","currencyName":"CROATIAN KUNA","currencySign":"kn"},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencySign":"Ft"},{"currencyCode":"IDR","currencyName":"INDONESIAN CASH","currencySign":"Rp"},{"currencyCode":"ILS","currencyName":"ISRAELI SHEKEL","currencySign":"₪"},{"currencyCode":"INP","currencyName":"NORTH IRISH CASH","currencySign":"£"},{"currencyCode":"ISK","currencyName":"ICELANDIC CASH","currencySign":"kr"},{"currencyCode":"JMD","currencyName":"JAMAICAN DOLLAR","currencySign":"J$"},{"currencyCode":"JOD","currencyName":"JORDAN CASH","currencySign":""},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencySign":"¥"},{"currencyCode":"KES","currencyName":"KENYAN CASH","currencySign":"KSh"},{"currencyCode":"KRW","currencyName":"S. KOREAN CASH","currencySign":"₩"},{"currencyCode":"KWD","currencyName":"KUWAIT CASH","currencySign":"ك"},{"currencyCode":"KYD","currencyName":"CAYMAN ISL CASH","currencySign":"$"},{"currencyCode":"MXN","currencyName":"MEXICAN CASH","currencySign":"$"},{"currencyCode":"MYR","currencyName":"MALAYSIAN CASH","currencySign":"RM"},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencySign":"$"},{"currencyCode":"OMR","currencyName":"OMAN CASH","currencySign":"﷼"},{"currencyCode":"PEN","currencyName":"PERU CASH","currencySign":"S/."},{"currencyCode":"PHP","currencyName":"PHILIPPINE PESO","currencySign":"₱"},{"currencyCode":"PKR","currencyName":"PAKISTANI RUPEE","currencySign":"₨"},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencySign":"zł"},{"currencyCode":"QAR","currencyName":"QATAR CASH","currencySign":"﷼"},{"currencyCode":"RON","currencyName":"ROMANIAN CASH","currencySign":"lei"},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencySign":"﷼"},{"currencyCode":"SCO","currencyName":"SCOTTISH CASH","currencySign":"£"},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencySign":"kr","wantDisabledCAD":"true","wantDisabledUSD":"true","haveDisabledCAD":"true","haveDisabledUSD":"true"},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencySign":"S$"},{"currencyCode":"THB","currencyName":"THAI BAHT","currencySign":"฿"},{"currencyCode":"TRY","currencyName":"TURKISH LIRA","currencySign":"TL"},{"currencyCode":"TWD","currencyName":"TAIWANESE CASH","currencySign":"NT$"},{"currencyCode":"UYU","currencyName":"URUGUAY CASH","currencySign":"$U"},{"currencyCode":"VND","currencyName":"VIETNAMESE CASH","currencySign":"₫"},{"currencyCode":"XCD","currencyName":"E CARIBBEAN CASH","currencySign":"$","wantDisabledCAD":"true","wantDisabledUSD":"true"},{"currencyCode":"XPF","currencyName":"TAHITI CFP CASH","currencySign":"CFPF"},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencySign":"R"}],"nonCashCurrencyList":[{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencySign":"$"},{"currencyCode":"USD","currencyName":"US DOLLAR","currencySign":"$"},{"currencyCode":"USB","currencyName":"US BORDERLESS PLAN","currencySign":"$"},{"currencyCode":"GBP","currencyName":"BRITISH POUND","currencySign":"£"},{"currencyCode":"EUR","currencyName":"EURO","currencySign":"€"},{"currencyCode":"AED","currencyName":"EMIRATI DIRHAM","currencySign":"د.إ"},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencySign":"$"},{"currencyCode":"BBD","currencyName":"BARBADOS DOLLAR","currencySign":"$"},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencySign":"CHF"},{"currencyCode":"CZK","currencyName":"CZECH KORUNA","currencySign":"Kč"},{"currencyCode":"DKK","currencyName":"DANISH KRONER","currencySign":"kr"},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencySign":"$"},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencySign":"Ft"},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencySign":"¥"},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencySign":"$"},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencySign":"kr"},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencySign":"$"},{"currencyCode":"PHP","currencyName":"PHILIPPINE PESO","currencySign":"₱"},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencySign":"zł"},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencySign":"﷼"},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencySign":"kr"},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencySign":"S$"},{"currencyCode":"XCD","currencyName":"EAST CARIBBEAN DOLLAR","currencySign":"$"},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencySign":"R"}],"format":{"currency-no-decimal":">left>0>,>.>3","currency-decimal":">left>2>,>.>3"}},"G.text./api/fxcal/cash-ts?":{"body":"Tue Oct 13 17:30:00 EST 2026","headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["text/html; charset=utf-8"],"content-length":["28"],"etag":["W/\"1c-8zecrC6jPe551vGcDKZyi/7sxE0\""],"date":["Tue, 13 Oct 2026 22:08:54 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/cash-ts","responseType":"text"},"G.json./api/fxcal/non-cash-gfx-rates/en?":{"body":{"conversionTableFXCAL":[{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"999.99","currencyRateRec":"1.3807","currencyRatePay":"1.46","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"4999.99","currencyRateRec":"1.3814","currencyRatePay":"1.4594","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"9999.99","currencyRateRec":"1.3814","currencyRatePay":"1.4594","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"24999.99","currencyRateRec":"1.3895","currencyRatePay":"1.4518","CNO":false},{"currencyCode":"USD","currencyName":"US DOLLAR","currencyTier":"34999.99","currencyRateRec":"1.394","currencyRatePay":"1.4476","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"999.99","currencyRateRec":"1.3867","currencyRatePay":"1.4543","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"4999.99","currencyRateRec":"1.3871","currencyRatePay":"1.454","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"9999.99","currencyRateRec":"1.3871","currencyRatePay":"1.454","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"24999.99","currencyRateRec":"1.3934","currencyRatePay":"1.4482","CNO":false},{"currencyCode":"USB","currencyName":"US BORDERLESS","currencyTier":"34999.99","currencyRateRec":"1.394","currencyRatePay":"1.4476","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"2899.99","currencyRateRec":"1.8348","currencyRatePay":"1.9389","currencyRateRecUSD":"1.2865","currencyRatePayUSD":"1.3691","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"4999.99","currencyRateRec":"1.8436","currencyRatePay":"1.9291","currencyRateRecUSD":"1.2936","currencyRatePayUSD":"1.3612","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"12499.99","currencyRateRec":"1.8532","currencyRatePay":"1.9207","currencyRateRecUSD":"1.3009","currencyRatePayUSD":"1.3545","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"24999.99","currencyRateRec":"1.8557","currencyRatePay":"1.9173","currencyRateRecUSD":"1.3029","currencyRatePayUSD":"1.352","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"34999.99","currencyRateRec":"1.86","currencyRatePay":"1.9121","currencyRateRecUSD":"1.3087","currencyRatePayUSD":"1.3451","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"79999.99","currencyRateRec":"1.8666","currencyRatePay":"1.9046","currencyRateRecUSD":"1.3116","currencyRatePayUSD":"1.3415","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"119999.99","currencyRateRec":"1.8679","currencyRatePay":"1.9031","currencyRateRecUSD":"1.3133","currencyRatePayUSD":"1.3396","CNO":false},{"currencyCode":"GBP","currencyName":"BRITISH POUND STERLING","currencyTier":"199999.99","currencyRateRec":"1.8702","currencyRatePay":"1.9003","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"4199.99","currencyRateRec":"1.5413","currencyRatePay":"1.6394","currencyRateRecUSD":"1.0798","currencyRatePayUSD":"1.1577","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"6799.99","currencyRateRec":"1.548","currencyRatePay":"1.6331","currencyRateRecUSD":"1.0936","currencyRatePayUSD":"1.1461","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"16999.99","currencyRateRec":"1.5588","currencyRatePay":"1.6249","currencyRateRecUSD":"1.0963","currencyRatePayUSD":"1.1433","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"34499.99","currencyRateRec":"1.5623","currencyRatePay":"1.6214","currencyRateRecUSD":"1.1011","currencyRatePayUSD":"1.1386","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"49999.99","currencyRateRec":"1.5652","currencyRatePay":"1.6185","currencyRateRecUSD":"1.1047","currencyRatePayUSD":"1.135","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"84999.99","currencyRateRec":"1.5707","currencyRatePay":"1.613","CNO":false},{"currencyCode":"EUR","currencyName":"EURO","currencyTier":"169999.99","currencyRateRec":"1.5747","currencyRatePay":"1.609","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"11499.99","currencyRateRec":"0.9618","currencyRatePay":"1.0231","currencyRateRecUSD":"0.6737","currencyRatePayUSD":"0.7227","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"28499.99","currencyRateRec":"0.9693","currencyRatePay":"1.0156","currencyRateRecUSD":"0.6797","currencyRatePayUSD":"0.7167","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"65999.99","currencyRateRec":"0.976","currencyRatePay":"1.0091","currencyRateRecUSD":"0.685","currencyRatePayUSD":"0.7114","CNO":false},{"currencyCode":"AUD","currencyName":"AUSTRALIAN DOLLAR","currencyTier":"149999.99","currencyRateRec":"0.9798","currencyRatePay":"1.0052","currencyRateRecUSD":"0.6891","currencyRatePayUSD":"0.7073","CNO":false},{"currencyCode":"CZK","currencyName":"CZECH REPUBLIC KORUNA","currencyTier":"239999.99","currencyRateRec":"0.0625","currencyRatePay":"0.0682","currencyRateRecUSD":"0.0437","currencyRatePayUSD":"0.0483","CNO":false},{"currencyCode":"DKK","currencyName":"DANISH KRONE","currencyTier":"62499.99","currencyRateRec":"0.2057","currencyRatePay":"0.2202","currencyRateRecUSD":"0.144","currencyRatePayUSD":"0.1556","CNO":false},{"currencyCode":"DKK","currencyName":"DANISH KRONE","currencyTier":"331999.99","currencyRateRec":"0.2086","currencyRatePay":"0.2173","currencyRateRecUSD":"0.1469","currencyRatePayUSD":"0.1527","CNO":false},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencyTier":"77499.99","currencyRateRec":"0.1759","currencyRatePay":"0.1864","currencyRateRecUSD":"0.1232","currencyRatePayUSD":"0.1316","CNO":false},{"currencyCode":"HKD","currencyName":"HONG KONG DOLLAR","currencyTier":"595999.99","currencyRateRec":"0.1786","currencyRatePay":"0.1837","CNO":false},{"currencyCode":"HUF","currencyName":"HUNGARIAN FORINT","currencyTier":"1699999.99","currencyRateRec":"0.00412","currencyRatePay":"0.004628","currencyRateRecUSD":"0.002883","currencyRatePayUSD":"0.003272","CNO":false},{"currencyCode":"ILS","currencyName":"ISRAELI NEW SHEQEL","currencyTier":"41999.99","currencyRateRec":"0.4449","currencyRatePay":"0.4796","currencyRateRecUSD":"0.3115","currencyRatePayUSD":"0.3389","CNO":false},{"currencyCode":"ILS","currencyName":"ISRAELI NEW SHEQEL","currencyTier":"188999.99","currencyRateRec":"0.4516","currencyRatePay":"0.473","currencyRateRecUSD":"0.3169","currencyRatePayUSD":"0.3335","CNO":false},{"currencyCode":"INR","currencyName":"INDIAN RUPEE","currencyTier":"444499.99","currencyRateRec":"0.014385","currencyRatePay":"0.015455","currencyRateRecUSD":"0.010071","currencyRatePayUSD":"0.010919","CNO":false},{"currencyCode":"INR","currencyName":"INDIAN RUPEE","currencyTier":"29999999.99","currencyRateRec":"0.014705","currencyRatePay":"0.015135","CNO":false},{"currencyCode":"JPY","currencyName":"JAPANESE YEN","currencyTier":"1174999.99","currencyRateRec":"0.008642","currencyRatePay":"0.009315","currencyRateRecUSD":"0.006049","currencyRatePayUSD":"0.006584","CNO":false},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencyTier":"106999.99","currencyRateRec":"0.074257","currencyRatePay":"0.080443","currencyRateRecUSD":"0.051965","currencyRatePayUSD":"0.056906","CNO":false},{"currencyCode":"MXN","currencyName":"MEXICAN PESO","currencyTier":"1428999.99","currencyRateRec":"0.07606","currencyRatePay":"0.078643","CNO":false},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencyTier":"54999.99","currencyRateRec":"0.1423","currencyRatePay":"0.1556","currencyRateRecUSD":"0.0996","currencyRatePayUSD":"0.11","CNO":false},{"currencyCode":"NOK","currencyName":"NORWEGIAN KRONE","currencyTier":"412999.99","currencyRateRec":"0.1449","currencyRatePay":"0.1531","currencyRateRecUSD":"0.1021","currencyRatePayUSD":"0.1075","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"13499.99","currencyRateRec":"0.762","currencyRatePay":"0.8333","currencyRateRecUSD":"0.5326","currencyRatePayUSD":"0.5896","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"37999.99","currencyRateRec":"0.7734","currencyRatePay":"0.8219","currencyRateRecUSD":"0.5417","currencyRatePayUSD":"0.5805","CNO":false},{"currencyCode":"NZD","currencyName":"NEW ZEALAND DOLLAR","currencyTier":"68999.99","currencyRateRec":"0.7819","currencyRatePay":"0.8134","currencyRateRecUSD":"0.5494","currencyRatePayUSD":"0.5728","CNO":false},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencyTier":"26399.99","currencyRateRec":"0.3445","currencyRatePay":"0.3837","currencyRateRecUSD":"0.2406","currencyRatePayUSD":"0.2717","CNO":false},{"currencyCode":"PLN","currencyName":"POLISH ZLOTY","currencyTier":"193999.99","currencyRateRec":"0.3557","currencyRatePay":"0.3725","currencyRateRecUSD":"0.2495","currencyRatePayUSD":"0.2628","CNO":false},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencyTier":"37499.99","currencyRateRec":"0.362","currencyRatePay":"0.3949","currencyRateRecUSD":"0.2532","currencyRatePayUSD":"0.2793","CNO":false},{"currencyCode":"SAR","currencyName":"SAUDI ARABIAN RIYAL","currencyTier":"186999.99","currencyRateRec":"0.3697","currencyRatePay":"0.3872","currencyRateRecUSD":"0.2593","currencyRatePayUSD":"0.2732","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"14499.99","currencyRateRec":"1.0817","currencyRatePay":"1.1391","currencyRateRecUSD":"0.7584","currencyRatePayUSD":"0.8039","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"35999.99","currencyRateRec":"1.0906","currencyRatePay":"1.1302","currencyRateRecUSD":"0.7655","currencyRatePayUSD":"0.7968","CNO":false},{"currencyCode":"SGD","currencyName":"SINGAPORE DOLLAR","currencyTier":"67999.99","currencyRateRec":"1.094","currencyRatePay":"1.1267","currencyRateRecUSD":"0.7683","currencyRatePayUSD":"0.794","CNO":false},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencyTier":"62899.99","currencyRateRec":"0.0828","currencyRatePay":"0.0895","currencyRateRecUSD":"0.058","currencyRatePayUSD":"0.0632","CNO":false},{"currencyCode":"ZAR","currencyName":"SOUTH AFRICAN RAND","currencyTier":"1106999.99","currencyRateRec":"0.085","currencyRatePay":"0.0873","currencyRateRecUSD":"0.0598","currencyRatePayUSD":"0.0614","CNO":false},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencyTier":"64999.99","currencyRateRec":"0.1368","currencyRatePay":"0.1485","currencyRateRecUSD":"0.0957","currencyRatePayUSD":"0.105","CNO":false},{"currencyCode":"SEK","currencyName":"SWEDISH KRONA","currencyTier":"649999.99","currencyRateRec":"0.1395","currencyRatePay":"0.1458","currencyRateRecUSD":"0.0979","currencyRatePayUSD":"0.1028","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"11499.99","currencyRateRec":"1.668","currencyRatePay":"1.7471","currencyRateRecUSD":"1.1698","currencyRatePayUSD":"1.2325","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"27999.99","currencyRateRec":"1.6786","currencyRatePay":"1.7365","currencyRateRecUSD":"1.1784","currencyRatePayUSD":"1.224","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"48999.99","currencyRateRec":"1.6854","currencyRatePay":"1.7296","currencyRateRecUSD":"1.1839","currencyRatePayUSD":"1.2185","CNO":false},{"currencyCode":"CHF","currencyName":"SWISS FRANC","currencyTier":"74999.99","currencyRateRec":"1.6869","currencyRatePay":"1.7284","CNO":false},{"currencyCode":"THB","currencyName":"THAI BAHT","currencyTier":"312499.99","currencyRateRec":"0.04097","currencyRatePay":"0.043768","currencyRateRecUSD":"0.028699","currencyRatePayUSD":"0.030907","CNO":false},{"currencyCode":"TRY","currencyName":"TURKISH LIRA","currencyTier":"149999.99","currencyRateRec":"0.0272","currencyRatePay":"0.0304","currencyRateRecUSD":"0.0189","currencyRatePayUSD":"0.0216","CNO":false},{"currencyCode":"AED","currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyTier":"36749.99","currencyRateRec":"0.3737","currencyRatePay":"0.4005","currencyRateRecUSD":"0.2616","currencyRatePayUSD":"0.2829","CNO":false},{"currencyCode":"AED","currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyTier":"182999.99","currencyRateRec":"0.3797","currencyRatePay":"0.3945","currencyRateRecUSD":"0.2664","currencyRatePayUSD":"0.2781","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6849","currencyRatePayUSD":"0.7243","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"4999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6852","currencyRatePayUSD":"0.724","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"9999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6852","currencyRatePayUSD":"0.724","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"24999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6888","currencyRatePayUSD":"0.7197","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"49999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6918","currencyRatePayUSD":"0.7162","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"99999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6967","currencyRatePayUSD":"0.7108","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"199999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.698","currencyRatePayUSD":"0.7092","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"499999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.6993","currencyRatePayUSD":"0.7079","CNO":false},{"currencyCode":"CAD","currencyName":"CANADIAN DOLLAR","currencyTier":"999999.99","currencyRatePay":"1.0000","currencyRateRec":"1.0000","currencyRateRecUSD":"0.7006","currencyRatePayUSD":"0.7065","CNO":false}],"timestamp":"Tue Oct 13 2026 6:00 PM Eastern Daylight Time","currencyList":[{"currencyName":"CANADIAN DOLLAR","currencyCode":"CAD","currencySign":"$"},{"currencyName":"US DOLLAR","currencyCode":"USD","currencySign":"$"},{"currencyName":"US BORDERLESS","currencyCode":"USB","currencySign":"$"},{"currencyName":"BRITISH POUND STERLING","currencyCode":"GBP","currencySign":"£"},{"currencyName":"EURO","currencyCode":"EUR","currencySign":"€"},{"currencyName":"AUSTRALIAN DOLLAR","currencyCode":"AUD","currencySign":"$"},{"currencyName":"CZECH REPUBLIC KORUNA","currencyCode":"CZK","currencySign":"Kč"},{"currencyName":"DANISH KRONE","currencyCode":"DKK","currencySign":"kr"},{"currencyName":"HONG KONG DOLLAR","currencyCode":"HKD","currencySign":"$"},{"currencyName":"HUNGARIAN FORINT","currencyCode":"HUF","currencySign":"Ft"},{"currencyName":"ISRAELI NEW SHEQEL","currencyCode":"ILS","currencySign":"₪"},{"currencyName":"INDIAN RUPEE","currencyCode":"INR","currencySign":"₹"},{"currencyName":"JAPANESE YEN","currencyCode":"JPY","currencySign":"¥"},{"currencyName":"MEXICAN PESO","currencyCode":"MXN","currencySign":"$"},{"currencyName":"NORWEGIAN KRONE","currencyCode":"NOK","currencySign":"kr"},{"currencyName":"NEW ZEALAND DOLLAR","currencyCode":"NZD","currencySign":"$"},{"currencyName":"POLISH ZLOTY","currencyCode":"PLN","currencySign":"zł"},{"currencyName":"SAUDI ARABIAN RIYAL","currencyCode":"SAR","currencySign":"﷼"},{"currencyName":"SINGAPORE DOLLAR","currencyCode":"SGD","currencySign":"$"},{"currencyName":"SOUTH AFRICAN RAND","currencyCode":"ZAR","currencySign":"R"},{"currencyName":"SWEDISH KRONA","currencyCode":"SEK","currencySign":"kr"},{"currencyName":"SWISS FRANC","currencyCode":"CHF","currencySign":"CHF"},{"currencyName":"THAI BAHT","currencyCode":"THB","currencySign":"฿"},{"currencyName":"TURKISH LIRA","currencyCode":"TRY","currencySign":"₺"},{"currencyName":"UNITED ARAB EMIRATES DIRHAM","currencyCode":"AED","currencySign":"د.إ"}]},"headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["application/json; charset=utf-8"],"content-length":["16565"],"etag":["W/\"40b5-0opoc/qUTJCfM5FfsAFbLAedIPc\""],"date":["Tue, 13 Oct 2026 22:08:54 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/non-cash-gfx-rates/en","responseType":"json"},"G.json./api/fxcal/cash-rates?":{"body":[{"tagName":"?xml","attributes":{"version":"1.0","encoding":"utf-8"},"children":[]},{"tagName":"RateCategory","attributes":{"ID":"Foreign Exchange Cash Rates"},"children":[{"tagName":"RateSubCategory","attributes":{"ID":"RecC CAD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3728"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8249"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.9507"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6540"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2449"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001239"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1944"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0583"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0206"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4799"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5315"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5376"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1686"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003840"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000067"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4234"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0080"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008622"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.073080"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7485"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8221"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3673"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0201"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3200"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0759"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000953"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3417"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8222"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0412"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.6596"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.011630"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0392"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0249"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3517"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000049"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.010660"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002839"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000393"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3103"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.039700"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009709"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1691"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.4544"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0086"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8185"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0516"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5456"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.3776"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3369"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2694"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0316"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"PayC CAD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.4686"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9498"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0411"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7738"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3339"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001662"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2265"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0731"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0258"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.6560"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7370"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1945"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.004947"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000094"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5033"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0099"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009330"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.081910"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8573"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9497"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4677"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0260"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4121"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0975"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001169"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4163"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.9510"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1839"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.7564"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.015320"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0463"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0337"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4244"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000062"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.012950"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003400"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000513"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3864"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.049170"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.012621"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2029"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0615"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2128"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.1766"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["5.0127"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.8577"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["4.0222"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4416"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3291"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0391"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"RecC USD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6809"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2834"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6686"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.4599"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1722"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000871"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1367"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0410"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0144"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3375"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0770"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3780"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1185"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002701"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000047"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2977"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0056"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006064"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.051396"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5264"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2814"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2583"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0141"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2250"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0533"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000670"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2403"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2815"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7322"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1671"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008179"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0275"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0175"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2473"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000034"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.007497"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001997"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000276"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2182"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.027920"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006828"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1189"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.4294"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7093"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2789"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8494"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0869"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.3754"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2369"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1894"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0222"]}]}]},{"tagName":"RateSubCategory","attributes":{"ID":"PayC USD"},"children":[{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["USD,35000.0000,US DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.0000"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CAD,0.0000,CANADIAN DOLLARS"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7284"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GBP,15000.0000,STERLING CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3712"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AUD,15000.0000,AUSTRALIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.7321"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BBD,25000.0000,BARBADOS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5442"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BMD,9000.0000,BERMUDA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BRL,30000.0000,BRAZIL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2348"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CLP,5019000.0000,CHILEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.001169"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CNY,70000.0000,CHINESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1592"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CZK,200000.0000,CZECH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0514"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DKK,50000.0000,DANISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["DOP,381000.0000,DOMINICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0181"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XCD,25000.0000,E CARIBBEAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["EUR,20000.0000,EURO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.1646"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["FJD,20000.0000,FIJI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.5183"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HKD,75000.0000,HONG KONG CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1367"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["HUF,2088000.0000,HUNGARY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.003479"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INR,110000.0000,INDIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["IDR,99000000.0000,INDONESIA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000066"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ILS,35000.0000,ISRAEL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3539"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JMD,1031000.0000,JAMAICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0069"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JPY,2000000.0000,JAPANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.006562"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MXN,200000.0000,MEXICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.057606"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MAD,21000.0000,MOROCCO CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NZD,15000.0000,NEW ZEALAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.6029"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["INP,6000.0000,NORTH IRISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3711"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NOK,63000.0000,NORWEGIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PEN,26000.0000,PERU CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3289"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PHP,550000.0000,PHILIPPINES CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0182"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["PLN,35000.0000,POLAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2898"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ZAR,130000.0000,S. AFRICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0685"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KRW,9099000.0000,S. KOREAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000822"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SAR,35000.0000,SAUDI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2927"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SCO,6000.0000,SCOTTISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3721"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SGD,15000.0000,SINGAPORE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8326"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["SEK,64000.0000,SWEDISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CHF,15000.0000,SWISS CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.2352"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["XPF,812000.0000,TAHITI CFP CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.010774"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["THB,300000.0000,THAILAND CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0325"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TRY,100000.0000,TURKISH CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0237"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AED,35000.0000,UNITED ARAB CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2984"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["VND,181818000.0000,VIETNAMESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000044"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ISK,841000.0000,ICELANDIC CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.009108"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["CRC,4622000.0000,COSTA RICAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.002391"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["COP,23725000.0000,COLOMBIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.000361"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["MYR,34000.0000,MALAYSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2717"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["TWD,239000.0000,TAIWANESE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.034580"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KES,826000.0000,KENYAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.008876"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RUB,464000.0000,RUSSIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["AWG,14000.0000,ARUBA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BZD,16000.0000,BELIZE CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["GTQ,59000.0000,GUATEMALA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.1426"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["NIO,239000.0000,NICARAGUA CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["ANG,14000.0000,NETH ANT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BGN,13000.0000,BULGARIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["N/A"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BHD,3000.0000,BAHRAIN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8563"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["BND,11000.0000,BRUNEI CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.8529"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["JOD,6000.0000,JORDAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.5307"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KWD,2000.0000,KUWAIT CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["3.5253"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["KYD,3000.0000,CAYMAN ISL CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["1.3064"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["OMR,3000.0000,OMAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["2.8287"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["QAR,9000.0000,QATAR CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.3105"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["RON,35000.0000,ROMANIAN CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.2314"]}]},{"tagName":"Rate","attributes":{"term":""},"children":[{"tagName":"Name","attributes":{},"children":["UYU,235000.0000,URUGUAY CASH"]},{"tagName":"Product","attributes":{},"children":[""]},{"tagName":"Value","attributes":{},"children":["0.0274"]}]}]}]}],"headers":{"x-powered-by":["Express"],"vary":["Origin, Accept-Encoding"],"content-type":["application/json; charset=utf-8"],"content-length":["63920"],"etag":["W/\"f9b0-PXhwVcvrI7sIphyWoGhfX7gxfw4\""],"date":["Tue, 13 Oct 2026 22:08:54 GMT"],"connection":["keep-alive"],"keep-alive":["timeout=5"]},"status":200,"statusText":"OK","url":"http://localhost:8080/api/fxcal/cash-rates","responseType":"json"}}

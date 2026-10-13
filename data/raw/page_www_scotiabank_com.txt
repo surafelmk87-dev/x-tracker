@@ -910,45 +910,6 @@ _satellite["_runScript8"](function(event, target, Promise) {
     })
 })()
 });
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
- window.ttMETA = typeof(window.ttMETA) != "undefined" ? window.ttMETA : [];
- var tokens = e.detail.responseTokens;
- if (isEmpty(tokens)) {
- return;
- }
-_satellite.logger.log("ttMeta");
-  var uniqueTokens = distinct(tokens);
- uniqueTokens.forEach(function(token) {
- window.ttMETA.push({
- 'CampaignName': token["activity.name"],
- 'CampaignId': token["activity.id"],
- 'RecipeName': token["experience.name"],
- 'RecipeId': token["experience.id"],
- 'OfferId': token["option.id"],
- 'OfferName': token["option.name"]
- });
- });
-});
-function isEmpty(val) {
- return (val === undefined || val == null || val.length <= 0) ? true : false;
-}
-function key(obj) {
- return Object.keys(obj)
- .map(function(k) {
- return k + "" + obj[k];
- })
- .join("");
-}
-function distinct(arr) {
- var result = arr.reduce(function(acc, e) {
- acc[key(e)] = e;
- return acc;
- }, {});
- return Object.keys(result)
- .map(function(k) {
- return result[k];
- });
-}
 _satellite["_runScript9"](function(event, target, Promise) {
 var testOTCookie = getCookieValue("testOT");
 var testOTDomain = getParameterByName("domain") || "";
@@ -998,12 +959,20 @@ else if(!isWebView() && typeof Optanon !== 'object'){
       loadJS("https://dmtags.scotiabank.com/aempublic/Onetrust/Scotiagam/oneTrust_production/scripttemplates/otSDKStub.js", "a6bbf93a-5578-41da-8998-44543fe8d8ff");
     }else if(/scotiafunds\.com/i.test(document.location.hostname)){
       loadJS("https://dmtags.scotiabank.com/aempublic/Onetrust/Scotiafunds/oneTrust_production/scripttemplates/otSDKStub.js", "a1e97fb2-eb99-47e5-af16-83c23654ef6b");
-}else if(
-  /www\.scotiabank\.com/i.test(document.location.hostname) &&
-  /\/ca\/en\/about\/responsibility-impact\/climate\.html$/i.test(document.location.pathname)
+}else if(/www\.scotiabank\.com/i.test(document.location.hostname) &&
+(
+/\/ca\/en\/about\/responsibility-impact\/climate\.html\/?$/i.test(document.location.pathname) ||
+/\/content\/scotiabank\/ca\/en\/about\/responsibility-impact\.html\/?$/i.test(document.location.pathname)
+)
 ){
+  /*
   loadJS(
-    "https://aempublic-prd.apps.prd.azr-cc-pcf.cloud.bns/aempublic/Onetrust/scotiabank/oneTrust_production/scripttemplates/otSDKStub.js",
+    "https://aempublic-uat.apps.stg.azr-cc-pcf.cloud.bns/Onetrust/scotiabank/oneTrust_test/scripttemplates/otSDKStub.js",
+    "4fbad486-5e37-45d2-bcbc-b89a6d33ea60-test"
+  );
+  */
+    loadJS(
+    "https://dmtags.scotiabank.com/aempublic/Onetrust/scotiabank_ot/oneTrust_production/scripttemplates/otSDKStub.js",
     "4fbad486-5e37-45d2-bcbc-b89a6d33ea60"
   );
     }else if((/www.scotiabank\.com/i.test(document.location.hostname) && !/\/global/.test(document.location.pathname)) || (/developer.scotiabank\.com/i.test(document.location.hostname))|| (/locator.scotiabank\.com/i.test(document.location.hostname) || (/startright.scotiabank\.com/i.test(document.location.hostname)))){
@@ -1054,6 +1023,45 @@ function getCookieValue(name){
   return cookiesMatched && cookiesMatched.pop() || '';
 }
 });
+document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+ window.ttMETA = typeof(window.ttMETA) != "undefined" ? window.ttMETA : [];
+ var tokens = e.detail.responseTokens;
+ if (isEmpty(tokens)) {
+ return;
+ }
+_satellite.logger.log("ttMeta");
+  var uniqueTokens = distinct(tokens);
+ uniqueTokens.forEach(function(token) {
+ window.ttMETA.push({
+ 'CampaignName': token["activity.name"],
+ 'CampaignId': token["activity.id"],
+ 'RecipeName': token["experience.name"],
+ 'RecipeId': token["experience.id"],
+ 'OfferId': token["option.id"],
+ 'OfferName': token["option.name"]
+ });
+ });
+});
+function isEmpty(val) {
+ return (val === undefined || val == null || val.length <= 0) ? true : false;
+}
+function key(obj) {
+ return Object.keys(obj)
+ .map(function(k) {
+ return k + "" + obj[k];
+ })
+ .join("");
+}
+function distinct(arr) {
+ var result = arr.reduce(function(acc, e) {
+ acc[key(e)] = e;
+ return acc;
+ }, {});
+ return Object.keys(result)
+ .map(function(k) {
+ return result[k];
+ });
+}
 _satellite["_runScript10"](function(event, target, Promise) {
 try{window.location.href.indexOf("/en/personal/small-business-campaigns/business-account-offers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy0+standard"}):window.location.href.indexOf("/fr/particuliers/campagnes-petites-entreprises/offres-comptes-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy00+standard"}):window.location.href.indexOf("/ca/fr/particuliers/programmes-et-offres/avantages-scotia.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml0+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-10.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/10-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-20.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/20-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml000+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-25.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/25-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml001+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-30.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/30-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml002+standard"}):window.location.href.indexOf("/ca/en/personal/credit-cards/visa/scene-student-card.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/2357/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/personal-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/contact-us.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti00+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/communiquer-avec-nous.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti000+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-particuliers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti001+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/business-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti002+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti003+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/form.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti004+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/formulaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti005+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti006+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti007+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti008+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti009+standard"}):window.location.href.indexOf("-----")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:""}),window.location.href.indexOf("scotiabank.com/ca/en/small-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbho0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/select-account-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/compte-de-base-dentreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbse0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/savings-gics/right-size-savings-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/pargne-et-cpg/compte-dpargne-sur-mesure-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbri0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-momentum-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-crdit/carte-visa-momentum-scotia-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbmo0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html")>-1||window.location.href.indexOf("/ca/en/personal/credit-cards/campaigns/american-express-gold-card.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o0+standard"}):window.location.href.indexOf("scotiabank.com/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o00+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/preferred.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp000+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/ultimate-package.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp002+standard"})}catch(e){_satellite.logger.error("Error: Marketing Pixel- Floodlight",e.message)}
 });
