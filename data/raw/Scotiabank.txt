@@ -25,167 +25,6 @@
                 "isProduct": "false"
             }
         });
-_satellite["_runScript1"](function(event, target, Promise) {
-window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-        n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', pixelId);
-    if (isPageView) {
-        fbq('trackSingle', pixelId, 'PageView');
-    }
-};
-});
-_satellite["_runScript2"](function(event, target, Promise) {
-window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
-	!(function (w, d) {
-		if (!w.rdt) {
-			var p = (w.rdt = function () {
-				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
-			});
-			p.callQueue = [];
-			var t = d.createElement('script');
-			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
-			var s = d.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(t, s);
-		}
-	})(window, document);
-	rdt('init', pixelId);
-	if (isPageView) {
-		rdt('track', 'PageVisit');
-	}
-};
-});
-_satellite["_runScript3"](function(event, target, Promise) {
-window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
-	!function (w, d, t) {
-		w.TiktokAnalyticsObject = t;
-		var ttq = (w[t] = w[t] || []);
-		((ttq.methods = [
-			'page',
-			'track',
-			'identify',
-			'instances',
-			'debug',
-			'on',
-			'off',
-			'once',
-			'ready',
-			'alias',
-			'group',
-			'enableCookie',
-			'disableCookie',
-			'holdConsent',
-			'revokeConsent',
-			'grantConsent',
-		]),
-			(ttq.setAndDefer = function (t, e) {
-				t[e] = function () {
-					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-				};
-			}));
-		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-		((ttq.instance = function (t) {
-			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
-			return e;
-		}),
-			(ttq.load = function (e, n) {
-				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
-					o = n && n.partner;
-				((ttq._i = ttq._i || {}),
-					(ttq._i[e] = []),
-					(ttq._i[e]._u = r),
-					(ttq._t = ttq._t || {}),
-					(ttq._t[e] = +new Date()),
-					(ttq._o = ttq._o || {}),
-					(ttq._o[e] = n || {}));
-				n = document.createElement('script');
-				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
-				e = document.getElementsByTagName('script')[0];
-				e.parentNode.insertBefore(n, e);
-			}));
-		ttq.load(pixelId);
-		if (isPageView) {
-			ttq.page();
-		}
-	}(window, document, 'ttq');
-};
-});
-_satellite["_runScript4"](function(event, target, Promise) {
-window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
-	_linkedin_partner_id = pixelId;
-	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-	(function (l) {
-		if (!l) {
-			window.lintrk = function (a, b) {
-				window.lintrk.q.push([a, b]);
-			};
-			window.lintrk.q = [];
-		}
-		var s = document.getElementsByTagName('script')[0];
-		var b = document.createElement('script');
-		b.type = 'text/javascript';
-		b.async = true;
-		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
-		s.parentNode.insertBefore(b, s);
-	})(window.lintrk);
-};
-});
-_satellite["_runScript5"](function(event, target, Promise) {
-window.initializeGoogle = function (advertiserId = "DC-6104928") {
-  try {
-    window.googleAdvertiserId = advertiserId;
-    if (!window.gtag) {
-      var script = document.createElement("script");
-      script.async = true;
-      script.src =
-        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
-      document.head.appendChild(script);
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function () {
-        dataLayer.push(arguments);
-      };
-      gtag("js", new Date());
-      gtag("config", advertiserId);
-    }
-    if (!window.trackFloodlight) {
-      window.trackFloodlight = function (activityPath, params) {
-        gtag("event", "conversion", {
-          allow_custom_scripts: true,
-          send_to: window.googleAdvertiserId + "/" + activityPath,
-          ...params,
-        });
-      };
-    }
-  } catch (error) {
-    console.error("Error initializing Google", error);
-  }
-};
-});
-_satellite["_runScript6"](function(event, target, Promise) {
-window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
-    (function (e, t, n) {
-        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
-        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
-        r.src = n; var u = t.getElementsByTagName(s)[0];
-        u.parentNode.insertBefore(r, u);
-    })(window, document,
-        'https://sc-static.net/scevent.min.js');
-    snaptr('init', pixelId);
-    if(isPageView){
-        snaptr('track', 'PAGE_VIEW');
-    }
-};
-});
 Skip to content
                             Personal
                             Business
@@ -709,6 +548,167 @@ Privacy
 Accessibility
 Cookie Settings
                     © Scotiabank.com All Rights Reserved
+_satellite["_runScript1"](function(event, target, Promise) {
+window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', pixelId);
+    if (isPageView) {
+        fbq('trackSingle', pixelId, 'PageView');
+    }
+};
+});
+_satellite["_runScript2"](function(event, target, Promise) {
+window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
+	!(function (w, d) {
+		if (!w.rdt) {
+			var p = (w.rdt = function () {
+				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
+			});
+			p.callQueue = [];
+			var t = d.createElement('script');
+			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
+			var s = d.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		}
+	})(window, document);
+	rdt('init', pixelId);
+	if (isPageView) {
+		rdt('track', 'PageVisit');
+	}
+};
+});
+_satellite["_runScript3"](function(event, target, Promise) {
+window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
+	!function (w, d, t) {
+		w.TiktokAnalyticsObject = t;
+		var ttq = (w[t] = w[t] || []);
+		((ttq.methods = [
+			'page',
+			'track',
+			'identify',
+			'instances',
+			'debug',
+			'on',
+			'off',
+			'once',
+			'ready',
+			'alias',
+			'group',
+			'enableCookie',
+			'disableCookie',
+			'holdConsent',
+			'revokeConsent',
+			'grantConsent',
+		]),
+			(ttq.setAndDefer = function (t, e) {
+				t[e] = function () {
+					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+				};
+			}));
+		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+		((ttq.instance = function (t) {
+			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+			return e;
+		}),
+			(ttq.load = function (e, n) {
+				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
+					o = n && n.partner;
+				((ttq._i = ttq._i || {}),
+					(ttq._i[e] = []),
+					(ttq._i[e]._u = r),
+					(ttq._t = ttq._t || {}),
+					(ttq._t[e] = +new Date()),
+					(ttq._o = ttq._o || {}),
+					(ttq._o[e] = n || {}));
+				n = document.createElement('script');
+				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
+				e = document.getElementsByTagName('script')[0];
+				e.parentNode.insertBefore(n, e);
+			}));
+		ttq.load(pixelId);
+		if (isPageView) {
+			ttq.page();
+		}
+	}(window, document, 'ttq');
+};
+});
+_satellite["_runScript4"](function(event, target, Promise) {
+window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
+	_linkedin_partner_id = pixelId;
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+	(function (l) {
+		if (!l) {
+			window.lintrk = function (a, b) {
+				window.lintrk.q.push([a, b]);
+			};
+			window.lintrk.q = [];
+		}
+		var s = document.getElementsByTagName('script')[0];
+		var b = document.createElement('script');
+		b.type = 'text/javascript';
+		b.async = true;
+		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+		s.parentNode.insertBefore(b, s);
+	})(window.lintrk);
+};
+});
+_satellite["_runScript5"](function(event, target, Promise) {
+window.initializeGoogle = function (advertiserId = "DC-6104928") {
+  try {
+    window.googleAdvertiserId = advertiserId;
+    if (!window.gtag) {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
+      document.head.appendChild(script);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        dataLayer.push(arguments);
+      };
+      gtag("js", new Date());
+      gtag("config", advertiserId);
+    }
+    if (!window.trackFloodlight) {
+      window.trackFloodlight = function (activityPath, params) {
+        gtag("event", "conversion", {
+          allow_custom_scripts: true,
+          send_to: window.googleAdvertiserId + "/" + activityPath,
+          ...params,
+        });
+      };
+    }
+  } catch (error) {
+    console.error("Error initializing Google", error);
+  }
+};
+});
+_satellite["_runScript6"](function(event, target, Promise) {
+window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
+    (function (e, t, n) {
+        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
+        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
+        r.src = n; var u = t.getElementsByTagName(s)[0];
+        u.parentNode.insertBefore(r, u);
+    })(window, document,
+        'https://sc-static.net/scevent.min.js');
+    snaptr('init', pixelId);
+    if(isPageView){
+        snaptr('track', 'PAGE_VIEW');
+    }
+};
+});
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 English
 English
@@ -1116,38 +1116,6 @@ try{(window.location.href.indexOf("personal/small-business-campaigns/merchant-se
 _satellite["_runScript27"](function(event, target, Promise) {
 try{(window.location.href.indexOf("healthcare-plus")>-1||window.location.href.indexOf("pro-sante-plus")>-1)&&window.location.href.indexOf("dentist-banking")<0&&window.location.href.indexOf("programme-bancaire-pour-dentistes")<0&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-9051783/scoti0/scoti000+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
-_satellite["_runScript28"](function(event, target, Promise) {
-try{window.location.href.indexOf("medicuspensionplan")>-1&&window.location.href.indexOf("dentist-banking")<0&&window.location.href.indexOf("programme-bancaire-pour-dentistes")<0&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-9051783/medic0/medic0+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript29"](function(event, target, Promise) {
-try{window.location.href.indexOf("bank-accounts/chequing-accounts")>-1&&(!function(a,e,n,t,s){a.amzn||(a.amzn=s=function(){a.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=e.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(t=e.getElementsByTagName("script")[0]).parentNode.insertBefore(n,t))}(window,document),amzn("setRegion","NA"),amzn("addTag","3b433ada-036f-4e8c-9a36-90ba8e1c1760"),amzn("trackEvent","D2d_landing_page_visit"))}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}try{window.location.href.indexOf("bank-accounts/savings-accounts/momentum-plus-savings-account")>-1&&(!function(a,e,n,t,s){a.amzn||(a.amzn=s=function(){a.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=e.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(t=e.getElementsByTagName("script")[0]).parentNode.insertBefore(n,t))}(window,document),amzn("setRegion","NA"),amzn("addTag","949af068-e596-4267-a4e3-426f2f155bc7"),amzn("trackEvent","Mpsa_landing_page_visit"))}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}
-});
-_satellite["_runScript30"](function(event, target, Promise) {
-try{(window.location.href.indexOf("scotiabank.com/ca/en/small-business")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises")>-1)&&(!function(e,t,n,o,a,c,s){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(c=t.createElement(n)).async=!0,c.src=o,(s=t.getElementsByTagName(n)[0]).parentNode.insertBefore(c,s))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","128120684491539"),fbq("track","PageView"))}catch(e){_satellite.logger.error("Error: meta Pixel ",e.message)}
-});
-_satellite["_runScript31"](function(event, target, Promise) {
-try{"https://www.scotiabank.com/ca/en/small-business/business-banking/contact-scotiabank.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}try{"https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/communiquez-avec-la-banque-scotia.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
-});
-_linkedin_partner_id = "67976";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-_satellite["_runScript32"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript33"](function(event, target, Promise) {
-try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript34"](function(event, target, Promise) {
-try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
 By clicking "Accept All", you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1188,6 +1156,38 @@ checkbox label
 label
 Reject All
 Confirm My Choices
+_satellite["_runScript28"](function(event, target, Promise) {
+try{window.location.href.indexOf("medicuspensionplan")>-1&&window.location.href.indexOf("dentist-banking")<0&&window.location.href.indexOf("programme-bancaire-pour-dentistes")<0&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-9051783/medic0/medic0+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript29"](function(event, target, Promise) {
+try{window.location.href.indexOf("bank-accounts/chequing-accounts")>-1&&(!function(a,e,n,t,s){a.amzn||(a.amzn=s=function(){a.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=e.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(t=e.getElementsByTagName("script")[0]).parentNode.insertBefore(n,t))}(window,document),amzn("setRegion","NA"),amzn("addTag","3b433ada-036f-4e8c-9a36-90ba8e1c1760"),amzn("trackEvent","D2d_landing_page_visit"))}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}try{window.location.href.indexOf("bank-accounts/savings-accounts/momentum-plus-savings-account")>-1&&(!function(a,e,n,t,s){a.amzn||(a.amzn=s=function(){a.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=e.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(t=e.getElementsByTagName("script")[0]).parentNode.insertBefore(n,t))}(window,document),amzn("setRegion","NA"),amzn("addTag","949af068-e596-4267-a4e3-426f2f155bc7"),amzn("trackEvent","Mpsa_landing_page_visit"))}catch(a){_satellite.logger.error("Error: gtag Pixel ",a.message)}
+});
+_satellite["_runScript30"](function(event, target, Promise) {
+try{(window.location.href.indexOf("scotiabank.com/ca/en/small-business")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises")>-1)&&(!function(e,t,n,o,a,c,s){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(c=t.createElement(n)).async=!0,c.src=o,(s=t.getElementsByTagName(n)[0]).parentNode.insertBefore(c,s))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","128120684491539"),fbq("track","PageView"))}catch(e){_satellite.logger.error("Error: meta Pixel ",e.message)}
+});
+_satellite["_runScript31"](function(event, target, Promise) {
+try{"https://www.scotiabank.com/ca/en/small-business/business-banking/contact-scotiabank.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}try{"https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/communiquez-avec-la-banque-scotia.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
+});
+_linkedin_partner_id = "67976";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+_satellite["_runScript32"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript33"](function(event, target, Promise) {
+try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript34"](function(event, target, Promise) {
+try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
 _satellite["_runScript35"](function(event, target, Promise) {
 try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(!function(e,n,i,t,o,a,c){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=n.createElement(i)).async=!0,a.src=t,(c=n.getElementsByTagName(i)[0]).parentNode.insertBefore(a,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","Lead",{content_ids:"MoneyStyleQuizcomplete"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var n=window.pintrk;n.queue=[],n.version="3.0";var i=document.createElement("script");i.async=!0,i.src=e;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(i,t)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","lead",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m000+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/Iy3yCK6sycwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
