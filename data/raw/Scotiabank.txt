@@ -361,7 +361,7 @@ with Scotia Travel Insurance​
 Learn more
 about Scotia Travel Insurance
 Effective
-October 15, 2026
+October 16, 2026
 Country
 Currency/Code
 Client Buys (Pays Canadian)
@@ -371,162 +371,162 @@ Dollar
  (
 USD
 )
-1.455100
-1.378100
+1.453500
+1.376500
 Great Britain
 British Pound
  (
 GBP
 )
-1.944000
-1.814200
+1.953100
+1.821400
 Australia
 Dollar
  (
 AUD
 )
-1.013700
-0.947700
+1.017600
+0.951300
 Switzerland
 Franc
  (
 CHF
 )
-1.763900
-1.654100
+1.771700
+1.661200
 Euro
 Euro
  (
 EUR
 )
-1.643800
-1.532700
+1.647000
+1.535700
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.186900
-0.174200
+0.186700
+0.174000
 Japan
 Yen
  (
 JPY
 )
-0.009301
-0.008636
+0.009291
+0.008626
 Barbados
 Dollar
  (
 BBD
 )
-0.745300
+0.744500
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.491900
+1.490300
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.491900
+1.490300
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.219500
-0.205400
+0.219800
+0.205900
 Guyana
 Dollar
  (
 GYD
 )
-0.007098
+0.007090
 N/A
 India
 Rupee
  (
 INR
 )
-0.015378
+0.015377
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009420
+0.009410
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.817800
+1.815800
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.079380
-0.074360
+0.079510
+0.074470
 Norway
 Kroner
  (
 NOK
 )
-0.154400
-0.144600
+0.154800
+0.144800
 New Zealand
 Dollar
  (
 NZD
 )
-0.821500
-0.769500
+0.827000
+0.774400
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.391800
-0.363300
+0.391400
+0.363000
 Sweden
 Krona
  (
 SEK
 )
-0.147000
-0.137700
+0.147400
+0.138000
 Singapore
 Dollar
  (
 SGD
 )
-1.138700
-1.071000
+1.140000
+1.072100
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.220200
+0.219900
 N/A
 South Africa
 Rand
  (
 ZAR
 )
-0.088600
-0.082900
+0.089000
+0.083300
 						Terms and conditions
 Although up-to-the-minute rates may be obtained by contacting a local Scotiabank branch, rates can only be guaranteed at the time the purchase or sale is conducted.
 Rates and dollar limits are provided for information purposes only and are subject to change at any time.
@@ -710,9 +710,6 @@ window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = fa
 };
 });
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
-English
-English
-Français
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1067,6 +1064,9 @@ function distinct(arr) {
  return result[k];
  });
 }
+English
+English
+Français
 _satellite["_runScript10"](function(event, target, Promise) {
 try{window.location.href.indexOf("/en/personal/small-business-campaigns/business-account-offers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy0+standard"}):window.location.href.indexOf("/fr/particuliers/campagnes-petites-entreprises/offres-comptes-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy00+standard"}):window.location.href.indexOf("/ca/fr/particuliers/programmes-et-offres/avantages-scotia.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml0+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-10.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/10-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-20.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/20-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml000+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-25.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/25-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml001+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-30.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/30-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml002+standard"}):window.location.href.indexOf("/ca/en/personal/credit-cards/visa/scene-student-card.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/2357/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/personal-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/contact-us.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti00+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/communiquer-avec-nous.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti000+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-particuliers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti001+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/business-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti002+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti003+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/form.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti004+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/formulaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti005+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti006+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti007+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti008+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti009+standard"}):window.location.href.indexOf("-----")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:""}),window.location.href.indexOf("scotiabank.com/ca/en/small-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbho0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/select-account-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/compte-de-base-dentreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbse0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/savings-gics/right-size-savings-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/pargne-et-cpg/compte-dpargne-sur-mesure-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbri0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-momentum-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-crdit/carte-visa-momentum-scotia-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbmo0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html")>-1||window.location.href.indexOf("/ca/en/personal/credit-cards/campaigns/american-express-gold-card.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o0+standard"}):window.location.href.indexOf("scotiabank.com/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o00+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/preferred.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp000+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/ultimate-package.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp002+standard"})}catch(e){_satellite.logger.error("Error: Marketing Pixel- Floodlight",e.message)}
 });
@@ -1177,9 +1177,6 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/stud
 _satellite["_runScript42"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://locator.scotiabank.com/advisors/home-financing-advisor")>-1&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_0+standard"}),function(e,a,t,n,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(t=a.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",t.id="amzn-pixel",t.async=!0,(n=a.getElementsByTagName("script")[0]).parentNode.insertBefore(t,n))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","app_start"))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
-_satellite["_runScript43"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://startright.scotiabank.com/ca/en/international-student/student-gic.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/i_oQCPeHx54ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00h+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/2nS3CN-V-5oZEOD5tZkD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00j+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/international-applications.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/13ylCPyzgYkZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00g+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-etudiants/plan-privileges-bancaires-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/CGpfCPPHxq8ZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/oKdhCM67y68ZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants-etrangers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/v4OmCLqnx68ZEIHV374D"}):window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00m+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/nouveaux-arrivants-au-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00k+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00i+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00f+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00n+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00l+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/credit-cards.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00o+standard"}):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada/influencer.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/nouveaux-arrivants-au-canada/influenceur.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00p+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/limite-de-credit-plus-elevee-nouveaux-arrivants.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00q+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/o12HCJbUsNUZENKfuOAD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-oo.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-oo.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-oo.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o0+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/YbF-CIfz0-8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/JSgtCLnY0u8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-imt.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-imt.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-imt.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/q8YhCMT00-8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/ClQVCL30xO8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):(window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-cc.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-cc.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-cc.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o000+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/K-EXCIKA1O8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/3ByLCNb7xO8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"))}catch(t){_satellite.logger.error("Error: gtag Pixel ",t.message)}
-});
 By clicking "Accept All" or continuing to navigate our sites, you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1220,6 +1217,9 @@ checkbox label
 label
 Reject All
 Confirm My Choices
+_satellite["_runScript43"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://startright.scotiabank.com/ca/en/international-student/student-gic.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/i_oQCPeHx54ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00h+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/2nS3CN-V-5oZEOD5tZkD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00j+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/international-applications.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/13ylCPyzgYkZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00g+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/comptes-bancaires/comptes-etudiants/plan-privileges-bancaires-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/CGpfCPPHxq8ZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/oKdhCM67y68ZEIHV374D"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants-etrangers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-936897153/v4OmCLqnx68ZEIHV374D"}):window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00m+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/nouveaux-arrivants-au-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00k+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00i+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00f+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00n+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00l+standard"}),function(t,e,n,a,s,o,c){t.fbq||(s=t.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},t._fbq||(t._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(o=e.createElement(n)).async=!0,o.src=a,(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(o,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","245622689187621"),fbq("track","PageView")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/credit-cards.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00o+standard"}):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada/influencer.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/nouveaux-arrivants-au-canada/influenceur.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00p+standard"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/limite-de-credit-plus-elevee-nouveaux-arrivants.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/bnsfy00q+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/o12HCJbUsNUZENKfuOAD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-oo.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-oo.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-oo.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o0+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/YbF-CIfz0-8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/JSgtCLnY0u8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-imt.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-imt.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-imt.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/q8YhCMT00-8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/ClQVCL30xO8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit")):(window.location.href.indexOf("https://startright.scotiabank.com/ca/en/newcomers-to-canada-offer/campaigns/sv-cc.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/fr/offre-nouveaux-arrivants-au-canada/campagnes/sv-cc.html")>-1||window.location.href.indexOf("https://startright.scotiabank.com/ca/zh/newcomers-to-canada-offer/campaigns/sv-cc.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/mcb-l0/phd_o000+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-1007554514/K-EXCIKA1O8ZENKfuOAD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-858619104/3ByLCNb7xO8ZEOD5tZkD"}),function(t,e){if(!t.rdt){var n=t.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=e.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=e.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_d9v4kjzv3"),rdt("track","PageVisit"))}catch(t){_satellite.logger.error("Error: gtag Pixel ",t.message)}
+});
 _satellite["_runScript44"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/first0+standard"}),function(e,t,n,o,a,s,c){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(s=t.createElement(n)).async=!0,s.src=o,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1209176003688432"),fbq("track","PageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/home-financing-advisors.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/reslm0+standard"}),function(e,t,n,o,a,s,c){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(s=t.createElement(n)).async=!0,s.src=o,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1209176003688432"),fbq("track","ViewContent",{content_ids:"Pageload_Advisor"},{content_category:"RESL"})):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-calculator.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/reslm00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
