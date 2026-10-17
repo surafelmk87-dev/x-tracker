@@ -708,10 +708,10 @@ window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = fa
     }
 };
 });
+AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 English
 English
 Français
-AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1129,6 +1129,20 @@ try{window.location.href.indexOf("bank-accounts/chequing-accounts")>-1&&(!functi
 _satellite["_runScript30"](function(event, target, Promise) {
 try{(window.location.href.indexOf("scotiabank.com/ca/en/small-business")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises")>-1)&&(!function(e,t,n,o,a,c,s){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(c=t.createElement(n)).async=!0,c.src=o,(s=t.getElementsByTagName(n)[0]).parentNode.insertBefore(c,s))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","128120684491539"),fbq("track","PageView"))}catch(e){_satellite.logger.error("Error: meta Pixel ",e.message)}
 });
+_satellite["_runScript31"](function(event, target, Promise) {
+try{"https://www.scotiabank.com/ca/en/small-business/business-banking/contact-scotiabank.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}try{"https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/communiquez-avec-la-banque-scotia.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
+});
+_linkedin_partner_id = "67976";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
 By clicking "Accept All" or continuing to navigate our sites, you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1169,20 +1183,6 @@ checkbox label
 label
 Reject All
 Confirm My Choices
-_satellite["_runScript31"](function(event, target, Promise) {
-try{"https://www.scotiabank.com/ca/en/small-business/business-banking/contact-scotiabank.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}try{"https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/communiquez-avec-la-banque-scotia.html"==window.location.href&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbgb0/bnsfy005+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
-});
-_linkedin_partner_id = "67976";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
 _satellite["_runScript32"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
