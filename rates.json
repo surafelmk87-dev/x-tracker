@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T05:23:45.109Z",
+  "generatedAt": "2026-10-24T09:41:23.732Z",
   "currencies": [
     "USD",
     "EUR",
@@ -65,8 +65,8 @@
           "sell": 1.37925
         },
         "EUR": {
-          "buy": 1.61746,
-          "sell": 1.52617
+          "buy": 1.61779,
+          "sell": 1.52648
         },
         "GBP": {
           "buy": 1.92333,
@@ -89,8 +89,8 @@
           "sell": 0.00866
         },
         "NZD": {
-          "buy": 0.84573,
-          "sell": 0.76675
+          "buy": 0.84536,
+          "sell": 0.76641
         },
         "ZAR": {
           "buy": 0.09293,
@@ -101,7 +101,7 @@
           "sell": 1.63432
         }
       },
-      "fetchedAt": "2026-10-24T05:23:51.538Z",
+      "fetchedAt": "2026-10-24T09:41:30.694Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-10-24T05:23:57.618Z",
+      "fetchedAt": "2026-10-24T09:41:36.719Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.0808
         }
       },
-      "fetchedAt": "2026-10-24T05:24:04.891Z",
+      "fetchedAt": "2026-10-24T09:41:44.160Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -534,7 +534,7 @@
           "sell": 0.08018
         }
       },
-      "fetchedAt": "2026-10-24T05:24:17.071Z",
+      "fetchedAt": "2026-10-24T09:41:57.233Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -579,7 +579,7 @@
           "sell": 1.6524
         }
       },
-      "fetchedAt": "2026-10-24T05:24:28.284Z",
+      "fetchedAt": "2026-10-24T09:42:08.035Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
