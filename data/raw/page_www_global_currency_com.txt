@@ -601,27 +601,27 @@ Captcha
 Submit Draft
 Submit
 	$(function() {
-		var webform = $("#webForm-497675922");
+		var webform = $("#webForm-1565537813");
 		var submissionToken = "";
 		var isDraft = 0;
-				$("#webForm-497675922").find(".rule").each(function(){
+				$("#webForm-1565537813").find(".rule").each(function(){
 			$(this).change(function(){
-				$("#webForm-497675922 .required").removeClass("required");
-				$("#webForm-497675922 :input").prop('required',false);
-				$("#webForm-497675922").find("button[name='action'][type='submit'][value='submitWebForm']").click();
+				$("#webForm-1565537813 .required").removeClass("required");
+				$("#webForm-1565537813 :input").prop('required',false);
+				$("#webForm-1565537813").find("button[name='action'][type='submit'][value='submitWebForm']").click();
 			});
 		});	
 		var validator = sandInitializeWebForm(webform, "en", 2, 107, submissionToken, isDraft);		
 		webform.find(".ui-spinner-input").spinner("destroy");
 		webform.find("input[type='file']:not(.form-control)").addClass("form-control");
-				if( !$("#webForm-497675922").find("#WebFormItem_5175_0").val() ) {
-			$("#webForm-497675922").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
+				if( !$("#webForm-1565537813").find("#WebFormItem_5175_0").val() ) {
+			$("#webForm-1565537813").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
 		}
-		if( !$("#webForm-497675922").find("#WebFormItem_5201_0").val() ) {
+		if( !$("#webForm-1565537813").find("#WebFormItem_5201_0").val() ) {
 			var AmPm = moment().format('hh:mma');
-			$("#webForm-497675922").find("#WebFormItem_5201_0").attr({'value': AmPm});
+			$("#webForm-1565537813").find("#WebFormItem_5201_0").attr({'value': AmPm});
 		}
-				$("#webForm-497675922").find(".WebFormOtherOption").each(function() {			
+				$("#webForm-1565537813").find(".WebFormOtherOption").each(function() {			
 			$(this).change(function(){
 				if($(this).prop('checked') || $(this).prop('selected')) {
 					$(this).parent().next(".WebFormItemOptionOther").show();
@@ -631,8 +631,8 @@ Submit
 				}	
 			});
 		});
-				$("#submit-webForm-497675922").click(function(){
-			var form = $("#webForm-497675922");
+				$("#submit-webForm-1565537813").click(function(){
+			var form = $("#webForm-1565537813");
 			if (form.valid()) {
 				uiConfirm("Are you sure you are ready to submit?", function(){
 					form.find("input[name='isDraft']").val(0);
@@ -640,7 +640,7 @@ Submit
 				});
 			}
 		});
-				$("#webForm-497675922 .toggleContainer").each(function(){
+				$("#webForm-1565537813 .toggleContainer").each(function(){
 			$(this).find("> a").click(function(){
 				$(this).parent().find("> div").slideToggle();
 			})
