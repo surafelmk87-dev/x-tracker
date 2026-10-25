@@ -1126,11 +1126,21 @@
     }
   },
   {
-    "url": "https://bat.bing.com/p/insights/c/i",
+    "url": "https://bat.bing.com/p/insights/c/s",
     "method": "POST",
-    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�k�0\u0010�W�}j�\u001c�d�W�\u0018����v\u001f��\r�\t�#'&�\u001cl���ֿ}���}\u001c\f!xz�t�ӽ\u001f``��7�g�\u0004$���\u0000��Ǔ�Z�o\u0001��BQ�H��K�O:^�\u001d�C?w]}8���}�M��nV���r��3��:�Tn��\u0018��Myl��v�#h�g\u0019E\u0018#��CJ<�#\u0013D\u0013\u0013Io\"d�4\"��BHW_��\u0019\u0010�7�\u001cau4þ^�|�'k�\u0019�RE�(^;�,�SP(M\u0012�QQV|�_d��礵���v觷�\tT\u001c�q0\u0011�����I��\u000b����}��F���\u0013\u0017߉މ��\u001eO�\u0014��P]��á1�LqS\u000fn�G3?\u0014\u00177�\u000fw�(�zg�gS��K�n�vo\\�J,u���,�\u001c\t��\u001c��\u0019|�\u0014��Y!�c�\u0019[>���O�\u001bL'\u001cq�H�=�\u0017\u000bmw�c�\u0019\u0018�<.���G���d��(\u001cc������6\u001f\u0014fpm��1}?��J2\u0001������â�v�\u001a\u0003�\u0018���1��\f���l�\f<\u0006�\u0019����!e\u0018�qor��nz�g4�h�DƉT\u0011y��a)�\b\u0003$$u6f�N�F�B\u0019`�5\u0010�\b=���/\u0019�8�3�'�\u0006�XCHy��7�\u000b�m\u0003\u0000\u0000",
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003���j�0\u0010�_E�U\u0002�]�\u000e��RJ��MIҋ\u001ch��Ek˱�^{��a�C���vJ/\u000bE\bF�|�A3?��Y\u0002|a\u0016�\u0000$�H!!���ؔ��K@�=u�# H)��~���r\u0018���ri��~ѵ϶��f����(-��s�c\u0013�cV���\u0005���Cm���\u0014��Y��A�$\fG��J1�\u0018�&%\u0012|\u0012�A�V�Q*����\u001d`\u0002\u00048�\u0014a}p�S�{=γM�1<�\u0013\u0015d�H�\u001b\u001d)'\u0014�Ҽ�\t'-s��<�Ed\u0002��\u000e��d ���,Yec��_0\u001f��A���\u001eˡ�ryE+cB�'a]�i?\tҹ?��\tܴ߫��K����+�\u001bv]5�#;�p\u001d�Sv�����\\U�R�h!Cvruys�����}tٶ=e��kwnIB�;[خ�aH�0���IL��D��3�V��sM��Vm���u,`�\u0017+v�ó\u000b�l!�\u0018\u0013pM�p�\u000bј@�F���W8� E!0��k�P����y��~�ꅄ���vx{�M�b\u0000atV���NQ�㞤~�\u0012�ވgC��\u000f�+o�W�\u0015�\u001e/lݻ?��X�D$#��qV\n\u0005G����5�~o}#B�Ш}\r�\"B���P\noIT�\u0002�s�9��\f!��߲����\u0003\u0000\u0000",
     "status": 204,
     "body": ""
+  },
+  {
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
+    "method": "POST",
+    "postData": "{\"do\":\"updated\"}",
+    "status": 200,
+    "body": {
+      "status": "success",
+      "updated": "20261024 20:50:01"
+    }
   },
   {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
@@ -1199,15 +1209,17 @@
   {
     "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "{\"do\":\"updated\"}",
+    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
     "status": 200,
     "body": {
+      "amount": "69.851913942442022911427773121",
       "status": "success",
-      "updated": "20261024 20:50:01"
+      "frate": "1",
+      "trate": "1.4316"
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1792892470436",
+    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1792911136119",
     "method": "GET",
     "postData": null,
     "status": 200,
@@ -1679,21 +1691,9 @@
     "status": 200,
     "body": {
       "country": "US",
-      "state": "TX",
-      "stateName": "Texas",
+      "state": "IA",
+      "stateName": "Iowa",
       "continent": "NA"
-    }
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"conv\",\"from\":\"CAD\",\"to\":\"USD\",\"trade\":\"sell\",\"amount\":100}",
-    "status": 200,
-    "body": {
-      "amount": "69.851913942442022911427773121",
-      "status": "success",
-      "frate": "1",
-      "trate": "1.4316"
     }
   },
   {
@@ -2647,6 +2647,13 @@
     }
   },
   {
+    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "method": "POST",
+    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"22f0d4a2-e20f-497e-b838-8c17e1571a82\",\"dtm\":\"1792911137558\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1792911136\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"2065201407.1792911137\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"49ece09e-710d-4aa7-9eac-50a2e8bb7b77\",\"duid\":\"81e1d03a-7162-4cac-954e-134b6b67beef\",\"stm\":\"1792911137560\"}]}",
+    "status": 200,
+    "body": "ok"
+  },
+  {
     "url": "https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otFlat.json",
     "method": "GET",
     "postData": null,
@@ -2681,12 +2688,5 @@
     "postData": null,
     "status": 200,
     "body": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path class=\"ot-floating-button__svg-fill\" d=\"M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z\" fill=\"#FFF\" fill-rule=\"evenodd\"/></svg>"
-  },
-  {
-    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
-    "method": "POST",
-    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"069167e2-4c07-4c68-827f-1919772cf0cf\",\"dtm\":\"1792892471369\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1792892470\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"47253563.1792892471\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"89b4ed4d-a3a6-447b-9b68-ad3cbcd07640\",\"duid\":\"f34346c1-21cb-4514-a76b-fa4554a48992\",\"stm\":\"1792892471371\"}]}",
-    "status": 200,
-    "body": "ok"
   }
 ]
