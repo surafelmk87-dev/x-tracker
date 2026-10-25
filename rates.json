@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T12:14:47.809Z",
+  "generatedAt": "2026-10-25T16:24:34.360Z",
   "currencies": [
     "USD",
     "EUR",
@@ -101,7 +101,7 @@
           "sell": 1.63432
         }
       },
-      "fetchedAt": "2026-10-25T12:14:55.369Z",
+      "fetchedAt": "2026-10-25T16:24:41.882Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-10-25T12:15:01.496Z",
+      "fetchedAt": "2026-10-25T16:24:48.507Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.0808
         }
       },
-      "fetchedAt": "2026-10-25T12:15:09.425Z",
+      "fetchedAt": "2026-10-25T16:24:56.606Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -534,7 +534,7 @@
           "sell": 0.08018
         }
       },
-      "fetchedAt": "2026-10-25T12:15:23.452Z",
+      "fetchedAt": "2026-10-25T16:25:09.504Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -543,11 +543,11 @@
       "rateType": "non-cash",
       "rates": {
         "USD": {
-          "buy": 1.4316,
-          "sell": 1.3576
+          "buy": 1.4313,
+          "sell": 1.3573
         },
         "EUR": {
-          "buy": 1.6165,
+          "buy": 1.6164,
           "sell": 1.5204
         },
         "GBP": {
@@ -559,27 +559,27 @@
           "sell": 0.0729
         },
         "AUD": {
-          "buy": 1.0138,
-          "sell": 0.9565
+          "buy": 1.0145,
+          "sell": 0.9571
         },
         "JPY": {
-          "buy": 0.009207,
-          "sell": 0.008656
+          "buy": 0.009205,
+          "sell": 0.008654
         },
         "NZD": {
-          "buy": 0.8199,
-          "sell": 0.7764
+          "buy": 0.8203,
+          "sell": 0.7768
         },
         "ZAR": {
           "buy": 0.087,
           "sell": 0.082
         },
         "CHF": {
-          "buy": 1.7422,
-          "sell": 1.6505
+          "buy": 1.7433,
+          "sell": 1.6518
         }
       },
-      "fetchedAt": "2026-10-25T12:15:34.898Z",
+      "fetchedAt": "2026-10-25T16:25:21.816Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
