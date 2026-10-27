@@ -25,6 +25,167 @@
                 "isProduct": "false"
             }
         });
+_satellite["_runScript1"](function(event, target, Promise) {
+window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', pixelId);
+    if (isPageView) {
+        fbq('trackSingle', pixelId, 'PageView');
+    }
+};
+});
+_satellite["_runScript2"](function(event, target, Promise) {
+window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
+	!(function (w, d) {
+		if (!w.rdt) {
+			var p = (w.rdt = function () {
+				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
+			});
+			p.callQueue = [];
+			var t = d.createElement('script');
+			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
+			var s = d.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		}
+	})(window, document);
+	rdt('init', pixelId);
+	if (isPageView) {
+		rdt('track', 'PageVisit');
+	}
+};
+});
+_satellite["_runScript3"](function(event, target, Promise) {
+window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
+	!function (w, d, t) {
+		w.TiktokAnalyticsObject = t;
+		var ttq = (w[t] = w[t] || []);
+		((ttq.methods = [
+			'page',
+			'track',
+			'identify',
+			'instances',
+			'debug',
+			'on',
+			'off',
+			'once',
+			'ready',
+			'alias',
+			'group',
+			'enableCookie',
+			'disableCookie',
+			'holdConsent',
+			'revokeConsent',
+			'grantConsent',
+		]),
+			(ttq.setAndDefer = function (t, e) {
+				t[e] = function () {
+					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+				};
+			}));
+		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+		((ttq.instance = function (t) {
+			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+			return e;
+		}),
+			(ttq.load = function (e, n) {
+				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
+					o = n && n.partner;
+				((ttq._i = ttq._i || {}),
+					(ttq._i[e] = []),
+					(ttq._i[e]._u = r),
+					(ttq._t = ttq._t || {}),
+					(ttq._t[e] = +new Date()),
+					(ttq._o = ttq._o || {}),
+					(ttq._o[e] = n || {}));
+				n = document.createElement('script');
+				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
+				e = document.getElementsByTagName('script')[0];
+				e.parentNode.insertBefore(n, e);
+			}));
+		ttq.load(pixelId);
+		if (isPageView) {
+			ttq.page();
+		}
+	}(window, document, 'ttq');
+};
+});
+_satellite["_runScript4"](function(event, target, Promise) {
+window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
+	_linkedin_partner_id = pixelId;
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+	(function (l) {
+		if (!l) {
+			window.lintrk = function (a, b) {
+				window.lintrk.q.push([a, b]);
+			};
+			window.lintrk.q = [];
+		}
+		var s = document.getElementsByTagName('script')[0];
+		var b = document.createElement('script');
+		b.type = 'text/javascript';
+		b.async = true;
+		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+		s.parentNode.insertBefore(b, s);
+	})(window.lintrk);
+};
+});
+_satellite["_runScript5"](function(event, target, Promise) {
+window.initializeGoogle = function (advertiserId = "DC-6104928") {
+  try {
+    window.googleAdvertiserId = advertiserId;
+    if (!window.gtag) {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
+      document.head.appendChild(script);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        dataLayer.push(arguments);
+      };
+      gtag("js", new Date());
+      gtag("config", advertiserId);
+    }
+    if (!window.trackFloodlight) {
+      window.trackFloodlight = function (activityPath, params) {
+        gtag("event", "conversion", {
+          allow_custom_scripts: true,
+          send_to: window.googleAdvertiserId + "/" + activityPath,
+          ...params,
+        });
+      };
+    }
+  } catch (error) {
+    console.error("Error initializing Google", error);
+  }
+};
+});
+_satellite["_runScript6"](function(event, target, Promise) {
+window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
+    (function (e, t, n) {
+        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
+        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
+        r.src = n; var u = t.getElementsByTagName(s)[0];
+        u.parentNode.insertBefore(r, u);
+    })(window, document,
+        'https://sc-static.net/scevent.min.js');
+    snaptr('init', pixelId);
+    if(isPageView){
+        snaptr('track', 'PAGE_VIEW');
+    }
+};
+});
 Skip to content
                             Personal
                             Business
@@ -537,171 +698,7 @@ Privacy
 Accessibility
 Cookie Settings
                     © Scotiabank.com All Rights Reserved
-_satellite["_runScript1"](function(event, target, Promise) {
-window.initializeMeta = function initializeMeta(pixelId, isPageView=false) {
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-        n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', pixelId);
-    if (isPageView) {
-        fbq('trackSingle', pixelId, 'PageView');
-    }
-};
-});
-_satellite["_runScript2"](function(event, target, Promise) {
-window.initializeReddit = function initializeReddit(pixelId, isPageView = false) {
-	!(function (w, d) {
-		if (!w.rdt) {
-			var p = (w.rdt = function () {
-				p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
-			});
-			p.callQueue = [];
-			var t = d.createElement('script');
-			((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
-			var s = d.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(t, s);
-		}
-	})(window, document);
-	rdt('init', pixelId);
-	if (isPageView) {
-		rdt('track', 'PageVisit');
-	}
-};
-});
-_satellite["_runScript3"](function(event, target, Promise) {
-window.initializeTikTok = function initializeTikTok(pixelId, isPageView = false) {
-	!function (w, d, t) {
-		w.TiktokAnalyticsObject = t;
-		var ttq = (w[t] = w[t] || []);
-		((ttq.methods = [
-			'page',
-			'track',
-			'identify',
-			'instances',
-			'debug',
-			'on',
-			'off',
-			'once',
-			'ready',
-			'alias',
-			'group',
-			'enableCookie',
-			'disableCookie',
-			'holdConsent',
-			'revokeConsent',
-			'grantConsent',
-		]),
-			(ttq.setAndDefer = function (t, e) {
-				t[e] = function () {
-					t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-				};
-			}));
-		for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-		((ttq.instance = function (t) {
-			for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
-			return e;
-		}),
-			(ttq.load = function (e, n) {
-				var r = 'https://analytics.tiktok.com/i18n/pixel/events.js',
-					o = n && n.partner;
-				((ttq._i = ttq._i || {}),
-					(ttq._i[e] = []),
-					(ttq._i[e]._u = r),
-					(ttq._t = ttq._t || {}),
-					(ttq._t[e] = +new Date()),
-					(ttq._o = ttq._o || {}),
-					(ttq._o[e] = n || {}));
-				n = document.createElement('script');
-				((n.type = 'text/javascript'), (n.async = !0), (n.src = r + '?sdkid=' + e + '&lib=' + t));
-				e = document.getElementsByTagName('script')[0];
-				e.parentNode.insertBefore(n, e);
-			}));
-		ttq.load(pixelId);
-		if (isPageView) {
-			ttq.page();
-		}
-	}(window, document, 'ttq');
-};
-});
-_satellite["_runScript4"](function(event, target, Promise) {
-window.initializeLinkedin = function initializeLinkedin(pixelId, isPageView = false) {
-	_linkedin_partner_id = pixelId;
-	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-	(function (l) {
-		if (!l) {
-			window.lintrk = function (a, b) {
-				window.lintrk.q.push([a, b]);
-			};
-			window.lintrk.q = [];
-		}
-		var s = document.getElementsByTagName('script')[0];
-		var b = document.createElement('script');
-		b.type = 'text/javascript';
-		b.async = true;
-		b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
-		s.parentNode.insertBefore(b, s);
-	})(window.lintrk);
-};
-});
-_satellite["_runScript5"](function(event, target, Promise) {
-window.initializeGoogle = function (advertiserId = "DC-6104928") {
-  try {
-    window.googleAdvertiserId = advertiserId;
-    if (!window.gtag) {
-      var script = document.createElement("script");
-      script.async = true;
-      script.src =
-        "https://www.googletagmanager.com/gtag/js?id=" + advertiserId;
-      document.head.appendChild(script);
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function () {
-        dataLayer.push(arguments);
-      };
-      gtag("js", new Date());
-      gtag("config", advertiserId);
-    }
-    if (!window.trackFloodlight) {
-      window.trackFloodlight = function (activityPath, params) {
-        gtag("event", "conversion", {
-          allow_custom_scripts: true,
-          send_to: window.googleAdvertiserId + "/" + activityPath,
-          ...params,
-        });
-      };
-    }
-  } catch (error) {
-    console.error("Error initializing Google", error);
-  }
-};
-});
-_satellite["_runScript6"](function(event, target, Promise) {
-window.initializeSnapchat = function initializeSnapchat(pixelId, isPageView = false) {
-    (function (e, t, n) {
-        if (e.snaptr) return; var a = e.snaptr = function () { a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments) };
-        a.queue = []; var s = 'script'; r = t.createElement(s); r.async = !0;
-        r.src = n; var u = t.getElementsByTagName(s)[0];
-        u.parentNode.insertBefore(r, u);
-    })(window, document,
-        'https://sc-static.net/scevent.min.js');
-    snaptr('init', pixelId);
-    if(isPageView){
-        snaptr('track', 'PAGE_VIEW');
-    }
-};
-});
 AdCloudEvent("0AAF22CE52827A080A490D4D@AdobeOrg", "scotiabankprod,scotiabankglobal");
-English
-English
-Français
 var randomInt = Math.floor(Math.random() * Math.floor(100)); // Value from 0 to 99
 var percentToSample = 5; // Edit this variable to change percentage of pages sampled
 function sendToGTM(vital) {
@@ -1056,6 +1053,9 @@ function distinct(arr) {
  return result[k];
  });
 }
+English
+English
+Français
 _satellite["_runScript10"](function(event, target, Promise) {
 try{window.location.href.indexOf("/en/personal/small-business-campaigns/business-account-offers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy0+standard"}):window.location.href.indexOf("/fr/particuliers/campagnes-petites-entreprises/offres-comptes-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smboct/smbfy00+standard"}):window.location.href.indexOf("/ca/fr/particuliers/programmes-et-offres/avantages-scotia.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml0+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-10.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/10-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml00+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-20.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/20-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml000+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-25.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/25-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml001+standard"}):window.location.href.indexOf("www.scotiainsurance.com/en/term-life/term-30.html")>-1||window.location.href.indexOf("www.assurancescotia.com/fr/assurance-vie-temporaire/30-ans.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/23abc/terml002+standard"}):window.location.href.indexOf("/ca/en/personal/credit-cards/visa/scene-student-card.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/visa/carte-scene-pour-etudiants.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/2357/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/personal-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti0+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/contact-us.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti00+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/communiquer-avec-nous.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti000+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-particuliers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti001+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking/practising/business-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti002+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins/en-exercice/services-bancaires-aux-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti003+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/form.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti004+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/formulaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti005+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti006+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti007+standard"}):window.location.href.indexOf("/ca/en/healthcare-plus/physician-banking.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti008+standard"}):window.location.href.indexOf("/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/healt00/scoti009+standard"}):window.location.href.indexOf("-----")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:""}),window.location.href.indexOf("scotiabank.com/ca/en/small-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbho0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/select-account-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/compte-de-base-dentreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbse0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/savings-gics/right-size-savings-for-business.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/pargne-et-cpg/compte-dpargne-sur-mesure-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbri0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-momentum-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-crdit/carte-visa-momentum-scotia-pour-entreprise.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbmo0+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html")>-1||window.location.href.indexOf("/ca/en/personal/credit-cards/campaigns/american-express-gold-card.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o0+standard"}):window.location.href.indexOf("scotiabank.com/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1||window.location.href.indexOf("/ca/fr/particuliers/cartes-de-credit/american-express/carte-or.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/cclp/bns_o00+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/preferred.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp000+standard"}):window.location.href.indexOf("scotiabank.com/ca/en/personal/bank-accounts/chequing-accounts/ultimate-package.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/d2dlp002+standard"})}catch(e){_satellite.logger.error("Error: Marketing Pixel- Floodlight",e.message)}
 });
