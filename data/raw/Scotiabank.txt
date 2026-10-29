@@ -360,154 +360,154 @@ Dollar
  (
 USD
 )
-1.439800
-1.362800
+1.435800
+1.358800
 Great Britain
 British Pound
  (
 GBP
 )
-1.928200
-1.797100
+1.928700
+1.797500
 Australia
 Dollar
  (
 AUD
 )
-1.019500
-0.952800
+1.020000
+0.953200
 Switzerland
 Franc
  (
 CHF
 )
-1.744000
-1.634400
+1.742500
+1.633000
 Euro
 Euro
  (
 EUR
 )
-1.615600
-1.505700
+1.614800
+1.504700
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.184900
-0.172300
+0.184400
+0.171800
 Japan
 Yen
  (
 JPY
 )
-0.009209
-0.008544
+0.009179
+0.008520
 Barbados
 Dollar
  (
 BBD
 )
-0.737400
+0.735400
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.476200
+1.472000
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.476200
+1.472000
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.215700
-0.201900
+0.215500
+0.201800
 Guyana
 Dollar
  (
 GYD
 )
-0.007023
+0.007004
 N/A
 India
 Rupee
  (
 INR
 )
-0.015233
+0.015144
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009320
+0.009290
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.798600
+1.793600
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.077770
-0.072790
+0.077590
+0.072620
 Norway
 Kroner
  (
 NOK
 )
-0.155900
+0.156100
 0.145900
 New Zealand
 Dollar
  (
 NZD
 )
-0.812700
-0.760900
+0.812600
+0.760700
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.387700
-0.359400
+0.386600
+0.358300
 Sweden
 Krona
  (
 SEK
 )
 0.145800
-0.136400
+0.136500
 Singapore
 Dollar
  (
 SGD
 )
-1.127100
-1.059500
+1.124600
+1.057000
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.218100
+0.217500
 N/A
 South Africa
 Rand
@@ -1193,6 +1193,12 @@ try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/cred
 _satellite["_runScript51"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/commercial-banking/professionals/lawyers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/commercial-banking/professionnels/avocats.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy00+standard"})}catch(s){_satellite.logger.error("Error: gtag Pixel ",s.message)}
 });
+_satellite["_runScript52"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/healthcare-plus/form.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/pro-sante-plus/formulaire.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-940631908/UVhwCOLC6MgZEOTOw8AD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy01+standard"})):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/healthcare-plus/form/confirmation.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/pro-sante-plus/formulaire/confirmation.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-940631908/YjlQCKDA8cgZEOTOw8AD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy02+standard"}))}catch(o){_satellite.logger.error("Error: gtag Pixel ",o.message)}
+});
+_satellite["_runScript53"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-with-a-banking-package.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns20008+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-bank-more-quality-time.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns20009+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/unlimited-interac-transfers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns2000-+standard"}):window.location.href.indexOf("ca/fr/particuliers/conseils-plus/articles-de-fonds/posts.comment-gerer-vos-finances-pendant-le-temps-des-fetes.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.how-you-can-manage-your-finances-during-the-holidays.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns_s003+standard"}):window.location.href.indexOf("bank-accounts/chequing-accounts")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","PageView")):window.location.href.indexOf("https://locator.scotiabank.com/advisors/hfa")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","app_start")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/home-financing-advisors.html")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","page_land")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle/parents.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants/parents.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/bns20002+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/carte-infinite-passeport.html")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","0313b6ab-1c80-4e48-bcfd-7ccc09581552"),amzn("trackEvent","cc_page_view_PassportInf")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/programs-services/scotia-perks.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/programs-services/smart-savings-tools.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/eds-o0/bns_s0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/programmes-et-offres/outils-depargne-intelligents.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/eds-o0/bns_s00+standard"}):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/international-student-bundle.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students.html")>-1)&&(!function(n,t){if(!n.rdt){var e=n.rdt=function(){e.sendEvent?e.sendEvent.apply(e,arguments):e.callQueue.push(arguments)};e.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_cuxrly2xb"),rdt("track","PageVisit"))}catch(n){_satellite.logger.error("Error: gtag Pixel ",n.message)}
+});
 By clicking "Accept All" or continuing to navigate our sites, you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1233,12 +1239,6 @@ checkbox label
 label
 Reject All
 Confirm My Choices
-_satellite["_runScript52"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/healthcare-plus/form.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/pro-sante-plus/formulaire.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-940631908/UVhwCOLC6MgZEOTOw8AD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy01+standard"})):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/healthcare-plus/form/confirmation.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/pro-sante-plus/formulaire/confirmation.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-940631908/YjlQCKDA8cgZEOTOw8AD"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smb-023/smbfy02+standard"}))}catch(o){_satellite.logger.error("Error: gtag Pixel ",o.message)}
-});
-_satellite["_runScript53"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-with-a-banking-package.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns20008+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/dplp-bank-more-quality-time.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns20009+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/campaigns/unlimited-interac-transfers.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns2000-+standard"}):window.location.href.indexOf("ca/fr/particuliers/conseils-plus/articles-de-fonds/posts.comment-gerer-vos-finances-pendant-le-temps-des-fetes.html")>-1||window.location.href.indexOf("ca/en/personal/advice-plus/features/posts.how-you-can-manage-your-finances-during-the-holidays.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/d2dlp0/bns_s003+standard"}):window.location.href.indexOf("bank-accounts/chequing-accounts")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","PageView")):window.location.href.indexOf("https://locator.scotiabank.com/advisors/hfa")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","app_start")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/home-financing-advisors.html")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","24738d9b-e951-49b9-93d0-36d477f3b0b7"),amzn("trackEvent","page_land")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle/parents.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/etudiants/trio-pour-etudiants/parents.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/stu24/bns20002+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/cartes-de-credit/visa/carte-infinite-passeport.html")>-1?(!function(n,t,e,a,s){n.amzn||(n.amzn=s=function(){n.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(e=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",e.id="amzn-pixel",e.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(e,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","0313b6ab-1c80-4e48-bcfd-7ccc09581552"),amzn("trackEvent","cc_page_view_PassportInf")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/programs-services/scotia-perks.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/perks0/bns_s0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/programs-services/smart-savings-tools.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/eds-o0/bns_s0+standard"}):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/programmes-et-offres/outils-depargne-intelligents.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/eds-o0/bns_s00+standard"}):(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/student-bundle.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students/international-student-bundle.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/students.html")>-1)&&(!function(n,t){if(!n.rdt){var e=n.rdt=function(){e.sendEvent?e.sendEvent.apply(e,arguments):e.callQueue.push(arguments)};e.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_cuxrly2xb"),rdt("track","PageVisit"))}catch(n){_satellite.logger.error("Error: gtag Pixel ",n.message)}
-});
 _satellite["_runScript54"](function(event, target, Promise) {
 try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/campaigns/business-account-offers.html")>-1?(!function(e,t){if(!e.rdt){var n=e.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_bd281quxt"),rdt("track","PageVisit"),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","smbPageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/campagne/offres-comptes-pour-entreprise.html")>-1?(!function(e,t){if(!e.rdt){var n=e.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_bd281quxt"),rdt("track","PageVisit"),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","smbPageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-home-hardware-pro-visa-business-credit-card.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/hh-cc/fy24s0+standard"}),function(e,t){if(!e.rdt){var n=e.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_bd281quxt"),rdt("track","PageVisit"),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","HHsmbPageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-crdit/carte-visa-affaires-home-hardware-pro-scotia.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/hh-cc/fy24s00+standard"}),function(e,t){if(!e.rdt){var n=e.rdt=function(){n.sendEvent?n.sendEvent.apply(n,arguments):n.callQueue.push(arguments)};n.callQueue=[];var a=t.createElement("script");a.src="https://www.redditstatic.com/ads/pixel.js",a.async=!0;var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)}}(window,document),rdt("init","t2_bd281quxt"),rdt("track","PageVisit"),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","HHsmbPageView")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/scotia-professional-plan-plus-account.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/plan-bancaire-professions-liberales-scotia-plus.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbco0/smbco015+standard"}),function(e,t,n,a,s,i,c){e.fbq||(s=e.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},e._fbq||(e._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(i=t.createElement(n)).async=!0,i.src=a,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","128120684491539"),fbq("track","InitiateCheckout",{content_ids:"ScotiaProfPPACConstellationAppStart"},{content_category:"SmallBusiness"}),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","ProPlusAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotialine-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-credit/visa-ligne-de-credit-scotia-pour-entreprise.html")>-1?(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/smbco0/smbco016+standard"}),function(e,t,n,a,s,i,c){e.fbq||(s=e.fbq=function(){s.callMethod?s.callMethod.apply(s,arguments):s.queue.push(arguments)},e._fbq||(e._fbq=s),s.push=s,s.loaded=!0,s.version="2.0",s.queue=[],(i=t.createElement(n)).async=!0,i.src=a,(c=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","128120684491539"),fbq("track","InitiateCheckout",{content_ids:"ScotiaLineCCConstellationAppStart"},{content_category:"SmallBusiness"}),function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","BusiLineAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/business-bank-accounts/select-account-for-business.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/comptes-bancaires/compte-select-pour-entreprise.html")>-1?(!function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","SelectAccAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotia-momentum-for-business-visa-credit-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-credit/carte-visa-momentum-scotia-pour-entreprise.html")>-1?(!function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","BusiMomenAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/small-business/business-banking/credit-cards/scotiabank-passport-visa-infinite-business-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/petites-entreprises/bancaires-dentreprises/cartes-de-credit/carte-visa-infinite-affaires-passeport-banque-scotia.html")>-1?(!function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","BusiPPortAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/small-business-campaigns/scotia-home-hardware-pro-visa-business-credit-card.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/campagnes-petites-entreprises/carte-visa-affaires-home-hardware-pro-scotia.html")>-1?(!function(e,t,n,a,s){e.amzn||(e.amzn=s=function(){e.amzn.q.push([arguments,(new Date).getTime()])},s.q=[],s.version="0.0",(n=t.createElement("script")).src="https://c.amazon-adsystem.com/aat/amzn.js",n.id="amzn-pixel",n.async=!0,(a=t.getElementsByTagName("script")[0]).parentNode.insertBefore(n,a))}(window,document),amzn("setRegion","NA"),amzn("addTag","9b019806-2e68-4eeb-bf0b-3c7c030c6d1a"),amzn("trackEvent","HHAppStart")):window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/small-business-campaigns/merchant-services.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-694425970/vuIjCKP_350aEPKykMsC"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
