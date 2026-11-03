@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:43:16.105Z",
+  "generatedAt": "2026-11-03T08:35:47.684Z",
   "currencies": [
     "USD",
     "EUR",
@@ -61,47 +61,47 @@
       },
       "rates": {
         "USD": {
-          "buy": 1.42139,
-          "sell": 1.37802
+          "buy": 1.41886,
+          "sell": 1.37557
         },
         "EUR": {
-          "buy": 1.61396,
-          "sell": 1.52287
+          "buy": 1.61199,
+          "sell": 1.52101
         },
         "GBP": {
-          "buy": 1.92605,
-          "sell": 1.82102
+          "buy": 1.92401,
+          "sell": 1.8191
         },
         "MXN": {
-          "buy": 0.08056,
-          "sell": 0.07115
+          "buy": 0.0804,
+          "sell": 0.071
         },
         "AUD": {
-          "buy": 1.03561,
-          "sell": 0.93381
+          "buy": 1.03073,
+          "sell": 0.92941
         },
         "CNY": {
-          "buy": 0.23004,
-          "sell": 0.19432
+          "buy": 0.22934,
+          "sell": 0.19373
         },
         "JPY": {
-          "buy": 0.00926,
-          "sell": 0.00859
+          "buy": 0.00924,
+          "sell": 0.00858
         },
         "NZD": {
-          "buy": 0.83139,
-          "sell": 0.75375
+          "buy": 0.83122,
+          "sell": 0.75359
         },
         "ZAR": {
-          "buy": 0.09265,
-          "sell": 0.07749
+          "buy": 0.09227,
+          "sell": 0.07717
         },
         "CHF": {
-          "buy": 1.76889,
-          "sell": 1.64425
+          "buy": 1.77096,
+          "sell": 1.64617
         }
       },
-      "fetchedAt": "2026-11-03T01:43:23.071Z",
+      "fetchedAt": "2026-11-03T08:35:54.748Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -109,8 +109,8 @@
       "type": "direct",
       "rates": {
         "USD": {
-          "buy": 1.4455,
-          "sell": 1.3497
+          "buy": 1.4448,
+          "sell": 1.349
         },
         "GBP": {
           "buy": 1.9407,
@@ -309,7 +309,7 @@
           "sell": 0.000048
         }
       },
-      "fetchedAt": "2026-11-03T01:43:28.707Z",
+      "fetchedAt": "2026-11-03T08:36:01.411Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.0813
         }
       },
-      "fetchedAt": "2026-11-03T01:43:36.296Z",
+      "fetchedAt": "2026-11-03T08:36:09.065Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -670,7 +670,7 @@
           "sell": 0.01239
         }
       },
-      "fetchedAt": "2026-11-03T01:43:45.850Z",
+      "fetchedAt": "2026-11-03T08:36:19.008Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -692,7 +692,7 @@
         },
         "MXN": {
           "buy": 0.0774,
-          "sell": 0.0733
+          "sell": 0.0732
         },
         "AUD": {
           "buy": 1.0081,
@@ -715,7 +715,7 @@
           "sell": 1.6619
         }
       },
-      "fetchedAt": "2026-11-03T01:43:56.692Z",
+      "fetchedAt": "2026-11-03T08:36:30.382Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
