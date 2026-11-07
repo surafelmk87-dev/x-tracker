@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T08:43:26.097Z",
+  "generatedAt": "2026-11-07T15:11:12.482Z",
   "currencies": [
     "USD",
     "EUR",
@@ -73,12 +73,12 @@
           "sell": 1.83086
         },
         "MXN": {
-          "buy": 0.0811,
-          "sell": 0.07162
+          "buy": 0.08111,
+          "sell": 0.07163
         },
         "AUD": {
-          "buy": 1.02635,
-          "sell": 0.92546
+          "buy": 1.0262,
+          "sell": 0.92533
         },
         "CNY": {
           "buy": 0.23157,
@@ -89,19 +89,19 @@
           "sell": 0.00864
         },
         "NZD": {
-          "buy": 0.82987,
-          "sell": 0.75237
+          "buy": 0.83025,
+          "sell": 0.75271
         },
         "ZAR": {
           "buy": 0.094,
           "sell": 0.07862
         },
         "CHF": {
-          "buy": 1.78248,
-          "sell": 1.65688
+          "buy": 1.78388,
+          "sell": 1.65818
         }
       },
-      "fetchedAt": "2026-11-07T08:43:33.489Z",
+      "fetchedAt": "2026-11-07T15:11:19.722Z",
       "source": "https://www.global-currency.com/rates"
     },
     "td": {
@@ -309,7 +309,7 @@
           "sell": 0.000049
         }
       },
-      "fetchedAt": "2026-11-07T08:43:39.828Z",
+      "fetchedAt": "2026-11-07T15:11:25.858Z",
       "source": "https://ix0.apps.td.com/en/fxcal/"
     },
     "scotia": {
@@ -378,7 +378,7 @@
           "sell": 0.0819
         }
       },
-      "fetchedAt": "2026-11-07T08:43:47.709Z",
+      "fetchedAt": "2026-11-07T15:11:33.624Z",
       "source": "https://www.scotiabank.com/ca/en/personal/rates-prices/foreign-exchange-rates.html"
     },
     "vbce": {
@@ -670,7 +670,7 @@
           "sell": 0.01248
         }
       },
-      "fetchedAt": "2026-11-07T08:43:58.048Z",
+      "fetchedAt": "2026-11-07T15:11:43.559Z",
       "source": "https://www.vbce.ca/travel-rates"
     },
     "rbc": {
@@ -715,7 +715,7 @@
           "sell": 1.6759
         }
       },
-      "fetchedAt": "2026-11-07T08:44:11.080Z",
+      "fetchedAt": "2026-11-07T15:11:55.674Z",
       "source": "https://apps.royalbank.com/apps/foreign-exchange-calculator"
     }
   },
