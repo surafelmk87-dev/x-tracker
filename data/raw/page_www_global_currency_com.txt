@@ -497,49 +497,49 @@ United States (USD)
 Currency Code
 USD
 We Buy
-1.39185
+1.39714
 We Sell
-1.43565
+1.44111
 Country Name
 Euro Member Countries (EUR) 
 Currency Code
 EUR
 We Buy
-1.54216
+1.54082
 We Sell
-1.63440
+1.63299
 Country Name
 United Kingdom (GBP) 
 Currency Code
 GBP
 We Buy
-1.84217
+1.83765
 We Sell
-1.94841
+1.94364
 Country Name
 Mexico (MXN) 
 Currency Code
 MXN
 We Buy
-0.07219
+0.07191
 We Sell
-0.08174
+0.08143
 Country Name
 Australia (AUD) 
 Currency Code
 AUD
 We Buy
-0.93172
+0.92837
 We Sell
-1.03329
+1.02957
 Country Name
 China (CNY) 
 Currency Code
 CNY
 We Buy
-0.19591
+0.19659
 We Sell
-0.23191
+0.23272
 Country Name
 Japan (JPY) 
 Currency Code
@@ -553,25 +553,25 @@ New Zealand (NZD)
 Currency Code
 NZD
 We Buy
-0.76470
+0.76302
 We Sell
-0.84348
+0.84162
 Country Name
 South Africa (ZAR) 
 Currency Code
 ZAR
 We Buy
-0.07925
+0.07890
 We Sell
-0.09476
+0.09434
 Country Name
 Switzerland (CHF) 
 Currency Code
 CHF
 We Buy
-1.65754
+1.65489
 We Sell
-1.78319
+1.78033
 Reserve Funds
 Name
 *
@@ -601,27 +601,27 @@ Captcha
 Submit Draft
 Submit
 	$(function() {
-		var webform = $("#webForm-14222878");
+		var webform = $("#webForm-1884554730");
 		var submissionToken = "";
 		var isDraft = 0;
-				$("#webForm-14222878").find(".rule").each(function(){
+				$("#webForm-1884554730").find(".rule").each(function(){
 			$(this).change(function(){
-				$("#webForm-14222878 .required").removeClass("required");
-				$("#webForm-14222878 :input").prop('required',false);
-				$("#webForm-14222878").find("button[name='action'][type='submit'][value='submitWebForm']").click();
+				$("#webForm-1884554730 .required").removeClass("required");
+				$("#webForm-1884554730 :input").prop('required',false);
+				$("#webForm-1884554730").find("button[name='action'][type='submit'][value='submitWebForm']").click();
 			});
 		});	
 		var validator = sandInitializeWebForm(webform, "en", 2, 107, submissionToken, isDraft);		
 		webform.find(".ui-spinner-input").spinner("destroy");
 		webform.find("input[type='file']:not(.form-control)").addClass("form-control");
-				if( !$("#webForm-14222878").find("#WebFormItem_5175_0").val() ) {
-			$("#webForm-14222878").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
+				if( !$("#webForm-1884554730").find("#WebFormItem_5175_0").val() ) {
+			$("#webForm-1884554730").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
 		}
-		if( !$("#webForm-14222878").find("#WebFormItem_5201_0").val() ) {
+		if( !$("#webForm-1884554730").find("#WebFormItem_5201_0").val() ) {
 			var AmPm = moment().format('hh:mma');
-			$("#webForm-14222878").find("#WebFormItem_5201_0").attr({'value': AmPm});
+			$("#webForm-1884554730").find("#WebFormItem_5201_0").attr({'value': AmPm});
 		}
-				$("#webForm-14222878").find(".WebFormOtherOption").each(function() {			
+				$("#webForm-1884554730").find(".WebFormOtherOption").each(function() {			
 			$(this).change(function(){
 				if($(this).prop('checked') || $(this).prop('selected')) {
 					$(this).parent().next(".WebFormItemOptionOther").show();
@@ -631,8 +631,8 @@ Submit
 				}	
 			});
 		});
-				$("#submit-webForm-14222878").click(function(){
-			var form = $("#webForm-14222878");
+				$("#submit-webForm-1884554730").click(function(){
+			var form = $("#webForm-1884554730");
 			if (form.valid()) {
 				uiConfirm("Are you sure you are ready to submit?", function(){
 					form.find("input[name='isDraft']").val(0);
@@ -640,7 +640,7 @@ Submit
 				});
 			}
 		});
-				$("#webForm-14222878 .toggleContainer").each(function(){
+				$("#webForm-1884554730 .toggleContainer").each(function(){
 			$(this).find("> a").click(function(){
 				$(this).parent().find("> div").slideToggle();
 			})
@@ -718,7 +718,11 @@ Filter by
 Show All
 Next
  →
-Showing 1-3 of 33 entries.
+Showing 1-3 of 34 entries.
+Blog
+We Love to Travel!
+November 6, 2026
+Our clients are always surprised about how interested we are in their travel plans. This interest is by design – we intentionally select staff members that share a love for travel and international business. So, when we’re asking about your international experiences with wide eyes and smiles from ear-to-ear, we sincerely LOVE your stories!
 Blog
 Old Paper GBP Notes: Your Guide to Exchanging Withdrawn Currency
 November 18, 2025
@@ -728,10 +732,6 @@ Blog
 Buying & Selling Precious Metals
 October 6, 2025
 For centuries, precious metals have been regarded as a reliable store of wealth. Today, many investors continue to choose products such as gold, silver, and platinum bars and coins because they provide tangible value, portfolio diversification, and protection against inflation and uncertainty. Unlike digital investments, coins and bars offer the unique advantage of physical ownership. When you hold a gold bar or coin from an accredited refiner, you are holding something that is trusted and recognized worldwide.
-Blog
-What to Do with Old Traveller’s Cheques
-September 4, 2025
-There’s a certain kind of nostalgia in stumbling upon something from your past travels. For many seasoned globetrotters, that could be some leftover foreign coins, a faded boarding pass, or a forgotten traveller’s cheque. Today, most travellers have not seen one in years, but if you’ve just uncovered a stash in your old travel wallet, drawer, or safety deposit box, here’s what you need to know!
 Next
  →
 1027 Gordon Street Unit 8,
