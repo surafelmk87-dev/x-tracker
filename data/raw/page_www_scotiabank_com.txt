@@ -360,162 +360,162 @@ Dollar
  (
 USD
 )
-1.461200
-1.384200
+1.473200
+1.376200
 Great Britain
 British Pound
  (
 GBP
 )
-1.949700
-1.818300
+1.961600
+1.804000
 Australia
 Dollar
  (
 AUD
 )
-0.999500
-0.934500
+1.004900
+0.926700
 Switzerland
 Franc
  (
 CHF
 )
-1.753000
-1.644100
+1.764100
+1.631500
 Euro
 Euro
  (
 EUR
 )
-1.628900
-1.518700
+1.637100
+1.505200
 Hong Kong SAR
 Dollar
  (
 HKD
 )
-0.187700
-0.175000
+0.189200
+0.174000
 Japan
 Yen
  (
 JPY
 )
-0.009230
-0.008571
+0.009254
+0.008528
 Barbados
 Dollar
  (
 BBD
 )
-0.748400
+0.754600
 N/A
 Bermuda
 Dollar
  (
 BMD
 )
-1.498200
+1.510600
 N/A
 Bahamas
 Dollar
  (
 BSD
 )
-1.498200
+1.510600
 N/A
 Denmark
 Kroner
  (
 DKK
 )
-0.217300
-0.203600
+0.218500
+0.201900
 Guyana
 Dollar
  (
 GYD
 )
-0.007128
+0.007187
 N/A
 India
 Rupee
  (
 INR
 )
-0.015575
+0.015703
 N/A
 Jamaica
 Dollar
  (
 JMD
 )
-0.009460
+0.009530
 N/A
 Cayman Islands
 Dollar
  (
 KYD
 )
-1.825500
+1.840600
 N/A
 Mexico
 Peso
  (
 MXN
 )
-0.079190
-0.074210
+0.079930
+0.073860
 Norway
 Kroner
  (
 NOK
 )
-0.153800
-0.144100
+0.154800
+0.143000
 New Zealand
 Dollar
  (
 NZD
 )
-0.813600
-0.762500
+0.818400
+0.756300
 Saudi Arabia
 Ryal
  (
 SAR
 )
-0.393500
-0.364900
+0.396700
+0.362800
 Sweden
 Krona
  (
 SEK
 )
-0.146300
-0.137000
+0.147100
+0.135900
 Singapore
 Dollar
  (
 SGD
 )
-1.138900
-1.071500
+1.147700
+1.064700
 Trinidad & Tobago
 Dollar
  (
 TTD
 )
-0.221400
+0.223400
 N/A
 South Africa
 Rand
  (
 ZAR
 )
-0.086700
-0.081200
+0.087500
+0.080800
 						Terms and conditions
 Although up-to-the-minute rates may be obtained by contacting a local Scotiabank branch, rates can only be guaranteed at the time the purchase or sale is conducted.
 Rates and dollar limits are provided for information purposes only and are subject to change at any time.
@@ -1133,6 +1133,15 @@ var b = document.createElement("script");
 b.type = "text/javascript";b.async = true;
 b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
 s.parentNode.insertBefore(b, s);})(window.lintrk);
+_satellite["_runScript32"](function(event, target, Promise) {
+try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript33"](function(event, target, Promise) {
+try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
+_satellite["_runScript34"](function(event, target, Promise) {
+try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
+});
 By clicking "Accept All" or continuing to navigate our sites, you understand and agree that we and our partners may use cookies and other similar technologies on our sites. These technologies may collect information about you, including browsing patterns, to enhance site navigation, analyze site usage, and assist in our marketing efforts. Click "Manage Preferences" to change or deny the use of optional cookies. To learn more about changing your preferences at any time, please click the following link.
 Policy
 Manage Preferences
@@ -1173,15 +1182,6 @@ checkbox label
 label
 Reject All
 Confirm My Choices
-_satellite["_runScript32"](function(event, target, Promise) {
-try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/mortgages/mortgage-programs/mortgage-plus.html")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/lendi000/resl_00+standard"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript33"](function(event, target, Promise) {
-try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&(!function(e,t,n,o,a,i,r){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(i=t.createElement(n)).async=!0,i.src=o,(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(i,r))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","515745126635492"),fbq("track","ViewContent",{content_ids:"DrAmy_PageView"},{content_category:"SWI_DrAmy"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{window.location.href.indexOf("scotiabank.com/women-initiative/ca/en/offerings/wealth.html#conversations")>-1&&gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-10800981675/BTEGCPfompcZEKvNp54o"})}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
-_satellite["_runScript34"](function(event, target, Promise) {
-try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e,t,n,i,o,s,a){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(s=t.createElement(n)).async=!0,s.src=i,(a=t.getElementsByTagName(n)[0]).parentNode.insertBefore(s,a))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","InitiateCheckout",{content_ids:"MoneyStyleQuizstart"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var t=window.pintrk;t.queue=[],t.version="3.0";var n=document.createElement("script");n.async=!0,n.src=e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","signup",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/quiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/questionnaire.html")>-1?gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m0+standard"}):(window.location.href.indexOf("www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m00+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/PFGZCLHKmMwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
-});
 _satellite["_runScript35"](function(event, target, Promise) {
 try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(!function(e,n,i,t,o,a,c){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=n.createElement(i)).async=!0,a.src=t,(c=n.getElementsByTagName(i)[0]).parentNode.insertBefore(a,c))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","1857465931134723"),fbq("track","Lead",{content_ids:"MoneyStyleQuizcomplete"},{content_category:"Adviceplus"}))}catch(e){_satellite.logger.error("Error: Meta Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var n=window.pintrk;n.queue=[],n.version="3.0";var i=document.createElement("script");i.async=!0,i.src=e;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(i,t)}}("https://s.pinimg.com/ct/core.js"),pintrk("load","2612991617198"),pintrk("page"),pintrk("track","lead",{event_id:"eventId0001"}))}catch(e){_satellite.logger.error("Error: Pinterest Pixel ",e.message)}try{(window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/belonging.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-appartenance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/independence.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/l-independance.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/certainty.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/conseils-plus/questionnairestylefinancier/la-certitude.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/potential.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/le-potentiel.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-contribution.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/en/personal/advice-plus/moneystylequiz/connection.html")>-1||window.location.href.indexOf("https://www.scotiabank.com/ca/fr/particuliers/particuliers/conseils-plus/questionnairestylefinancier/la-connexion.html")>-1)&&(gtag("event","conversion",{allow_custom_scripts:!0,send_to:"DC-6104928/advic0/fy24m000+standard"}),gtag("event","conversion",{allow_custom_scripts:!0,send_to:"AW-983862757/Iy3yCK6sycwZEOWbktUD"}))}catch(e){_satellite.logger.error("Error: gtag Pixel ",e.message)}
 });
