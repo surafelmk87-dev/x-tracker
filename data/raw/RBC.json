@@ -1126,18 +1126,78 @@
     }
   },
   {
-    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"ac1c60c3-997e-432c-8eeb-0500621067d9\",\"dtm\":\"1794880401339\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1794880400\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"163345237.1794880400\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"130077e9-5fe8-4b61-a9c5-0de463862d86\",\"duid\":\"1da5c9ed-b913-476e-bf03-0e86d2a76864\",\"stm\":\"1794880401343\"}]}",
+    "postData": "{\"do\":\"currencies\"}",
     "status": 200,
-    "body": "ok"
+    "body": {
+      "status": "success",
+      "buy": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ],
+      "sell": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "JPY",
+        "AUD",
+        "NZD",
+        "DKK",
+        "NOK",
+        "SEK",
+        "BSD",
+        "BBD",
+        "KYD",
+        "CZK",
+        "FJD",
+        "HKD",
+        "INR",
+        "KES",
+        "KWD",
+        "MXN",
+        "PKR",
+        "PHP",
+        "SAR",
+        "SGD",
+        "ZAR",
+        "AED",
+        "CAD"
+      ]
+    }
   },
   {
-    "url": "https://bat.bing.com/p/insights/c/h",
+    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
     "method": "POST",
-    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003���j�0\u0010�_E�U\u0002�]�$�RJ)��6%I/r�\u0005c\u0016�-�f���Cؤm���ޔ^\u0016�0���c\u000e��\u0000\u0007g\t��^�1 !G!9B݌��lD_\u0002\u0002)����+\u001a�-�\u0019�\u0007�a��g˥���E�>�zc��\"kw��,��U�M�\u000eYi�G\u0017d����\u000em\u0007)���$\u0011\u001c5��\u001c�p�b\"\b�f'\u0016|6�F�Jr�\na��r\u0007�\u0000���/EX�nx�r�[�\u0013��;!\fQA:�ri2#�ȉ\u000b���f\\\u0017�X#� �\n\u0015(����\t�8�l�1��\u001c�a>s�VM_=�C?��N���t8\u001b����I�\u001e��?7�����k�\f\u0017��|'zǮ�f<���֑:e��}����U5,C\u0019/d�N�.�o����ֱ�.۶�lUv��-I(vg\u000b�UG\u0018R$L���$&�i&��#�Vc׹&{f��yr��:\u0016�ۋ\u0015���مm����\u0004\\\u0013<��FBL`_�/��P4� E!0�ijQ����y��~�ꕄ\u0001�������Eg��U\u0003�\u0014���\u0014NQDӞ�~�\u0012�^���>�������{å�\u000b[�����C�QZs�IF��V\n\u0005����k\u001c����\b�\"���@(b�(\t\t��J��\u001dh_�\u001f+(�\u0010R���\r��g-�\u0003\u0000\u0000",
-    "status": 204,
-    "body": ""
+    "postData": "{\"do\":\"updated\"}",
+    "status": 200,
+    "body": {
+      "status": "success",
+      "updated": "20261116 20:50:02"
+    }
   },
   {
     "url": "https://cdn.cookielaw.org/consent/233e8ad3-37e0-427e-8695-012e6ec65ee9/233e8ad3-37e0-427e-8695-012e6ec65ee9.json",
@@ -1599,14 +1659,11 @@
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
+    "url": "https://bat.bing.com/p/insights/c/n",
     "method": "POST",
-    "postData": "{\"do\":\"updated\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "updated": "20261116 20:50:02"
-    }
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Rkk�0\u0014�+�~Z�:ѕ%Y�\u0018�\r�:��C\u001fl`LP\u001c9��؞\u001f]�m��Cv:�q0�����}�\u001f��4\u0001>3�(\u0002$�(H#��p���趀@͆\u000f�\u001b\u001f=�Ή��\u000fl���N�s�4ݬ�\u001fm���n���\u0011��u�M\u0015�C����\u0005�-���}�B�`�4I�F�$\fG��L�\u0003D\u0013\u0012\t>\u0001� ��4�\u0012a��x\u000b�\u0000��ƛ\",\u0007�?\u0014k�K��LI�^\u0013�\u0014�<�yf���62����蹍�UR\u0006<��@\n��JF��g�i+D�i���ʝ/ZT]������#J\u001a����e����$H����M�~*���Ռ�W_�^���\u001a\u000e�`�R�\u0013v�4���V�E?Wa4\u000b5{uyqw}��,v�}pٮ>a�m[�ݜ�d�6�mq$C����\u0017b\u0002�'\u0006{wd��ж��\u001e٢�\u001e\\ۻ�\u0005��|�n|yvn�\u001d�\u0018c\u0002�\n�o� �+�/�����1\u0007)\n�\t�k���\u0004.�]��릵�IĀ��ߜ�=om�~6�0&�a?�S\u0014z4J�=���^�� �5��\u0016>T/�\u000b=4�3�����{��X�<�JDB�bI\u0014\u0011*$$y������\b�B��3�gq\f\t\tC�\u0010�������Az\u000e!���\u0016��d�\u0003\u0000\u0000",
+    "status": 204,
+    "body": ""
   },
   {
     "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
@@ -1621,71 +1678,7 @@
     }
   },
   {
-    "url": "https://apps.royalbank.com/apps/foreign-exchange-calculator/api/rates/",
-    "method": "POST",
-    "postData": "{\"do\":\"currencies\"}",
-    "status": 200,
-    "body": {
-      "status": "success",
-      "buy": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "KYD",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ],
-      "sell": [
-        "USD",
-        "EUR",
-        "GBP",
-        "CHF",
-        "JPY",
-        "AUD",
-        "NZD",
-        "DKK",
-        "NOK",
-        "SEK",
-        "BSD",
-        "BBD",
-        "KYD",
-        "CZK",
-        "FJD",
-        "HKD",
-        "INR",
-        "KES",
-        "KWD",
-        "MXN",
-        "PKR",
-        "PHP",
-        "SAR",
-        "SGD",
-        "ZAR",
-        "AED",
-        "CAD"
-      ]
-    }
-  },
-  {
-    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1794880400170",
+    "url": "https://apps.royalbank.com/apps/dvl/v1.0/assets/js/jquery.popupoverlay.min.js?_=1794909451717",
     "method": "GET",
     "postData": null,
     "status": 200,
@@ -2652,6 +2645,13 @@
       "frate": "1",
       "trate": "1.4616"
     }
+  },
+  {
+    "url": "https://digstream-clt.rbc.com/com.snowplowanalytics.snowplow/tp2",
+    "method": "POST",
+    "postData": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://apps.royalbank.com/apps/foreign-exchange-calculator\",\"page\":\"Foreign Exchange Currency Converter - RBC Royal Bank\",\"tv\":\"js-2.14.0\",\"tna\":\"ds\",\"aid\":\"public-sites\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"res\":\"1280x720\",\"cd\":\"24\",\"cookie\":\"1\",\"eid\":\"3c32cc9e-2dba-4e30-bd35-8a017d1854ed\",\"dtm\":\"1794909452930\",\"co\":\"{\\\"schema\\\":\\\"iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-0\\\",\\\"data\\\":[{\\\"event_name\\\":\\\"session_start_public\\\",\\\"ep_ga_session_id\\\":\\\"1794909451\\\",\\\"ep_ga_session_number\\\":1,\\\"user_pseudo_id\\\":\\\"1270945327.1794909452\\\"}]}\",\"vp\":\"1280x720\",\"ds\":\"1280x1904\",\"vid\":\"1\",\"sid\":\"dd8e88a6-ca2d-4513-86a0-fc02870d86f9\",\"duid\":\"472802dd-a8c8-4408-84e3-06de6645f9c9\",\"stm\":\"1794909452932\"}]}",
+    "status": 200,
+    "body": "ok"
   },
   {
     "url": "https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otFlat.json",
