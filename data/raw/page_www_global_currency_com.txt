@@ -505,9 +505,9 @@ Euro Member Countries (EUR)
 Currency Code
 EUR
 We Buy
-1.53203
+1.53168
 We Sell
-1.62367
+1.62330
 Country Name
 United Kingdom (GBP) 
 Currency Code
@@ -521,7 +521,7 @@ Mexico (MXN)
 Currency Code
 MXN
 We Buy
-0.07080
+0.07079
 We Sell
 0.08016
 Country Name
@@ -529,9 +529,9 @@ Australia (AUD)
 Currency Code
 AUD
 We Buy
-0.90643
+0.90711
 We Sell
-1.00524
+1.00600
 Country Name
 China (CNY) 
 Currency Code
@@ -569,9 +569,9 @@ Switzerland (CHF)
 Currency Code
 CHF
 We Buy
-1.64453
+1.64454
 We Sell
-1.76920
+1.76921
 Reserve Funds
 Name
 *
@@ -601,27 +601,27 @@ Captcha
 Submit Draft
 Submit
 	$(function() {
-		var webform = $("#webForm-1413566876");
+		var webform = $("#webForm-1750063083");
 		var submissionToken = "";
 		var isDraft = 0;
-				$("#webForm-1413566876").find(".rule").each(function(){
+				$("#webForm-1750063083").find(".rule").each(function(){
 			$(this).change(function(){
-				$("#webForm-1413566876 .required").removeClass("required");
-				$("#webForm-1413566876 :input").prop('required',false);
-				$("#webForm-1413566876").find("button[name='action'][type='submit'][value='submitWebForm']").click();
+				$("#webForm-1750063083 .required").removeClass("required");
+				$("#webForm-1750063083 :input").prop('required',false);
+				$("#webForm-1750063083").find("button[name='action'][type='submit'][value='submitWebForm']").click();
 			});
 		});	
 		var validator = sandInitializeWebForm(webform, "en", 2, 107, submissionToken, isDraft);		
 		webform.find(".ui-spinner-input").spinner("destroy");
 		webform.find("input[type='file']:not(.form-control)").addClass("form-control");
-				if( !$("#webForm-1413566876").find("#WebFormItem_5175_0").val() ) {
-			$("#webForm-1413566876").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
+				if( !$("#webForm-1750063083").find("#WebFormItem_5175_0").val() ) {
+			$("#webForm-1750063083").find("#WebFormItem_5175_0").datepicker('setDate', new Date());
 		}
-		if( !$("#webForm-1413566876").find("#WebFormItem_5201_0").val() ) {
+		if( !$("#webForm-1750063083").find("#WebFormItem_5201_0").val() ) {
 			var AmPm = moment().format('hh:mma');
-			$("#webForm-1413566876").find("#WebFormItem_5201_0").attr({'value': AmPm});
+			$("#webForm-1750063083").find("#WebFormItem_5201_0").attr({'value': AmPm});
 		}
-				$("#webForm-1413566876").find(".WebFormOtherOption").each(function() {			
+				$("#webForm-1750063083").find(".WebFormOtherOption").each(function() {			
 			$(this).change(function(){
 				if($(this).prop('checked') || $(this).prop('selected')) {
 					$(this).parent().next(".WebFormItemOptionOther").show();
@@ -631,8 +631,8 @@ Submit
 				}	
 			});
 		});
-				$("#submit-webForm-1413566876").click(function(){
-			var form = $("#webForm-1413566876");
+				$("#submit-webForm-1750063083").click(function(){
+			var form = $("#webForm-1750063083");
 			if (form.valid()) {
 				uiConfirm("Are you sure you are ready to submit?", function(){
 					form.find("input[name='isDraft']").val(0);
@@ -640,7 +640,7 @@ Submit
 				});
 			}
 		});
-				$("#webForm-1413566876 .toggleContainer").each(function(){
+				$("#webForm-1750063083 .toggleContainer").each(function(){
 			$(this).find("> a").click(function(){
 				$(this).parent().find("> div").slideToggle();
 			})
